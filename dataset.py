@@ -7,7 +7,7 @@ Transforms receive the entire stacked sample and must preserve its shape.
 CSV reports are authoritative; HDF5 attributes are not needed for text loading.
 ``is_valid`` marks successful image reads so training can mask fallback samples.
 
-Example: python dataset.py --h5-dir processed_h5/train --num-workers 0
+Example: python dataset.py --h5-dir /workspace/knee-mri-rrg/processed_h5/train --num-workers 0
 Pass --tokenizer with a Hugging Face model name or local tokenizer directory
 to include tokenization and print decoded text. No tokenizer is downloaded by
 default. Dependencies: torch, pandas, numpy, h5py; transformers is optional.
@@ -188,7 +188,7 @@ def get_dataloader(
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--csv-path", type=Path, default=Path(__file__).parent / "Split/train.csv")
-    parser.add_argument("--h5-dir", type=Path, default=Path(__file__).parent / "processed_h5")
+    parser.add_argument("--h5-dir", type=Path, default=Path("/workspace/knee-mri-rrg/processed_h5/train"))
     parser.add_argument("--tokenizer", help="Hugging Face model name or local tokenizer directory")
     parser.add_argument("--max-length", type=int, default=512)
     parser.add_argument("--batch-size", type=int, default=1)

@@ -1,7 +1,7 @@
 """Stage 3 single-device contrastive pretraining.
 
 Example:
-    python pretrain.py --h5-root /opt/scratchspace/aambat3/knee-mri-rrg/processed_h5
+    python pretrain.py --h5-root /workspace/knee-mri-rrg/processed_h5
 
 Defaults: BF16 CUDA, 16 pairs/microbatch, four accumulation steps (nominal
 update size 64), 384 text tokens, AdamW and 10% warmup/cosine decay. Negatives
@@ -27,6 +27,7 @@ from pathlib import Path
 import numpy as np
 import torch
 from torch.nn import functional as F
+from tqdm import tqdm
 from transformers import AutoTokenizer
 
 from dataset import get_dataloader
@@ -89,7 +90,8 @@ def train_epoch(model, loader, optimizer, scheduler, device, precision="bf16", a
         scheduler.step()
         optimizer.zero_grad(set_to_none=True)
 
-    for batch in loader:
+    progress = tqdm(loader, desc="train", leave=False, dynamic_ncols=True)
+    for step, batch in enumerate(progress, start=1):
         inputs = prepare_batch(batch, device)
         count = len(inputs["images"])
         if count < 2:
@@ -108,6 +110,14 @@ def train_epoch(model, loader, optimizer, scheduler, device, precision="bf16", a
             update(pending)
             updates += 1
             pending = 0
+        if pairs:
+            mean_loss = loss_sum / pairs
+            progress.set_postfix(loss=f"{mean_loss:.4f}", updates=updates, skipped=skipped)
+            if step % 10 == 0 or step == len(loader):
+                LOGGER.info(
+                    "train step %d/%d loss=%.4f updates=%d pairs=%d skipped=%d",
+                    step, len(loader), mean_loss, updates, pairs, skipped,
+                )
     if pending:
         update(pending)
         updates += 1
@@ -145,7 +155,7 @@ def retrieval_metrics(visual, text, scale, chunk_size=256):
 def evaluate(model, loader, device, precision="bf16", chunk_size=256):
     model.eval()
     visual_batches, text_batches = [], []
-    for batch in loader:
+    for batch in tqdm(loader, desc="val", leave=False, dynamic_ncols=True):
         inputs = prepare_batch(batch, device)
         if not len(inputs["images"]):
             continue
@@ -199,10 +209,15 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--train-csv", type=Path, default=root / "Split/train.csv")
     parser.add_argument("--val-csv", type=Path, default=root / "Split/val.csv")
-    parser.add_argument("--h5-root", type=Path, default=root / "processed_h5", help="Root containing train/ and val/")
+    parser.add_argument(
+        "--h5-root",
+        type=Path,
+        default=Path("/workspace/knee-mri-rrg/processed_h5"),
+        help="Root containing train/ and val/",
+    )
     parser.add_argument("--train-h5-dir", type=Path, help="Override for a flat or custom training HDF5 directory")
     parser.add_argument("--val-h5-dir", type=Path, help="Override for a flat or custom validation HDF5 directory")
-    parser.add_argument("--output-dir", type=Path, default=root / "checkpoints/stage3")
+    parser.add_argument("--output-dir", type=Path, default=Path("/workspace/knee-mri-rrg/checkpoints/stage3"))
     parser.add_argument("--vision-backbone", default=VISION_BACKBONE)
     parser.add_argument("--text-backbone", default=TEXT_BACKBONE)
     parser.add_argument("--batch-size", type=int, default=16)

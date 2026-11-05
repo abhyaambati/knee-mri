@@ -1,0 +1,6 @@
+2026-11-05 12:42:27,998 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct "HTTP/1.1 200 OK"
+2026-11-05 12:42:28,302 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+2026-11-05 12:42:28,302 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-05 13:52:29,997 INFO Using default tokenizer.
+2026-11-05 13:52:30,967 INFO Saved 434 predictions to /workspace/knee-mri-rrg/results/phase1_test_predictions.csv and /workspace/knee-mri-rrg/results/phase1_test_predictions.xlsx
+2026-11-05 13:52:30,967 INFO Metrics n=434 BLEU-1=37.67 BLEU-2=31.09 BLEU-3=27.23 BLEU-4=24.59 ROUGE-L=0.3389

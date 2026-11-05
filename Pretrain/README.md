@@ -8,8 +8,8 @@ Face model directories can be supplied instead.
 
 ```bash
 python pretrain.py \
-  --h5-root /opt/scratchspace/aambat3/knee-mri-rrg/processed_h5 \
-  --output-dir checkpoints/stage3
+  --h5-root /workspace/knee-mri-rrg/processed_h5 \
+  --output-dir /workspace/knee-mri-rrg/checkpoints/stage3
 ```
 
 The root contains `train/` and `val/`, matching `Preprocess/run_all.sh`.
@@ -33,7 +33,7 @@ start time still depends on scheduler priority and available GPU/CPU/RAM.
 Override resource directives with `sbatch` options when needed.
 
 Logs appear as `Pretrain/stage3-JOBID.out` and `.err`. Checkpoints go to
-`/opt/scratchspace/$USER/knee-mri-rrg/checkpoints/stage3-JOBID/` by default.
+`/workspace/knee-mri-rrg/checkpoints/stage3-JOBID/` by default.
 `PROJECT_DIR`, `PYTHON`, `H5_ROOT`, and `OUTPUT_DIR` can be set in the submitting
 shell to override paths. Additional trainer arguments can follow the script:
 
@@ -87,6 +87,9 @@ This trainer is single-device, not distributed. CPU debugging is supported via
 
 ## Stage 4 Handoff
 
+Stage 4 report generation (`rrg_models.py`, `train_rrg.py`) is documented in
+[`RRG/README.md`](../RRG/README.md).
+
 The lowest validation loss saves:
 
 - `best_visual_encoder.pt`: standalone vision state dictionary, including ViT,
@@ -109,7 +112,7 @@ from transformers import ViTConfig, ViTModel
 
 from models import MultiViewVisionEncoder
 
-directory = Path("checkpoints/stage3")
+directory = Path("/workspace/knee-mri-rrg/checkpoints/stage3")
 config = json.loads((directory / "visual_encoder_config.json").read_text())
 backbone = ViTModel(ViTConfig.from_dict(config.pop("vision_config")), add_pooling_layer=False)
 config.pop("view_order")

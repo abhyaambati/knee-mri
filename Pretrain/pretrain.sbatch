@@ -14,10 +14,10 @@
 
 set -euo pipefail
 
-PROJECT_DIR=${PROJECT_DIR:-${SLURM_SUBMIT_DIR:-$HOME/knee-mri-rrg}}
-PYTHON=${PYTHON:-/opt/modules/Python/3.13.1/bin/python}
-H5_ROOT=${H5_ROOT:-/opt/scratchspace/$USER/knee-mri-rrg/processed_h5}
-OUTPUT_DIR=${OUTPUT_DIR:-/opt/scratchspace/$USER/knee-mri-rrg/checkpoints/stage3-${SLURM_JOB_ID:?Submit with sbatch}}
+PROJECT_DIR=${PROJECT_DIR:-${SLURM_SUBMIT_DIR:-/root/knee-mri}}
+PYTHON=${PYTHON:-/venv/main/bin/python}
+H5_ROOT=${H5_ROOT:-/workspace/knee-mri-rrg/processed_h5}
+OUTPUT_DIR=${OUTPUT_DIR:-/workspace/knee-mri-rrg/checkpoints/stage3-${SLURM_JOB_ID:?Submit with sbatch}}
 
 cd "$PROJECT_DIR"
 export PYTHONUNBUFFERED=1

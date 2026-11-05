@@ -1,0 +1,96 @@
+{
+  "history": [
+    {
+      "epoch": 1,
+      "train": {
+        "loss": 1.4666924232308776,
+        "pairs": 3535,
+        "updates": 442,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.9062454388136699,
+        "pairs": 438
+      }
+    },
+    {
+      "epoch": 2,
+      "train": {
+        "loss": 0.8039759861950827,
+        "pairs": 3535,
+        "updates": 442,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.7842199057680831,
+        "pairs": 438
+      }
+    },
+    {
+      "epoch": 3,
+      "train": {
+        "loss": 0.6627271702044144,
+        "pairs": 3535,
+        "updates": 442,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.7358221585955896,
+        "pairs": 438
+      }
+    },
+    {
+      "epoch": 4,
+      "train": {
+        "loss": 0.5652436194759616,
+        "pairs": 3535,
+        "updates": 442,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.7261023328992534,
+        "pairs": 438
+      }
+    },
+    {
+      "epoch": 5,
+      "train": {
+        "loss": 0.5075011118518022,
+        "pairs": 3535,
+        "updates": 442,
+        "skipped_batches": 0
+      },
+      "validation": {
+        "loss": 0.7379202297591013,
+        "pairs": 438
+      }
+    }
+  ],
+  "args": {
+    "stage3_dir": "/workspace/knee-mri-rrg/checkpoints/stage3",
+    "vision_checkpoint": "best_visual_encoder.pt",
+    "h5_root": "/workspace/knee-mri-rrg/processed_h5",
+    "train_csv": "/root/knee-mri/Split/train.csv",
+    "val_csv": "/root/knee-mri/Split/val.csv",
+    "output_dir": "/workspace/knee-mri-rrg/checkpoints/stage4",
+    "decoder": "Qwen/Qwen2.5-1.5B-Instruct",
+    "batch_size": 1,
+    "accumulation_steps": 8,
+    "epochs": 5,
+    "lr": 0.0001,
+    "vision_lr": 1e-06,
+    "weight_decay": 0.01,
+    "warmup_fraction": 0.05,
+    "max_length": 384,
+    "num_prefix_tokens": 32,
+    "num_workers": 2,
+    "slice_batch_size": 32,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "precision": "bf16",
+    "device": "cuda",
+    "unfreeze_vision": false,
+    "seed": 42
+  }
+}

@@ -1,7 +1,9 @@
+from pathlib import Path
+
 import pandas as pd
 
 # Load your processed data file
-df = pd.read_csv("map_with_language.csv")
+df = pd.read_csv(Path(__file__).resolve().parent / "map_with_language.csv")
 
 # ---------------------------------------------------------
 # 1. Counts by site_name and lan (including blanks)

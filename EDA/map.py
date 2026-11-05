@@ -1,5 +1,9 @@
+from pathlib import Path
+
 import pandas as pd
 from langdetect import DetectorFactory, detect
+
+EDA_DIR = Path(__file__).resolve().parent
 
 # Set seed for deterministic language detection results
 DetectorFactory.seed = 0
@@ -21,7 +25,7 @@ def detect_language(text):
 
 def main():
     # 1. Read the input CSV file
-    input_file = "mapped.csv"
+    input_file = EDA_DIR / "mapped.csv"
     print(f"Loading '{input_file}'...")
     df = pd.read_csv(input_file)
 
@@ -34,12 +38,12 @@ def main():
     print(df["lan"].value_counts())
 
     # 4. Save as CSV
-    csv_output = "map_with_language.csv"
+    csv_output = EDA_DIR / "map_with_language.csv"
     df.to_csv(csv_output, index=False)
     print(f"\nSaved CSV to '{csv_output}'")
 
     # 5. Save as XLSX (Excel)
-    xlsx_output = "map_with_language.xlsx"
+    xlsx_output = EDA_DIR / "map_with_language.xlsx"
     df.to_excel(xlsx_output, index=False, engine="openpyxl")
     print(f"Saved Excel file to '{xlsx_output}'")
 

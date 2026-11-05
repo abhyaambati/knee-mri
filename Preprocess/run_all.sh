@@ -2,8 +2,8 @@
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
-KAGGLE=/opt/scratchspace/aambat3/kagglehub/competitions/rsna-knee-abnormality-detection
-OUT_ROOT=${OUT_ROOT:-/opt/scratchspace/aambat3/knee-mri-rrg/processed_h5}
+KAGGLE=${KAGGLE:-/workspace/kagglehub/competitions/rsna-knee-abnormality-detection}
+OUT_ROOT=${OUT_ROOT:-/workspace/knee-mri-rrg/processed_h5}
 WORKERS=${WORKERS:-4}
 
 for split in train val test; do

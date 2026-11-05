@@ -1,0 +1,938 @@
+2026-11-05 11:03:56,313 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct "HTTP/1.1 200 OK"
+2026-11-05 11:03:56,458 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:03:56,486 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fconfig.json=&etag=%22f81ead14ab072d65a07817f83a3ee0e5a1890d10%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:56,513 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fconfig.json=&etag=%22f81ead14ab072d65a07817f83a3ee0e5a1890d10%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:56,659 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:03:56,686 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer_config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:56,714 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer_config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:56,889 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-11-05 11:03:57,040 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-11-05 11:03:57,183 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/vocab.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:03:57,184 WARNING Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-11-05 11:03:57,211 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/vocab.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:57,241 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/vocab.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:57,502 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/merges.txt "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:03:57,529 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/merges.txt?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:57,557 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/merges.txt?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:57,720 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:03:57,747 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:57,775 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/tokenizer.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+2026-11-05 11:03:57,948 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-11-05 11:03:58,091 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-11-05 11:03:58,238 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-11-05 11:03:58,609 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct "HTTP/1.1 200 OK"
+2026-11-05 11:03:58,757 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct "HTTP/1.1 200 OK"
+2026-11-05 11:03:58,906 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-11-05 11:03:59,071 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/model.safetensors "HTTP/1.1 302 Found"
+2026-11-05 11:03:59,225 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/xet-read-token/989aa7980e4cf806f80c7fef2b1adb7bc71aa306 "HTTP/1.1 200 OK"
+2026-11-05 11:04:28,414 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:04:28,440 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/generation_config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fgeneration_config.json=&etag=%22dfc11073787daf1b0f9c0f1499487ab5f4c93738%22 "HTTP/1.1 200 OK"
+2026-11-05 11:04:28,467 INFO HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/generation_config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2F989aa7980e4cf806f80c7fef2b1adb7bc71aa306%2Fgeneration_config.json=&etag=%22dfc11073787daf1b0f9c0f1499487ab5f4c93738%22 "HTTP/1.1 200 OK"
+2026-11-05 11:04:28,614 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/main/custom_generate/generate.py "HTTP/1.1 404 Not Found"
+2026-11-05 11:04:29,566 INFO freeze_vision=True trainable=56,267,264 / 1,699,978,240 (3.31%); microbatch=1 accum=8
+train:   1%|          | 19/3535 [00:06<16:37,  3.53it/s, loss=3.2788, skipped=0, updates=2]2026-11-05 11:04:36,302 INFO train step 20/3535 loss=3.2788 updates=2 pairs=20 skipped=0
+train:   1%|          | 39/3535 [00:12<16:08,  3.61it/s, loss=3.5157, skipped=0, updates=5]2026-11-05 11:04:41,972 INFO train step 40/3535 loss=3.5157 updates=5 pairs=40 skipped=0
+train:   2%|▏         | 59/3535 [00:18<15:46,  3.67it/s, loss=3.6121, skipped=0, updates=7]2026-11-05 11:04:47,650 INFO train step 60/3535 loss=3.6121 updates=7 pairs=60 skipped=0
+train:   2%|▏         | 79/3535 [00:23<17:11,  3.35it/s, loss=3.6432, skipped=0, updates=10]2026-11-05 11:04:53,285 INFO train step 80/3535 loss=3.6432 updates=10 pairs=80 skipped=0
+train:   3%|▎         | 99/3535 [00:29<17:02,  3.36it/s, loss=3.6083, skipped=0, updates=12]2026-11-05 11:04:58,873 INFO train step 100/3535 loss=3.6083 updates=12 pairs=100 skipped=0
+train:   3%|▎         | 119/3535 [00:34<16:20,  3.48it/s, loss=3.5842, skipped=0, updates=15]2026-11-05 11:05:04,545 INFO train step 120/3535 loss=3.5842 updates=15 pairs=120 skipped=0
+train:   4%|▍         | 139/3535 [00:40<16:22,  3.46it/s, loss=3.5810, skipped=0, updates=17]2026-11-05 11:05:10,510 INFO train step 140/3535 loss=3.5810 updates=17 pairs=140 skipped=0
+train:   4%|▍         | 159/3535 [00:46<16:15,  3.46it/s, loss=3.6225, skipped=0, updates=20]2026-11-05 11:05:16,290 INFO train step 160/3535 loss=3.6225 updates=20 pairs=160 skipped=0
+train:   5%|▌         | 179/3535 [00:52<15:46,  3.55it/s, loss=3.5509, skipped=0, updates=22]2026-11-05 11:05:22,023 INFO train step 180/3535 loss=3.5509 updates=22 pairs=180 skipped=0
+train:   6%|▌         | 199/3535 [00:58<15:52,  3.50it/s, loss=3.5464, skipped=0, updates=25]2026-11-05 11:05:27,819 INFO train step 200/3535 loss=3.5464 updates=25 pairs=200 skipped=0
+train:   6%|▌         | 219/3535 [01:03<15:37,  3.54it/s, loss=3.5138, skipped=0, updates=27]2026-11-05 11:05:33,554 INFO train step 220/3535 loss=3.5138 updates=27 pairs=220 skipped=0
+train:   7%|▋         | 239/3535 [01:09<16:00,  3.43it/s, loss=3.4806, skipped=0, updates=30]2026-11-05 11:05:39,418 INFO train step 240/3535 loss=3.4806 updates=30 pairs=240 skipped=0
+train:   7%|▋         | 259/3535 [01:15<15:21,  3.56it/s, loss=3.4289, skipped=0, updates=32]2026-11-05 11:05:45,112 INFO train step 260/3535 loss=3.4289 updates=32 pairs=260 skipped=0
+train:   8%|▊         | 279/3535 [01:21<15:12,  3.57it/s, loss=3.4198, skipped=0, updates=35]2026-11-05 11:05:50,859 INFO train step 280/3535 loss=3.4198 updates=35 pairs=280 skipped=0
+train:   8%|▊         | 299/3535 [01:27<15:27,  3.49it/s, loss=3.3835, skipped=0, updates=37]2026-11-05 11:05:56,641 INFO train step 300/3535 loss=3.3835 updates=37 pairs=300 skipped=0
+train:   9%|▉         | 319/3535 [01:32<15:10,  3.53it/s, loss=3.3414, skipped=0, updates=40]2026-11-05 11:06:02,469 INFO train step 320/3535 loss=3.3414 updates=40 pairs=320 skipped=0
+train:  10%|▉         | 339/3535 [01:38<15:12,  3.50it/s, loss=3.2945, skipped=0, updates=42]2026-11-05 11:06:08,440 INFO train step 340/3535 loss=3.2945 updates=42 pairs=340 skipped=0
+train:  10%|█         | 359/3535 [01:44<16:05,  3.29it/s, loss=3.2630, skipped=0, updates=45]2026-11-05 11:06:14,352 INFO train step 360/3535 loss=3.2630 updates=45 pairs=360 skipped=0
+train:  11%|█         | 379/3535 [01:50<15:51,  3.32it/s, loss=3.2268, skipped=0, updates=47]2026-11-05 11:06:19,982 INFO train step 380/3535 loss=3.2268 updates=47 pairs=380 skipped=0
+train:  11%|█▏        | 399/3535 [01:56<15:02,  3.47it/s, loss=3.2001, skipped=0, updates=50]2026-11-05 11:06:25,654 INFO train step 400/3535 loss=3.2001 updates=50 pairs=400 skipped=0
+train:  12%|█▏        | 419/3535 [02:01<14:41,  3.54it/s, loss=3.1688, skipped=0, updates=52]2026-11-05 11:06:31,327 INFO train step 420/3535 loss=3.1688 updates=52 pairs=420 skipped=0
+train:  12%|█▏        | 439/3535 [02:07<14:31,  3.55it/s, loss=3.1489, skipped=0, updates=55]2026-11-05 11:06:37,000 INFO train step 440/3535 loss=3.1489 updates=55 pairs=440 skipped=0
+train:  13%|█▎        | 459/3535 [02:13<14:24,  3.56it/s, loss=3.1107, skipped=0, updates=57]2026-11-05 11:06:42,695 INFO train step 460/3535 loss=3.1107 updates=57 pairs=460 skipped=0
+train:  14%|█▎        | 479/3535 [02:19<14:41,  3.47it/s, loss=3.0885, skipped=0, updates=60]2026-11-05 11:06:48,577 INFO train step 480/3535 loss=3.0885 updates=60 pairs=480 skipped=0
+train:  14%|█▍        | 499/3535 [02:24<14:49,  3.41it/s, loss=3.0549, skipped=0, updates=62]2026-11-05 11:06:54,477 INFO train step 500/3535 loss=3.0549 updates=62 pairs=500 skipped=0
+train:  15%|█▍        | 519/3535 [02:30<14:27,  3.48it/s, loss=3.0277, skipped=0, updates=65]2026-11-05 11:07:00,363 INFO train step 520/3535 loss=3.0277 updates=65 pairs=520 skipped=0
+train:  15%|█▌        | 539/3535 [02:36<14:15,  3.50it/s, loss=3.0021, skipped=0, updates=67]2026-11-05 11:07:06,181 INFO train step 540/3535 loss=3.0021 updates=67 pairs=540 skipped=0
+train:  16%|█▌        | 559/3535 [02:42<14:07,  3.51it/s, loss=2.9687, skipped=0, updates=70]2026-11-05 11:07:12,082 INFO train step 560/3535 loss=2.9687 updates=70 pairs=560 skipped=0
+train:  16%|█▋        | 579/3535 [02:48<14:28,  3.40it/s, loss=2.9435, skipped=0, updates=72]2026-11-05 11:07:18,055 INFO train step 580/3535 loss=2.9435 updates=72 pairs=580 skipped=0
+train:  17%|█▋        | 599/3535 [02:54<14:00,  3.49it/s, loss=2.9105, skipped=0, updates=75]2026-11-05 11:07:23,863 INFO train step 600/3535 loss=2.9105 updates=75 pairs=600 skipped=0
+train:  18%|█▊        | 619/3535 [03:00<13:56,  3.49it/s, loss=2.8887, skipped=0, updates=77]2026-11-05 11:07:29,816 INFO train step 620/3535 loss=2.8887 updates=77 pairs=620 skipped=0
+train:  18%|█▊        | 639/3535 [03:06<15:00,  3.22it/s, loss=2.8648, skipped=0, updates=80]2026-11-05 11:07:35,647 INFO train step 640/3535 loss=2.8648 updates=80 pairs=640 skipped=0
+train:  19%|█▊        | 659/3535 [03:11<14:51,  3.23it/s, loss=2.8343, skipped=0, updates=82]2026-11-05 11:07:41,416 INFO train step 660/3535 loss=2.8343 updates=82 pairs=660 skipped=0
+train:  19%|█▉        | 679/3535 [03:17<14:06,  3.37it/s, loss=2.8127, skipped=0, updates=85]2026-11-05 11:07:47,283 INFO train step 680/3535 loss=2.8127 updates=85 pairs=680 skipped=0
+train:  20%|█▉        | 699/3535 [03:23<13:57,  3.39it/s, loss=2.7834, skipped=0, updates=87]2026-11-05 11:07:53,275 INFO train step 700/3535 loss=2.7834 updates=87 pairs=700 skipped=0
+train:  20%|██        | 719/3535 [03:29<13:36,  3.45it/s, loss=2.7635, skipped=0, updates=90]2026-11-05 11:07:59,104 INFO train step 720/3535 loss=2.7635 updates=90 pairs=720 skipped=0
+train:  21%|██        | 739/3535 [03:35<13:33,  3.44it/s, loss=2.7403, skipped=0, updates=92]2026-11-05 11:08:04,957 INFO train step 740/3535 loss=2.7403 updates=92 pairs=740 skipped=0
+train:  21%|██▏       | 759/3535 [03:41<13:21,  3.47it/s, loss=2.7090, skipped=0, updates=95]2026-11-05 11:08:10,846 INFO train step 760/3535 loss=2.7090 updates=95 pairs=760 skipped=0
+train:  22%|██▏       | 779/3535 [03:47<13:11,  3.48it/s, loss=2.6793, skipped=0, updates=97]2026-11-05 11:08:16,670 INFO train step 780/3535 loss=2.6793 updates=97 pairs=780 skipped=0
+train:  23%|██▎       | 799/3535 [03:53<13:47,  3.31it/s, loss=2.6517, skipped=0, updates=100]2026-11-05 11:08:22,635 INFO train step 800/3535 loss=2.6517 updates=100 pairs=800 skipped=0
+train:  23%|██▎       | 819/3535 [03:58<13:03,  3.47it/s, loss=2.6379, skipped=0, updates=102]2026-11-05 11:08:28,520 INFO train step 820/3535 loss=2.6379 updates=102 pairs=820 skipped=0
+train:  24%|██▎       | 839/3535 [04:04<12:46,  3.52it/s, loss=2.6090, skipped=0, updates=105]2026-11-05 11:08:34,413 INFO train step 840/3535 loss=2.6090 updates=105 pairs=840 skipped=0
+train:  24%|██▍       | 859/3535 [04:10<12:55,  3.45it/s, loss=2.5867, skipped=0, updates=107]2026-11-05 11:08:40,273 INFO train step 860/3535 loss=2.5867 updates=107 pairs=860 skipped=0
+train:  25%|██▍       | 879/3535 [04:16<12:41,  3.49it/s, loss=2.5769, skipped=0, updates=110]2026-11-05 11:08:46,164 INFO train step 880/3535 loss=2.5769 updates=110 pairs=880 skipped=0
+train:  25%|██▌       | 899/3535 [04:22<12:52,  3.41it/s, loss=2.5537, skipped=0, updates=112]2026-11-05 11:08:52,139 INFO train step 900/3535 loss=2.5537 updates=112 pairs=900 skipped=0
+train:  26%|██▌       | 919/3535 [04:28<13:29,  3.23it/s, loss=2.5322, skipped=0, updates=115]2026-11-05 11:08:58,070 INFO train step 920/3535 loss=2.5322 updates=115 pairs=920 skipped=0
+train:  27%|██▋       | 939/3535 [04:34<13:31,  3.20it/s, loss=2.5111, skipped=0, updates=117]2026-11-05 11:09:03,917 INFO train step 940/3535 loss=2.5111 updates=117 pairs=940 skipped=0
+train:  27%|██▋       | 959/3535 [04:40<12:54,  3.33it/s, loss=2.4901, skipped=0, updates=120]2026-11-05 11:09:09,835 INFO train step 960/3535 loss=2.4901 updates=120 pairs=960 skipped=0
+train:  28%|██▊       | 979/3535 [04:46<12:28,  3.42it/s, loss=2.4683, skipped=0, updates=122]2026-11-05 11:09:15,675 INFO train step 980/3535 loss=2.4683 updates=122 pairs=980 skipped=0
+train:  28%|██▊       | 999/3535 [04:52<12:41,  3.33it/s, loss=2.4524, skipped=0, updates=125]2026-11-05 11:09:21,655 INFO train step 1000/3535 loss=2.4524 updates=125 pairs=1000 skipped=0
+train:  29%|██▉       | 1019/3535 [04:57<12:10,  3.44it/s, loss=2.4327, skipped=0, updates=127]2026-11-05 11:09:27,504 INFO train step 1020/3535 loss=2.4327 updates=127 pairs=1020 skipped=0
+train:  29%|██▉       | 1039/3535 [05:03<11:58,  3.47it/s, loss=2.4096, skipped=0, updates=130]2026-11-05 11:09:33,280 INFO train step 1040/3535 loss=2.4096 updates=130 pairs=1040 skipped=0
+train:  30%|██▉       | 1059/3535 [05:09<11:54,  3.47it/s, loss=2.3953, skipped=0, updates=132]2026-11-05 11:09:39,123 INFO train step 1060/3535 loss=2.3953 updates=132 pairs=1060 skipped=0
+train:  31%|███       | 1079/3535 [05:15<11:44,  3.49it/s, loss=2.3762, skipped=0, updates=135]2026-11-05 11:09:44,987 INFO train step 1080/3535 loss=2.3762 updates=135 pairs=1080 skipped=0
+train:  31%|███       | 1099/3535 [05:21<11:47,  3.44it/s, loss=2.3539, skipped=0, updates=137]2026-11-05 11:09:50,859 INFO train step 1100/3535 loss=2.3539 updates=137 pairs=1100 skipped=0
+train:  32%|███▏      | 1119/3535 [05:27<11:39,  3.46it/s, loss=2.3386, skipped=0, updates=140]2026-11-05 11:09:56,808 INFO train step 1120/3535 loss=2.3386 updates=140 pairs=1120 skipped=0
+train:  32%|███▏      | 1139/3535 [05:33<11:46,  3.39it/s, loss=2.3197, skipped=0, updates=142]2026-11-05 11:10:02,786 INFO train step 1140/3535 loss=2.3197 updates=142 pairs=1140 skipped=0
+train:  33%|███▎      | 1159/3535 [05:39<11:15,  3.52it/s, loss=2.3015, skipped=0, updates=145]2026-11-05 11:10:08,644 INFO train step 1160/3535 loss=2.3015 updates=145 pairs=1160 skipped=0
+train:  33%|███▎      | 1179/3535 [05:45<11:12,  3.50it/s, loss=2.2910, skipped=0, updates=147]2026-11-05 11:10:14,632 INFO train step 1180/3535 loss=2.2910 updates=147 pairs=1180 skipped=0
+train:  34%|███▍      | 1199/3535 [05:50<11:59,  3.25it/s, loss=2.2751, skipped=0, updates=150]2026-11-05 11:10:20,515 INFO train step 1200/3535 loss=2.2751 updates=150 pairs=1200 skipped=0
+train:  34%|███▍      | 1219/3535 [05:56<12:07,  3.18it/s, loss=2.2601, skipped=0, updates=152]2026-11-05 11:10:26,429 INFO train step 1220/3535 loss=2.2601 updates=152 pairs=1220 skipped=0
+train:  35%|███▌      | 1239/3535 [06:02<11:29,  3.33it/s, loss=2.2444, skipped=0, updates=155]2026-11-05 11:10:32,336 INFO train step 1240/3535 loss=2.2444 updates=155 pairs=1240 skipped=0
+train:  36%|███▌      | 1259/3535 [06:08<11:18,  3.35it/s, loss=2.2305, skipped=0, updates=157]2026-11-05 11:10:38,305 INFO train step 1260/3535 loss=2.2305 updates=157 pairs=1260 skipped=0
+train:  36%|███▌      | 1279/3535 [06:14<10:53,  3.45it/s, loss=2.2150, skipped=0, updates=160]2026-11-05 11:10:44,163 INFO train step 1280/3535 loss=2.2150 updates=160 pairs=1280 skipped=0
+train:  37%|███▋      | 1299/3535 [06:20<10:47,  3.45it/s, loss=2.1968, skipped=0, updates=162]2026-11-05 11:10:50,016 INFO train step 1300/3535 loss=2.1968 updates=162 pairs=1300 skipped=0
+train:  37%|███▋      | 1319/3535 [06:26<10:39,  3.46it/s, loss=2.1818, skipped=0, updates=165]2026-11-05 11:10:55,921 INFO train step 1320/3535 loss=2.1818 updates=165 pairs=1320 skipped=0
+train:  38%|███▊      | 1339/3535 [06:32<10:20,  3.54it/s, loss=2.1694, skipped=0, updates=167]2026-11-05 11:11:01,714 INFO train step 1340/3535 loss=2.1694 updates=167 pairs=1340 skipped=0
+train:  38%|███▊      | 1359/3535 [06:38<10:37,  3.41it/s, loss=2.1539, skipped=0, updates=170]2026-11-05 11:11:07,625 INFO train step 1360/3535 loss=2.1539 updates=170 pairs=1360 skipped=0
+train:  39%|███▉      | 1379/3535 [06:43<10:14,  3.51it/s, loss=2.1369, skipped=0, updates=172]2026-11-05 11:11:13,520 INFO train step 1380/3535 loss=2.1369 updates=172 pairs=1380 skipped=0
+train:  40%|███▉      | 1399/3535 [06:49<10:11,  3.49it/s, loss=2.1264, skipped=0, updates=175]2026-11-05 11:11:19,395 INFO train step 1400/3535 loss=2.1264 updates=175 pairs=1400 skipped=0
+train:  40%|████      | 1419/3535 [06:55<10:12,  3.45it/s, loss=2.1101, skipped=0, updates=177]2026-11-05 11:11:25,265 INFO train step 1420/3535 loss=2.1101 updates=177 pairs=1420 skipped=0
+train:  41%|████      | 1439/3535 [07:01<10:04,  3.47it/s, loss=2.0987, skipped=0, updates=180]2026-11-05 11:11:31,129 INFO train step 1440/3535 loss=2.0987 updates=180 pairs=1440 skipped=0
+train:  41%|████▏     | 1459/3535 [07:07<09:56,  3.48it/s, loss=2.0831, skipped=0, updates=182]2026-11-05 11:11:37,107 INFO train step 1460/3535 loss=2.0831 updates=182 pairs=1460 skipped=0
+train:  42%|████▏     | 1479/3535 [07:13<10:40,  3.21it/s, loss=2.0712, skipped=0, updates=185]2026-11-05 11:11:43,085 INFO train step 1480/3535 loss=2.0712 updates=185 pairs=1480 skipped=0
+train:  42%|████▏     | 1499/3535 [07:19<10:21,  3.28it/s, loss=2.0551, skipped=0, updates=187]2026-11-05 11:11:48,887 INFO train step 1500/3535 loss=2.0551 updates=187 pairs=1500 skipped=0
+train:  43%|████▎     | 1519/3535 [07:24<09:40,  3.47it/s, loss=2.0451, skipped=0, updates=190]2026-11-05 11:11:54,558 INFO train step 1520/3535 loss=2.0451 updates=190 pairs=1520 skipped=0
+train:  44%|████▎     | 1539/3535 [07:30<09:30,  3.50it/s, loss=2.0330, skipped=0, updates=192]2026-11-05 11:12:00,232 INFO train step 1540/3535 loss=2.0330 updates=192 pairs=1540 skipped=0
+train:  44%|████▍     | 1559/3535 [07:36<09:35,  3.43it/s, loss=2.0205, skipped=0, updates=195]2026-11-05 11:12:06,098 INFO train step 1560/3535 loss=2.0205 updates=195 pairs=1560 skipped=0
+train:  45%|████▍     | 1579/3535 [07:42<10:02,  3.25it/s, loss=2.0101, skipped=0, updates=197]2026-11-05 11:12:12,070 INFO train step 1580/3535 loss=2.0101 updates=197 pairs=1580 skipped=0
+train:  45%|████▌     | 1599/3535 [07:48<08:58,  3.59it/s, loss=2.0001, skipped=0, updates=200]2026-11-05 11:12:17,750 INFO train step 1600/3535 loss=2.0001 updates=200 pairs=1600 skipped=0
+train:  46%|████▌     | 1619/3535 [07:53<08:48,  3.63it/s, loss=1.9911, skipped=0, updates=202]2026-11-05 11:12:23,349 INFO train step 1620/3535 loss=1.9911 updates=202 pairs=1620 skipped=0
+train:  46%|████▋     | 1639/3535 [07:59<09:01,  3.50it/s, loss=1.9851, skipped=0, updates=205]2026-11-05 11:12:29,143 INFO train step 1640/3535 loss=1.9851 updates=205 pairs=1640 skipped=0
+train:  47%|████▋     | 1659/3535 [08:05<09:04,  3.44it/s, loss=1.9762, skipped=0, updates=207]2026-11-05 11:12:35,017 INFO train step 1660/3535 loss=1.9762 updates=207 pairs=1660 skipped=0
+train:  47%|████▋     | 1679/3535 [08:11<08:54,  3.47it/s, loss=1.9654, skipped=0, updates=210]2026-11-05 11:12:40,950 INFO train step 1680/3535 loss=1.9654 updates=210 pairs=1680 skipped=0
+train:  48%|████▊     | 1699/3535 [08:17<08:53,  3.44it/s, loss=1.9550, skipped=0, updates=212]2026-11-05 11:12:46,971 INFO train step 1700/3535 loss=1.9550 updates=212 pairs=1700 skipped=0
+train:  49%|████▊     | 1719/3535 [08:23<08:42,  3.47it/s, loss=1.9464, skipped=0, updates=215]2026-11-05 11:12:52,870 INFO train step 1720/3535 loss=1.9464 updates=215 pairs=1720 skipped=0
+train:  49%|████▉     | 1739/3535 [08:29<08:23,  3.56it/s, loss=1.9391, skipped=0, updates=217]2026-11-05 11:12:58,676 INFO train step 1740/3535 loss=1.9391 updates=217 pairs=1740 skipped=0
+train:  50%|████▉     | 1759/3535 [08:34<08:54,  3.32it/s, loss=1.9295, skipped=0, updates=220]2026-11-05 11:13:04,351 INFO train step 1760/3535 loss=1.9295 updates=220 pairs=1760 skipped=0
+train:  50%|█████     | 1779/3535 [08:40<08:54,  3.29it/s, loss=1.9214, skipped=0, updates=222]2026-11-05 11:13:10,041 INFO train step 1780/3535 loss=1.9214 updates=222 pairs=1780 skipped=0
+train:  51%|█████     | 1799/3535 [08:46<08:22,  3.46it/s, loss=1.9131, skipped=0, updates=225]2026-11-05 11:13:15,708 INFO train step 1800/3535 loss=1.9131 updates=225 pairs=1800 skipped=0
+train:  51%|█████▏    | 1819/3535 [08:51<08:05,  3.54it/s, loss=1.9048, skipped=0, updates=227]2026-11-05 11:13:21,477 INFO train step 1820/3535 loss=1.9048 updates=227 pairs=1820 skipped=0
+train:  52%|█████▏    | 1839/3535 [08:57<07:57,  3.55it/s, loss=1.8969, skipped=0, updates=230]2026-11-05 11:13:27,138 INFO train step 1840/3535 loss=1.8969 updates=230 pairs=1840 skipped=0
+train:  53%|█████▎    | 1859/3535 [09:03<07:47,  3.59it/s, loss=1.8872, skipped=0, updates=232]2026-11-05 11:13:32,813 INFO train step 1860/3535 loss=1.8872 updates=232 pairs=1860 skipped=0
+train:  53%|█████▎    | 1879/3535 [09:08<07:41,  3.59it/s, loss=1.8782, skipped=0, updates=235]2026-11-05 11:13:38,500 INFO train step 1880/3535 loss=1.8782 updates=235 pairs=1880 skipped=0
+train:  54%|█████▎    | 1899/3535 [09:14<07:39,  3.56it/s, loss=1.8690, skipped=0, updates=237]2026-11-05 11:13:44,219 INFO train step 1900/3535 loss=1.8690 updates=237 pairs=1900 skipped=0
+train:  54%|█████▍    | 1919/3535 [09:20<07:48,  3.45it/s, loss=1.8619, skipped=0, updates=240]2026-11-05 11:13:50,030 INFO train step 1920/3535 loss=1.8619 updates=240 pairs=1920 skipped=0
+train:  55%|█████▍    | 1939/3535 [09:26<07:38,  3.48it/s, loss=1.8534, skipped=0, updates=242]2026-11-05 11:13:55,923 INFO train step 1940/3535 loss=1.8534 updates=242 pairs=1940 skipped=0
+train:  55%|█████▌    | 1959/3535 [09:32<07:37,  3.45it/s, loss=1.8454, skipped=0, updates=245]2026-11-05 11:14:01,840 INFO train step 1960/3535 loss=1.8454 updates=245 pairs=1960 skipped=0
+train:  56%|█████▌    | 1979/3535 [09:38<07:30,  3.46it/s, loss=1.8361, skipped=0, updates=247]2026-11-05 11:14:07,749 INFO train step 1980/3535 loss=1.8361 updates=247 pairs=1980 skipped=0
+train:  57%|█████▋    | 1999/3535 [09:44<07:22,  3.47it/s, loss=1.8286, skipped=0, updates=250]2026-11-05 11:14:13,655 INFO train step 2000/3535 loss=1.8286 updates=250 pairs=2000 skipped=0
+train:  57%|█████▋    | 2019/3535 [09:50<07:11,  3.51it/s, loss=1.8196, skipped=0, updates=252]2026-11-05 11:14:19,627 INFO train step 2020/3535 loss=1.8196 updates=252 pairs=2020 skipped=0
+train:  58%|█████▊    | 2039/3535 [09:56<07:46,  3.21it/s, loss=1.8113, skipped=0, updates=255]2026-11-05 11:14:25,576 INFO train step 2040/3535 loss=1.8113 updates=255 pairs=2040 skipped=0
+train:  58%|█████▊    | 2059/3535 [10:01<07:35,  3.24it/s, loss=1.8047, skipped=0, updates=257]2026-11-05 11:14:31,407 INFO train step 2060/3535 loss=1.8047 updates=257 pairs=2060 skipped=0
+train:  59%|█████▉    | 2079/3535 [10:07<07:10,  3.38it/s, loss=1.7980, skipped=0, updates=260]2026-11-05 11:14:37,246 INFO train step 2080/3535 loss=1.7980 updates=260 pairs=2080 skipped=0
+train:  59%|█████▉    | 2099/3535 [10:13<07:00,  3.42it/s, loss=1.7921, skipped=0, updates=262]2026-11-05 11:14:43,071 INFO train step 2100/3535 loss=1.7921 updates=262 pairs=2100 skipped=0
+train:  60%|█████▉    | 2119/3535 [10:19<06:56,  3.40it/s, loss=1.7852, skipped=0, updates=265]2026-11-05 11:14:48,942 INFO train step 2120/3535 loss=1.7852 updates=265 pairs=2120 skipped=0
+train:  61%|██████    | 2139/3535 [10:25<06:42,  3.47it/s, loss=1.7763, skipped=0, updates=267]2026-11-05 11:14:54,804 INFO train step 2140/3535 loss=1.7763 updates=267 pairs=2140 skipped=0
+train:  61%|██████    | 2159/3535 [10:31<06:44,  3.41it/s, loss=1.7705, skipped=0, updates=270]2026-11-05 11:15:00,826 INFO train step 2160/3535 loss=1.7705 updates=270 pairs=2160 skipped=0
+train:  62%|██████▏   | 2179/3535 [10:36<06:19,  3.57it/s, loss=1.7654, skipped=0, updates=272]2026-11-05 11:15:06,554 INFO train step 2180/3535 loss=1.7654 updates=272 pairs=2180 skipped=0
+train:  62%|██████▏   | 2199/3535 [10:42<06:16,  3.55it/s, loss=1.7594, skipped=0, updates=275]2026-11-05 11:15:12,242 INFO train step 2200/3535 loss=1.7594 updates=275 pairs=2200 skipped=0
+train:  63%|██████▎   | 2219/3535 [10:48<06:02,  3.63it/s, loss=1.7531, skipped=0, updates=277]2026-11-05 11:15:17,863 INFO train step 2220/3535 loss=1.7531 updates=277 pairs=2220 skipped=0
+train:  63%|██████▎   | 2239/3535 [10:53<05:56,  3.64it/s, loss=1.7453, skipped=0, updates=280]2026-11-05 11:15:23,546 INFO train step 2240/3535 loss=1.7453 updates=280 pairs=2240 skipped=0
+train:  64%|██████▍   | 2259/3535 [10:59<06:11,  3.43it/s, loss=1.7377, skipped=0, updates=282]2026-11-05 11:15:29,260 INFO train step 2260/3535 loss=1.7377 updates=282 pairs=2260 skipped=0
+train:  64%|██████▍   | 2279/3535 [11:05<05:55,  3.54it/s, loss=1.7322, skipped=0, updates=285]2026-11-05 11:15:35,002 INFO train step 2280/3535 loss=1.7322 updates=285 pairs=2280 skipped=0
+train:  65%|██████▌   | 2299/3535 [11:11<05:43,  3.60it/s, loss=1.7250, skipped=0, updates=287]2026-11-05 11:15:40,833 INFO train step 2300/3535 loss=1.7250 updates=287 pairs=2300 skipped=0
+train:  66%|██████▌   | 2319/3535 [11:16<06:08,  3.30it/s, loss=1.7186, skipped=0, updates=290]2026-11-05 11:15:46,553 INFO train step 2320/3535 loss=1.7186 updates=290 pairs=2320 skipped=0
+train:  66%|██████▌   | 2339/3535 [11:22<05:58,  3.34it/s, loss=1.7144, skipped=0, updates=292]2026-11-05 11:15:52,204 INFO train step 2340/3535 loss=1.7144 updates=292 pairs=2340 skipped=0
+train:  67%|██████▋   | 2359/3535 [11:28<05:49,  3.36it/s, loss=1.7101, skipped=0, updates=295]2026-11-05 11:15:57,969 INFO train step 2360/3535 loss=1.7101 updates=295 pairs=2360 skipped=0
+train:  67%|██████▋   | 2379/3535 [11:34<05:33,  3.47it/s, loss=1.7032, skipped=0, updates=297]2026-11-05 11:16:03,859 INFO train step 2380/3535 loss=1.7032 updates=297 pairs=2380 skipped=0
+train:  68%|██████▊   | 2399/3535 [11:40<05:25,  3.49it/s, loss=1.6964, skipped=0, updates=300]2026-11-05 11:16:09,633 INFO train step 2400/3535 loss=1.6964 updates=300 pairs=2400 skipped=0
+train:  68%|██████▊   | 2419/3535 [11:45<05:23,  3.45it/s, loss=1.6928, skipped=0, updates=302]2026-11-05 11:16:15,463 INFO train step 2420/3535 loss=1.6928 updates=302 pairs=2420 skipped=0
+train:  69%|██████▉   | 2439/3535 [11:51<05:28,  3.34it/s, loss=1.6879, skipped=0, updates=305]2026-11-05 11:16:21,439 INFO train step 2440/3535 loss=1.6879 updates=305 pairs=2440 skipped=0
+train:  70%|██████▉   | 2459/3535 [11:57<05:12,  3.44it/s, loss=1.6822, skipped=0, updates=307]2026-11-05 11:16:27,336 INFO train step 2460/3535 loss=1.6822 updates=307 pairs=2460 skipped=0
+train:  70%|███████   | 2479/3535 [12:03<05:04,  3.47it/s, loss=1.6759, skipped=0, updates=310]2026-11-05 11:16:33,200 INFO train step 2480/3535 loss=1.6759 updates=310 pairs=2480 skipped=0
+train:  71%|███████   | 2499/3535 [12:09<04:58,  3.47it/s, loss=1.6706, skipped=0, updates=312]2026-11-05 11:16:39,171 INFO train step 2500/3535 loss=1.6706 updates=312 pairs=2500 skipped=0
+train:  71%|███████▏  | 2519/3535 [12:15<04:50,  3.50it/s, loss=1.6647, skipped=0, updates=315]2026-11-05 11:16:45,080 INFO train step 2520/3535 loss=1.6647 updates=315 pairs=2520 skipped=0
+train:  72%|███████▏  | 2539/3535 [12:21<04:39,  3.57it/s, loss=1.6581, skipped=0, updates=317]2026-11-05 11:16:50,875 INFO train step 2540/3535 loss=1.6581 updates=317 pairs=2540 skipped=0
+train:  72%|███████▏  | 2559/3535 [12:26<04:27,  3.65it/s, loss=1.6532, skipped=0, updates=320]2026-11-05 11:16:56,468 INFO train step 2560/3535 loss=1.6532 updates=320 pairs=2560 skipped=0
+train:  73%|███████▎  | 2579/3535 [12:32<04:22,  3.64it/s, loss=1.6488, skipped=0, updates=322]2026-11-05 11:17:02,175 INFO train step 2580/3535 loss=1.6488 updates=322 pairs=2580 skipped=0
+train:  74%|███████▎  | 2599/3535 [12:38<04:50,  3.22it/s, loss=1.6420, skipped=0, updates=325]2026-11-05 11:17:07,943 INFO train step 2600/3535 loss=1.6420 updates=325 pairs=2600 skipped=0
+train:  74%|███████▍  | 2619/3535 [12:44<04:42,  3.24it/s, loss=1.6352, skipped=0, updates=327]2026-11-05 11:17:13,635 INFO train step 2620/3535 loss=1.6352 updates=327 pairs=2620 skipped=0
+train:  75%|███████▍  | 2639/3535 [12:49<04:27,  3.35it/s, loss=1.6325, skipped=0, updates=330]2026-11-05 11:17:19,507 INFO train step 2640/3535 loss=1.6325 updates=330 pairs=2640 skipped=0
+train:  75%|███████▌  | 2659/3535 [12:55<04:13,  3.46it/s, loss=1.6269, skipped=0, updates=332]2026-11-05 11:17:25,319 INFO train step 2660/3535 loss=1.6269 updates=332 pairs=2660 skipped=0
+train:  76%|███████▌  | 2679/3535 [13:01<04:09,  3.43it/s, loss=1.6223, skipped=0, updates=335]2026-11-05 11:17:31,173 INFO train step 2680/3535 loss=1.6223 updates=335 pairs=2680 skipped=0
+train:  76%|███████▋  | 2699/3535 [13:07<04:05,  3.41it/s, loss=1.6175, skipped=0, updates=337]2026-11-05 11:17:37,065 INFO train step 2700/3535 loss=1.6175 updates=337 pairs=2700 skipped=0
+train:  77%|███████▋  | 2719/3535 [13:13<03:55,  3.46it/s, loss=1.6107, skipped=0, updates=340]2026-11-05 11:17:43,031 INFO train step 2720/3535 loss=1.6107 updates=340 pairs=2720 skipped=0
+train:  77%|███████▋  | 2739/3535 [13:19<03:43,  3.56it/s, loss=1.6054, skipped=0, updates=342]2026-11-05 11:17:48,808 INFO train step 2740/3535 loss=1.6054 updates=342 pairs=2740 skipped=0
+train:  78%|███████▊  | 2759/3535 [13:24<03:35,  3.60it/s, loss=1.6012, skipped=0, updates=345]2026-11-05 11:17:54,502 INFO train step 2760/3535 loss=1.6012 updates=345 pairs=2760 skipped=0
+train:  79%|███████▊  | 2779/3535 [13:30<03:29,  3.61it/s, loss=1.5983, skipped=0, updates=347]2026-11-05 11:18:00,161 INFO train step 2780/3535 loss=1.5983 updates=347 pairs=2780 skipped=0
+train:  79%|███████▉  | 2799/3535 [13:36<03:23,  3.61it/s, loss=1.5921, skipped=0, updates=350]2026-11-05 11:18:05,840 INFO train step 2800/3535 loss=1.5921 updates=350 pairs=2800 skipped=0
+train:  80%|███████▉  | 2819/3535 [13:41<03:17,  3.63it/s, loss=1.5875, skipped=0, updates=352]2026-11-05 11:18:11,509 INFO train step 2820/3535 loss=1.5875 updates=352 pairs=2820 skipped=0
+train:  80%|████████  | 2839/3535 [13:47<03:12,  3.61it/s, loss=1.5838, skipped=0, updates=355]2026-11-05 11:18:17,268 INFO train step 2840/3535 loss=1.5838 updates=355 pairs=2840 skipped=0
+train:  81%|████████  | 2859/3535 [13:53<03:07,  3.60it/s, loss=1.5793, skipped=0, updates=357]2026-11-05 11:18:23,058 INFO train step 2860/3535 loss=1.5793 updates=357 pairs=2860 skipped=0
+train:  81%|████████▏ | 2879/3535 [13:59<03:23,  3.22it/s, loss=1.5745, skipped=0, updates=360]2026-11-05 11:18:28,853 INFO train step 2880/3535 loss=1.5745 updates=360 pairs=2880 skipped=0
+train:  82%|████████▏ | 2899/3535 [14:05<03:20,  3.17it/s, loss=1.5716, skipped=0, updates=362]2026-11-05 11:18:34,765 INFO train step 2900/3535 loss=1.5716 updates=362 pairs=2900 skipped=0
+train:  83%|████████▎ | 2919/3535 [14:11<03:04,  3.33it/s, loss=1.5670, skipped=0, updates=365]2026-11-05 11:18:40,716 INFO train step 2920/3535 loss=1.5670 updates=365 pairs=2920 skipped=0
+train:  83%|████████▎ | 2939/3535 [14:17<02:57,  3.35it/s, loss=1.5632, skipped=0, updates=367]2026-11-05 11:18:46,693 INFO train step 2940/3535 loss=1.5632 updates=367 pairs=2940 skipped=0
+train:  84%|████████▎ | 2959/3535 [14:23<02:47,  3.43it/s, loss=1.5600, skipped=0, updates=370]2026-11-05 11:18:52,586 INFO train step 2960/3535 loss=1.5600 updates=370 pairs=2960 skipped=0
+train:  84%|████████▍ | 2979/3535 [14:28<02:37,  3.53it/s, loss=1.5553, skipped=0, updates=372]2026-11-05 11:18:58,331 INFO train step 2980/3535 loss=1.5553 updates=372 pairs=2980 skipped=0
+train:  85%|████████▍ | 2999/3535 [14:34<02:29,  3.58it/s, loss=1.5512, skipped=0, updates=375]2026-11-05 11:19:03,995 INFO train step 3000/3535 loss=1.5512 updates=375 pairs=3000 skipped=0
+train:  85%|████████▌ | 3019/3535 [14:40<02:29,  3.44it/s, loss=1.5467, skipped=0, updates=377]2026-11-05 11:19:09,761 INFO train step 3020/3535 loss=1.5467 updates=377 pairs=3020 skipped=0
+train:  86%|████████▌ | 3039/3535 [14:45<02:19,  3.55it/s, loss=1.5441, skipped=0, updates=380]2026-11-05 11:19:15,565 INFO train step 3040/3535 loss=1.5441 updates=380 pairs=3040 skipped=0
+train:  87%|████████▋ | 3059/3535 [14:51<02:16,  3.49it/s, loss=1.5403, skipped=0, updates=382]2026-11-05 11:19:21,494 INFO train step 3060/3535 loss=1.5403 updates=382 pairs=3060 skipped=0
+train:  87%|████████▋ | 3079/3535 [14:57<02:12,  3.45it/s, loss=1.5368, skipped=0, updates=385]2026-11-05 11:19:27,366 INFO train step 3080/3535 loss=1.5368 updates=385 pairs=3080 skipped=0
+train:  88%|████████▊ | 3099/3535 [15:03<02:03,  3.52it/s, loss=1.5342, skipped=0, updates=387]2026-11-05 11:19:33,197 INFO train step 3100/3535 loss=1.5342 updates=387 pairs=3100 skipped=0
+train:  88%|████████▊ | 3119/3535 [15:09<01:58,  3.50it/s, loss=1.5309, skipped=0, updates=390]2026-11-05 11:19:39,031 INFO train step 3120/3535 loss=1.5309 updates=390 pairs=3120 skipped=0
+train:  89%|████████▉ | 3139/3535 [15:15<01:53,  3.48it/s, loss=1.5278, skipped=0, updates=392]2026-11-05 11:19:45,031 INFO train step 3140/3535 loss=1.5278 updates=392 pairs=3140 skipped=0
+train:  89%|████████▉ | 3159/3535 [15:21<02:02,  3.07it/s, loss=1.5241, skipped=0, updates=395]2026-11-05 11:19:50,942 INFO train step 3160/3535 loss=1.5241 updates=395 pairs=3160 skipped=0
+train:  90%|████████▉ | 3179/3535 [15:27<01:47,  3.31it/s, loss=1.5219, skipped=0, updates=397]2026-11-05 11:19:56,571 INFO train step 3180/3535 loss=1.5219 updates=397 pairs=3180 skipped=0
+train:  90%|█████████ | 3199/3535 [15:32<01:38,  3.40it/s, loss=1.5178, skipped=0, updates=400]2026-11-05 11:20:02,270 INFO train step 3200/3535 loss=1.5178 updates=400 pairs=3200 skipped=0
+train:  91%|█████████ | 3219/3535 [15:38<01:29,  3.53it/s, loss=1.5147, skipped=0, updates=402]2026-11-05 11:20:07,979 INFO train step 3220/3535 loss=1.5147 updates=402 pairs=3220 skipped=0
+train:  92%|█████████▏| 3239/3535 [15:44<01:23,  3.53it/s, loss=1.5120, skipped=0, updates=405]2026-11-05 11:20:13,707 INFO train step 3240/3535 loss=1.5120 updates=405 pairs=3240 skipped=0
+train:  92%|█████████▏| 3259/3535 [15:49<01:18,  3.54it/s, loss=1.5074, skipped=0, updates=407]2026-11-05 11:20:19,401 INFO train step 3260/3535 loss=1.5074 updates=407 pairs=3260 skipped=0
+train:  93%|█████████▎| 3279/3535 [15:55<01:12,  3.55it/s, loss=1.5038, skipped=0, updates=410]2026-11-05 11:20:25,160 INFO train step 3280/3535 loss=1.5038 updates=410 pairs=3280 skipped=0
+train:  93%|█████████▎| 3299/3535 [16:01<01:06,  3.58it/s, loss=1.5000, skipped=0, updates=412]2026-11-05 11:20:30,806 INFO train step 3300/3535 loss=1.5000 updates=412 pairs=3300 skipped=0
+train:  94%|█████████▍| 3319/3535 [16:06<00:59,  3.61it/s, loss=1.4976, skipped=0, updates=415]2026-11-05 11:20:36,507 INFO train step 3320/3535 loss=1.4976 updates=415 pairs=3320 skipped=0
+train:  94%|█████████▍| 3339/3535 [16:12<00:54,  3.60it/s, loss=1.4942, skipped=0, updates=417]2026-11-05 11:20:42,152 INFO train step 3340/3535 loss=1.4942 updates=417 pairs=3340 skipped=0
+train:  95%|█████████▌| 3359/3535 [16:18<00:48,  3.60it/s, loss=1.4908, skipped=0, updates=420]2026-11-05 11:20:47,846 INFO train step 3360/3535 loss=1.4908 updates=420 pairs=3360 skipped=0
+train:  96%|█████████▌| 3379/3535 [16:23<00:43,  3.60it/s, loss=1.4886, skipped=0, updates=422]2026-11-05 11:20:53,500 INFO train step 3380/3535 loss=1.4886 updates=422 pairs=3380 skipped=0
+train:  96%|█████████▌| 3399/3535 [16:29<00:37,  3.58it/s, loss=1.4864, skipped=0, updates=425]2026-11-05 11:20:59,224 INFO train step 3400/3535 loss=1.4864 updates=425 pairs=3400 skipped=0
+train:  97%|█████████▋| 3419/3535 [16:35<00:31,  3.63it/s, loss=1.4841, skipped=0, updates=427]2026-11-05 11:21:04,978 INFO train step 3420/3535 loss=1.4841 updates=427 pairs=3420 skipped=0
+train:  97%|█████████▋| 3439/3535 [16:41<00:29,  3.31it/s, loss=1.4808, skipped=0, updates=430]2026-11-05 11:21:10,638 INFO train step 3440/3535 loss=1.4808 updates=430 pairs=3440 skipped=0
+train:  98%|█████████▊| 3459/3535 [16:46<00:23,  3.21it/s, loss=1.4774, skipped=0, updates=432]2026-11-05 11:21:16,465 INFO train step 3460/3535 loss=1.4774 updates=432 pairs=3460 skipped=0
+train:  98%|█████████▊| 3479/3535 [16:52<00:16,  3.34it/s, loss=1.4740, skipped=0, updates=435]2026-11-05 11:21:22,356 INFO train step 3480/3535 loss=1.4740 updates=435 pairs=3480 skipped=0
+train:  99%|█████████▉| 3499/3535 [16:58<00:10,  3.34it/s, loss=1.4712, skipped=0, updates=437]2026-11-05 11:21:28,289 INFO train step 3500/3535 loss=1.4712 updates=437 pairs=3500 skipped=0
+train: 100%|█████████▉| 3519/3535 [17:04<00:04,  3.52it/s, loss=1.4684, skipped=0, updates=440]2026-11-05 11:21:34,183 INFO train step 3520/3535 loss=1.4684 updates=440 pairs=3520 skipped=0
+train: 100%|█████████▉| 3534/3535 [17:08<00:00,  3.42it/s, loss=1.4667, skipped=0, updates=441]2026-11-05 11:21:38,447 INFO train step 3535/3535 loss=1.4667 updates=441 pairs=3535 skipped=0
+2026-11-05 11:22:23,455 INFO Epoch 1 train={"loss": 1.4666924232308776, "pairs": 3535, "updates": 442, "skipped_batches": 0} validation={"loss": 0.9062454388136699, "pairs": 438}
+2026-11-05 11:22:23,825 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:22:23,852 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%22f81ead14ab072d65a07817f83a3ee0e5a1890d10%22 "HTTP/1.1 200 OK"
+2026-11-05 11:22:23,998 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/revision/main "HTTP/1.1 200 OK"
+2026-11-05 11:22:24,162 INFO Saved best Stage 4 checkpoint to /workspace/knee-mri-rrg/checkpoints/stage4/best
+train:   1%|          | 19/3535 [00:06<17:34,  3.33it/s, loss=0.9430, skipped=0, updates=2]2026-11-05 11:22:30,451 INFO train step 20/3535 loss=0.9430 updates=2 pairs=20 skipped=0
+train:   1%|          | 39/3535 [00:12<17:31,  3.33it/s, loss=1.0534, skipped=0, updates=5]2026-11-05 11:22:36,548 INFO train step 40/3535 loss=1.0534 updates=5 pairs=40 skipped=0
+train:   2%|▏         | 59/3535 [00:18<16:48,  3.45it/s, loss=0.9968, skipped=0, updates=7]2026-11-05 11:22:42,449 INFO train step 60/3535 loss=0.9968 updates=7 pairs=60 skipped=0
+train:   2%|▏         | 79/3535 [00:24<16:49,  3.42it/s, loss=0.9513, skipped=0, updates=10]2026-11-05 11:22:48,415 INFO train step 80/3535 loss=0.9513 updates=10 pairs=80 skipped=0
+train:   3%|▎         | 99/3535 [00:30<16:34,  3.45it/s, loss=0.9494, skipped=0, updates=12]2026-11-05 11:22:54,308 INFO train step 100/3535 loss=0.9494 updates=12 pairs=100 skipped=0
+train:   3%|▎         | 119/3535 [00:36<16:29,  3.45it/s, loss=0.9175, skipped=0, updates=15]2026-11-05 11:23:00,230 INFO train step 120/3535 loss=0.9175 updates=15 pairs=120 skipped=0
+train:   4%|▍         | 139/3535 [00:42<16:29,  3.43it/s, loss=0.8980, skipped=0, updates=17]2026-11-05 11:23:06,188 INFO train step 140/3535 loss=0.8980 updates=17 pairs=140 skipped=0
+train:   4%|▍         | 159/3535 [00:48<16:16,  3.46it/s, loss=0.8995, skipped=0, updates=20]2026-11-05 11:23:12,230 INFO train step 160/3535 loss=0.8995 updates=20 pairs=160 skipped=0
+train:   5%|▌         | 179/3535 [00:53<16:11,  3.45it/s, loss=0.8878, skipped=0, updates=22]2026-11-05 11:23:18,168 INFO train step 180/3535 loss=0.8878 updates=22 pairs=180 skipped=0
+train:   6%|▌         | 199/3535 [01:00<17:55,  3.10it/s, loss=0.8692, skipped=0, updates=25]2026-11-05 11:23:24,215 INFO train step 200/3535 loss=0.8692 updates=25 pairs=200 skipped=0
+train:   6%|▌         | 219/3535 [01:05<17:52,  3.09it/s, loss=0.8686, skipped=0, updates=27]2026-11-05 11:23:30,107 INFO train step 220/3535 loss=0.8686 updates=27 pairs=220 skipped=0
+train:   7%|▋         | 239/3535 [01:11<16:55,  3.25it/s, loss=0.8692, skipped=0, updates=30]2026-11-05 11:23:36,070 INFO train step 240/3535 loss=0.8692 updates=30 pairs=240 skipped=0
+train:   7%|▋         | 259/3535 [01:17<17:24,  3.14it/s, loss=0.8596, skipped=0, updates=32]2026-11-05 11:23:42,101 INFO train step 260/3535 loss=0.8596 updates=32 pairs=260 skipped=0
+train:   8%|▊         | 279/3535 [01:23<16:10,  3.36it/s, loss=0.8405, skipped=0, updates=35]2026-11-05 11:23:48,052 INFO train step 280/3535 loss=0.8405 updates=35 pairs=280 skipped=0
+train:   8%|▊         | 299/3535 [01:29<16:00,  3.37it/s, loss=0.8317, skipped=0, updates=37]2026-11-05 11:23:54,016 INFO train step 300/3535 loss=0.8317 updates=37 pairs=300 skipped=0
+train:   9%|▉         | 319/3535 [01:35<15:45,  3.40it/s, loss=0.8327, skipped=0, updates=40]2026-11-05 11:24:00,016 INFO train step 320/3535 loss=0.8327 updates=40 pairs=320 skipped=0
+train:  10%|▉         | 339/3535 [01:41<15:29,  3.44it/s, loss=0.8314, skipped=0, updates=42]2026-11-05 11:24:05,981 INFO train step 340/3535 loss=0.8314 updates=42 pairs=340 skipped=0
+train:  10%|█         | 359/3535 [01:47<15:19,  3.46it/s, loss=0.8291, skipped=0, updates=45]2026-11-05 11:24:11,906 INFO train step 360/3535 loss=0.8291 updates=45 pairs=360 skipped=0
+train:  11%|█         | 379/3535 [01:53<14:39,  3.59it/s, loss=0.8262, skipped=0, updates=47]2026-11-05 11:24:17,708 INFO train step 380/3535 loss=0.8262 updates=47 pairs=380 skipped=0
+train:  11%|█▏        | 399/3535 [01:59<15:07,  3.46it/s, loss=0.8153, skipped=0, updates=50]2026-11-05 11:24:23,494 INFO train step 400/3535 loss=0.8153 updates=50 pairs=400 skipped=0
+train:  12%|█▏        | 419/3535 [02:05<15:13,  3.41it/s, loss=0.8232, skipped=0, updates=52]2026-11-05 11:24:29,463 INFO train step 420/3535 loss=0.8232 updates=52 pairs=420 skipped=0
+train:  12%|█▏        | 439/3535 [02:11<15:01,  3.44it/s, loss=0.8213, skipped=0, updates=55]2026-11-05 11:24:35,451 INFO train step 440/3535 loss=0.8213 updates=55 pairs=440 skipped=0
+train:  13%|█▎        | 459/3535 [02:17<15:00,  3.42it/s, loss=0.8215, skipped=0, updates=57]2026-11-05 11:24:41,417 INFO train step 460/3535 loss=0.8215 updates=57 pairs=460 skipped=0
+train:  14%|█▎        | 479/3535 [02:23<17:38,  2.89it/s, loss=0.8326, skipped=0, updates=60]2026-11-05 11:24:47,575 INFO train step 480/3535 loss=0.8326 updates=60 pairs=480 skipped=0
+train:  14%|█▍        | 499/3535 [02:29<16:36,  3.05it/s, loss=0.8304, skipped=0, updates=62]2026-11-05 11:24:53,523 INFO train step 500/3535 loss=0.8304 updates=62 pairs=500 skipped=0
+train:  15%|█▍        | 519/3535 [02:35<15:33,  3.23it/s, loss=0.8261, skipped=0, updates=65]2026-11-05 11:24:59,500 INFO train step 520/3535 loss=0.8261 updates=65 pairs=520 skipped=0
+train:  15%|█▌        | 539/3535 [02:41<14:31,  3.44it/s, loss=0.8286, skipped=0, updates=67]2026-11-05 11:25:05,381 INFO train step 540/3535 loss=0.8286 updates=67 pairs=540 skipped=0
+train:  16%|█▌        | 559/3535 [02:46<14:22,  3.45it/s, loss=0.8337, skipped=0, updates=70]2026-11-05 11:25:11,169 INFO train step 560/3535 loss=0.8337 updates=70 pairs=560 skipped=0
+train:  16%|█▋        | 579/3535 [02:52<14:21,  3.43it/s, loss=0.8363, skipped=0, updates=72]2026-11-05 11:25:16,989 INFO train step 580/3535 loss=0.8363 updates=72 pairs=580 skipped=0
+train:  17%|█▋        | 599/3535 [02:58<14:13,  3.44it/s, loss=0.8368, skipped=0, updates=75]2026-11-05 11:25:22,946 INFO train step 600/3535 loss=0.8368 updates=75 pairs=600 skipped=0
+train:  18%|█▊        | 619/3535 [03:04<14:08,  3.44it/s, loss=0.8325, skipped=0, updates=77]2026-11-05 11:25:28,825 INFO train step 620/3535 loss=0.8325 updates=77 pairs=620 skipped=0
+train:  18%|█▊        | 639/3535 [03:10<13:50,  3.49it/s, loss=0.8378, skipped=0, updates=80]2026-11-05 11:25:34,776 INFO train step 640/3535 loss=0.8378 updates=80 pairs=640 skipped=0
+train:  19%|█▊        | 659/3535 [03:16<13:32,  3.54it/s, loss=0.8324, skipped=0, updates=82]2026-11-05 11:25:40,578 INFO train step 660/3535 loss=0.8324 updates=82 pairs=660 skipped=0
+train:  19%|█▉        | 679/3535 [03:22<13:43,  3.47it/s, loss=0.8272, skipped=0, updates=85]2026-11-05 11:25:46,382 INFO train step 680/3535 loss=0.8272 updates=85 pairs=680 skipped=0
+train:  20%|█▉        | 699/3535 [03:28<13:41,  3.45it/s, loss=0.8213, skipped=0, updates=87]2026-11-05 11:25:52,347 INFO train step 700/3535 loss=0.8213 updates=87 pairs=700 skipped=0
+train:  20%|██        | 719/3535 [03:34<13:23,  3.50it/s, loss=0.8238, skipped=0, updates=90]2026-11-05 11:25:58,220 INFO train step 720/3535 loss=0.8238 updates=90 pairs=720 skipped=0
+train:  21%|██        | 739/3535 [03:39<12:57,  3.60it/s, loss=0.8229, skipped=0, updates=92]2026-11-05 11:26:04,012 INFO train step 740/3535 loss=0.8229 updates=92 pairs=740 skipped=0
+train:  21%|██▏       | 759/3535 [03:45<14:52,  3.11it/s, loss=0.8230, skipped=0, updates=95]2026-11-05 11:26:09,923 INFO train step 760/3535 loss=0.8230 updates=95 pairs=760 skipped=0
+train:  22%|██▏       | 779/3535 [03:51<14:57,  3.07it/s, loss=0.8235, skipped=0, updates=97]2026-11-05 11:26:15,791 INFO train step 780/3535 loss=0.8235 updates=97 pairs=780 skipped=0
+train:  23%|██▎       | 799/3535 [03:57<14:04,  3.24it/s, loss=0.8266, skipped=0, updates=100]2026-11-05 11:26:21,719 INFO train step 800/3535 loss=0.8266 updates=100 pairs=800 skipped=0
+train:  23%|██▎       | 819/3535 [04:03<13:41,  3.31it/s, loss=0.8278, skipped=0, updates=102]2026-11-05 11:26:27,728 INFO train step 820/3535 loss=0.8278 updates=102 pairs=820 skipped=0
+train:  24%|██▎       | 839/3535 [04:09<13:12,  3.40it/s, loss=0.8309, skipped=0, updates=105]2026-11-05 11:26:33,605 INFO train step 840/3535 loss=0.8309 updates=105 pairs=840 skipped=0
+train:  24%|██▍       | 859/3535 [04:15<12:58,  3.44it/s, loss=0.8307, skipped=0, updates=107]2026-11-05 11:26:39,490 INFO train step 860/3535 loss=0.8307 updates=107 pairs=860 skipped=0
+train:  25%|██▍       | 879/3535 [04:21<12:17,  3.60it/s, loss=0.8325, skipped=0, updates=110]2026-11-05 11:26:45,180 INFO train step 880/3535 loss=0.8325 updates=110 pairs=880 skipped=0
+train:  25%|██▌       | 899/3535 [04:26<12:22,  3.55it/s, loss=0.8341, skipped=0, updates=112]2026-11-05 11:26:50,888 INFO train step 900/3535 loss=0.8341 updates=112 pairs=900 skipped=0
+train:  26%|██▌       | 919/3535 [04:32<12:09,  3.59it/s, loss=0.8355, skipped=0, updates=115]2026-11-05 11:26:56,583 INFO train step 920/3535 loss=0.8355 updates=115 pairs=920 skipped=0
+train:  27%|██▋       | 939/3535 [04:38<11:57,  3.62it/s, loss=0.8325, skipped=0, updates=117]2026-11-05 11:27:02,342 INFO train step 940/3535 loss=0.8325 updates=117 pairs=940 skipped=0
+train:  27%|██▋       | 959/3535 [04:43<11:49,  3.63it/s, loss=0.8323, skipped=0, updates=120]2026-11-05 11:27:07,984 INFO train step 960/3535 loss=0.8323 updates=120 pairs=960 skipped=0
+train:  28%|██▊       | 979/3535 [04:49<11:44,  3.63it/s, loss=0.8324, skipped=0, updates=122]2026-11-05 11:27:13,614 INFO train step 980/3535 loss=0.8324 updates=122 pairs=980 skipped=0
+train:  28%|██▊       | 999/3535 [04:55<11:38,  3.63it/s, loss=0.8299, skipped=0, updates=125]2026-11-05 11:27:19,268 INFO train step 1000/3535 loss=0.8299 updates=125 pairs=1000 skipped=0
+train:  29%|██▉       | 1019/3535 [05:00<11:27,  3.66it/s, loss=0.8303, skipped=0, updates=127]2026-11-05 11:27:24,887 INFO train step 1020/3535 loss=0.8303 updates=127 pairs=1020 skipped=0
+train:  29%|██▉       | 1039/3535 [05:06<12:55,  3.22it/s, loss=0.8276, skipped=0, updates=130]2026-11-05 11:27:30,715 INFO train step 1040/3535 loss=0.8276 updates=130 pairs=1040 skipped=0
+train:  30%|██▉       | 1059/3535 [05:12<12:57,  3.18it/s, loss=0.8280, skipped=0, updates=132]2026-11-05 11:27:36,428 INFO train step 1060/3535 loss=0.8280 updates=132 pairs=1060 skipped=0
+train:  31%|███       | 1079/3535 [05:17<12:10,  3.36it/s, loss=0.8309, skipped=0, updates=135]2026-11-05 11:27:42,159 INFO train step 1080/3535 loss=0.8309 updates=135 pairs=1080 skipped=0
+train:  31%|███       | 1099/3535 [05:23<11:39,  3.48it/s, loss=0.8325, skipped=0, updates=137]2026-11-05 11:27:47,948 INFO train step 1100/3535 loss=0.8325 updates=137 pairs=1100 skipped=0
+train:  32%|███▏      | 1119/3535 [05:29<11:47,  3.41it/s, loss=0.8347, skipped=0, updates=140]2026-11-05 11:27:53,737 INFO train step 1120/3535 loss=0.8347 updates=140 pairs=1120 skipped=0
+train:  32%|███▏      | 1139/3535 [05:35<11:17,  3.54it/s, loss=0.8375, skipped=0, updates=142]2026-11-05 11:27:59,519 INFO train step 1140/3535 loss=0.8375 updates=142 pairs=1140 skipped=0
+train:  33%|███▎      | 1159/3535 [05:41<11:29,  3.45it/s, loss=0.8370, skipped=0, updates=145]2026-11-05 11:28:05,351 INFO train step 1160/3535 loss=0.8370 updates=145 pairs=1160 skipped=0
+train:  33%|███▎      | 1179/3535 [05:46<10:58,  3.58it/s, loss=0.8368, skipped=0, updates=147]2026-11-05 11:28:11,141 INFO train step 1180/3535 loss=0.8368 updates=147 pairs=1180 skipped=0
+train:  34%|███▍      | 1199/3535 [05:52<10:50,  3.59it/s, loss=0.8350, skipped=0, updates=150]2026-11-05 11:28:16,815 INFO train step 1200/3535 loss=0.8350 updates=150 pairs=1200 skipped=0
+train:  34%|███▍      | 1219/3535 [05:58<10:42,  3.60it/s, loss=0.8343, skipped=0, updates=152]2026-11-05 11:28:22,474 INFO train step 1220/3535 loss=0.8343 updates=152 pairs=1220 skipped=0
+train:  35%|███▌      | 1239/3535 [06:03<10:20,  3.70it/s, loss=0.8331, skipped=0, updates=155]2026-11-05 11:28:28,070 INFO train step 1240/3535 loss=0.8331 updates=155 pairs=1240 skipped=0
+train:  36%|███▌      | 1259/3535 [06:09<10:27,  3.63it/s, loss=0.8341, skipped=0, updates=157]2026-11-05 11:28:33,698 INFO train step 1260/3535 loss=0.8341 updates=157 pairs=1260 skipped=0
+train:  36%|███▌      | 1279/3535 [06:15<10:21,  3.63it/s, loss=0.8342, skipped=0, updates=160]2026-11-05 11:28:39,374 INFO train step 1280/3535 loss=0.8342 updates=160 pairs=1280 skipped=0
+train:  37%|███▋      | 1299/3535 [06:20<10:21,  3.60it/s, loss=0.8318, skipped=0, updates=162]2026-11-05 11:28:45,066 INFO train step 1300/3535 loss=0.8318 updates=162 pairs=1300 skipped=0
+train:  37%|███▋      | 1319/3535 [06:26<11:33,  3.20it/s, loss=0.8324, skipped=0, updates=165]2026-11-05 11:28:50,874 INFO train step 1320/3535 loss=0.8324 updates=165 pairs=1320 skipped=0
+train:  38%|███▊      | 1339/3535 [06:32<11:25,  3.20it/s, loss=0.8318, skipped=0, updates=167]2026-11-05 11:28:56,615 INFO train step 1340/3535 loss=0.8318 updates=167 pairs=1340 skipped=0
+train:  38%|███▊      | 1359/3535 [06:38<10:29,  3.46it/s, loss=0.8317, skipped=0, updates=170]2026-11-05 11:29:02,249 INFO train step 1360/3535 loss=0.8317 updates=170 pairs=1360 skipped=0
+train:  39%|███▉      | 1379/3535 [06:43<10:11,  3.52it/s, loss=0.8292, skipped=0, updates=172]2026-11-05 11:29:07,885 INFO train step 1380/3535 loss=0.8292 updates=172 pairs=1380 skipped=0
+train:  40%|███▉      | 1399/3535 [06:49<10:09,  3.51it/s, loss=0.8320, skipped=0, updates=175]2026-11-05 11:29:13,674 INFO train step 1400/3535 loss=0.8320 updates=175 pairs=1400 skipped=0
+train:  40%|████      | 1419/3535 [06:55<10:22,  3.40it/s, loss=0.8325, skipped=0, updates=177]2026-11-05 11:29:19,485 INFO train step 1420/3535 loss=0.8325 updates=177 pairs=1420 skipped=0
+train:  41%|████      | 1439/3535 [07:01<09:58,  3.50it/s, loss=0.8302, skipped=0, updates=180]2026-11-05 11:29:25,359 INFO train step 1440/3535 loss=0.8302 updates=180 pairs=1440 skipped=0
+train:  41%|████▏     | 1459/3535 [07:06<09:47,  3.53it/s, loss=0.8286, skipped=0, updates=182]2026-11-05 11:29:31,037 INFO train step 1460/3535 loss=0.8286 updates=182 pairs=1460 skipped=0
+train:  42%|████▏     | 1479/3535 [07:12<09:55,  3.45it/s, loss=0.8272, skipped=0, updates=185]2026-11-05 11:29:36,896 INFO train step 1480/3535 loss=0.8272 updates=185 pairs=1480 skipped=0
+train:  42%|████▏     | 1499/3535 [07:18<10:10,  3.34it/s, loss=0.8269, skipped=0, updates=187]2026-11-05 11:29:42,859 INFO train step 1500/3535 loss=0.8269 updates=187 pairs=1500 skipped=0
+train:  43%|████▎     | 1519/3535 [07:24<09:33,  3.52it/s, loss=0.8272, skipped=0, updates=190]2026-11-05 11:29:48,668 INFO train step 1520/3535 loss=0.8272 updates=190 pairs=1520 skipped=0
+train:  44%|████▎     | 1539/3535 [07:30<09:34,  3.48it/s, loss=0.8275, skipped=0, updates=192]2026-11-05 11:29:54,546 INFO train step 1540/3535 loss=0.8275 updates=192 pairs=1540 skipped=0
+train:  44%|████▍     | 1559/3535 [07:36<09:26,  3.49it/s, loss=0.8260, skipped=0, updates=195]2026-11-05 11:30:00,380 INFO train step 1560/3535 loss=0.8260 updates=195 pairs=1560 skipped=0
+train:  45%|████▍     | 1579/3535 [07:42<09:21,  3.48it/s, loss=0.8245, skipped=0, updates=197]2026-11-05 11:30:06,269 INFO train step 1580/3535 loss=0.8245 updates=197 pairs=1580 skipped=0
+train:  45%|████▌     | 1599/3535 [07:48<10:15,  3.14it/s, loss=0.8238, skipped=0, updates=200]2026-11-05 11:30:12,228 INFO train step 1600/3535 loss=0.8238 updates=200 pairs=1600 skipped=0
+train:  46%|████▌     | 1619/3535 [07:53<10:16,  3.11it/s, loss=0.8242, skipped=0, updates=202]2026-11-05 11:30:18,153 INFO train step 1620/3535 loss=0.8242 updates=202 pairs=1620 skipped=0
+train:  46%|████▋     | 1639/3535 [07:59<09:39,  3.27it/s, loss=0.8237, skipped=0, updates=205]2026-11-05 11:30:24,063 INFO train step 1640/3535 loss=0.8237 updates=205 pairs=1640 skipped=0
+train:  47%|████▋     | 1659/3535 [08:05<09:29,  3.29it/s, loss=0.8222, skipped=0, updates=207]2026-11-05 11:30:29,989 INFO train step 1660/3535 loss=0.8222 updates=207 pairs=1660 skipped=0
+train:  47%|████▋     | 1679/3535 [08:11<09:05,  3.40it/s, loss=0.8233, skipped=0, updates=210]2026-11-05 11:30:35,840 INFO train step 1680/3535 loss=0.8233 updates=210 pairs=1680 skipped=0
+train:  48%|████▊     | 1699/3535 [08:17<08:48,  3.47it/s, loss=0.8243, skipped=0, updates=212]2026-11-05 11:30:41,657 INFO train step 1700/3535 loss=0.8243 updates=212 pairs=1700 skipped=0
+train:  49%|████▊     | 1719/3535 [08:23<09:07,  3.32it/s, loss=0.8225, skipped=0, updates=215]2026-11-05 11:30:47,643 INFO train step 1720/3535 loss=0.8225 updates=215 pairs=1720 skipped=0
+train:  49%|████▉     | 1739/3535 [08:29<08:36,  3.48it/s, loss=0.8226, skipped=0, updates=217]2026-11-05 11:30:53,521 INFO train step 1740/3535 loss=0.8226 updates=217 pairs=1740 skipped=0
+train:  50%|████▉     | 1759/3535 [08:35<08:24,  3.52it/s, loss=0.8217, skipped=0, updates=220]2026-11-05 11:30:59,398 INFO train step 1760/3535 loss=0.8217 updates=220 pairs=1760 skipped=0
+train:  50%|█████     | 1779/3535 [08:41<08:21,  3.50it/s, loss=0.8207, skipped=0, updates=222]2026-11-05 11:31:05,201 INFO train step 1780/3535 loss=0.8207 updates=222 pairs=1780 skipped=0
+train:  51%|█████     | 1799/3535 [08:46<08:17,  3.49it/s, loss=0.8222, skipped=0, updates=225]2026-11-05 11:31:11,026 INFO train step 1800/3535 loss=0.8222 updates=225 pairs=1800 skipped=0
+train:  51%|█████▏    | 1819/3535 [08:52<08:11,  3.49it/s, loss=0.8236, skipped=0, updates=227]2026-11-05 11:31:16,882 INFO train step 1820/3535 loss=0.8236 updates=227 pairs=1820 skipped=0
+train:  52%|█████▏    | 1839/3535 [08:58<08:05,  3.49it/s, loss=0.8255, skipped=0, updates=230]2026-11-05 11:31:22,866 INFO train step 1840/3535 loss=0.8255 updates=230 pairs=1840 skipped=0
+train:  53%|█████▎    | 1859/3535 [09:04<08:05,  3.45it/s, loss=0.8253, skipped=0, updates=232]2026-11-05 11:31:28,750 INFO train step 1860/3535 loss=0.8253 updates=232 pairs=1860 skipped=0
+train:  53%|█████▎    | 1879/3535 [09:10<08:48,  3.14it/s, loss=0.8224, skipped=0, updates=235]2026-11-05 11:31:34,724 INFO train step 1880/3535 loss=0.8224 updates=235 pairs=1880 skipped=0
+train:  54%|█████▎    | 1899/3535 [09:16<08:45,  3.12it/s, loss=0.8231, skipped=0, updates=237]2026-11-05 11:31:40,552 INFO train step 1900/3535 loss=0.8231 updates=237 pairs=1900 skipped=0
+train:  54%|█████▍    | 1919/3535 [09:22<08:15,  3.26it/s, loss=0.8252, skipped=0, updates=240]2026-11-05 11:31:46,489 INFO train step 1920/3535 loss=0.8252 updates=240 pairs=1920 skipped=0
+train:  55%|█████▍    | 1939/3535 [09:28<07:52,  3.38it/s, loss=0.8252, skipped=0, updates=242]2026-11-05 11:31:52,276 INFO train step 1940/3535 loss=0.8252 updates=242 pairs=1940 skipped=0
+train:  55%|█████▌    | 1959/3535 [09:34<07:45,  3.38it/s, loss=0.8239, skipped=0, updates=245]2026-11-05 11:31:58,191 INFO train step 1960/3535 loss=0.8239 updates=245 pairs=1960 skipped=0
+train:  56%|█████▌    | 1979/3535 [09:39<07:42,  3.36it/s, loss=0.8248, skipped=0, updates=247]2026-11-05 11:32:04,099 INFO train step 1980/3535 loss=0.8248 updates=247 pairs=1980 skipped=0
+train:  57%|█████▋    | 1999/3535 [09:45<07:37,  3.36it/s, loss=0.8244, skipped=0, updates=250]2026-11-05 11:32:10,053 INFO train step 2000/3535 loss=0.8244 updates=250 pairs=2000 skipped=0
+train:  57%|█████▋    | 2019/3535 [09:51<07:25,  3.41it/s, loss=0.8221, skipped=0, updates=252]2026-11-05 11:32:15,942 INFO train step 2020/3535 loss=0.8221 updates=252 pairs=2020 skipped=0
+train:  58%|█████▊    | 2039/3535 [09:57<07:12,  3.46it/s, loss=0.8220, skipped=0, updates=255]2026-11-05 11:32:21,847 INFO train step 2040/3535 loss=0.8220 updates=255 pairs=2040 skipped=0
+train:  58%|█████▊    | 2059/3535 [10:03<07:11,  3.42it/s, loss=0.8208, skipped=0, updates=257]2026-11-05 11:32:27,858 INFO train step 2060/3535 loss=0.8208 updates=257 pairs=2060 skipped=0
+train:  59%|█████▉    | 2079/3535 [10:09<06:57,  3.48it/s, loss=0.8193, skipped=0, updates=260]2026-11-05 11:32:33,750 INFO train step 2080/3535 loss=0.8193 updates=260 pairs=2080 skipped=0
+train:  59%|█████▉    | 2099/3535 [10:15<06:51,  3.49it/s, loss=0.8179, skipped=0, updates=262]2026-11-05 11:32:39,572 INFO train step 2100/3535 loss=0.8179 updates=262 pairs=2100 skipped=0
+train:  60%|█████▉    | 2119/3535 [10:21<06:51,  3.45it/s, loss=0.8176, skipped=0, updates=265]2026-11-05 11:32:45,452 INFO train step 2120/3535 loss=0.8176 updates=265 pairs=2120 skipped=0
+train:  61%|██████    | 2139/3535 [10:27<06:33,  3.55it/s, loss=0.8171, skipped=0, updates=267]2026-11-05 11:32:51,260 INFO train step 2140/3535 loss=0.8171 updates=267 pairs=2140 skipped=0
+train:  61%|██████    | 2159/3535 [10:32<07:10,  3.20it/s, loss=0.8162, skipped=0, updates=270]2026-11-05 11:32:57,120 INFO train step 2160/3535 loss=0.8162 updates=270 pairs=2160 skipped=0
+train:  62%|██████▏   | 2179/3535 [10:38<07:07,  3.17it/s, loss=0.8157, skipped=0, updates=272]2026-11-05 11:33:02,970 INFO train step 2180/3535 loss=0.8157 updates=272 pairs=2180 skipped=0
+train:  62%|██████▏   | 2199/3535 [10:44<06:33,  3.40it/s, loss=0.8152, skipped=0, updates=275]2026-11-05 11:33:08,699 INFO train step 2200/3535 loss=0.8152 updates=275 pairs=2200 skipped=0
+train:  63%|██████▎   | 2219/3535 [10:50<06:22,  3.44it/s, loss=0.8166, skipped=0, updates=277]2026-11-05 11:33:14,425 INFO train step 2220/3535 loss=0.8166 updates=277 pairs=2220 skipped=0
+train:  63%|██████▎   | 2239/3535 [10:56<06:17,  3.43it/s, loss=0.8160, skipped=0, updates=280]2026-11-05 11:33:20,248 INFO train step 2240/3535 loss=0.8160 updates=280 pairs=2240 skipped=0
+train:  64%|██████▍   | 2259/3535 [11:01<06:07,  3.47it/s, loss=0.8177, skipped=0, updates=282]2026-11-05 11:33:26,065 INFO train step 2260/3535 loss=0.8177 updates=282 pairs=2260 skipped=0
+train:  64%|██████▍   | 2279/3535 [11:07<06:28,  3.24it/s, loss=0.8179, skipped=0, updates=285]2026-11-05 11:33:32,050 INFO train step 2280/3535 loss=0.8179 updates=285 pairs=2280 skipped=0
+train:  65%|██████▌   | 2299/3535 [11:13<05:59,  3.44it/s, loss=0.8174, skipped=0, updates=287]2026-11-05 11:33:37,943 INFO train step 2300/3535 loss=0.8174 updates=287 pairs=2300 skipped=0
+train:  66%|██████▌   | 2319/3535 [11:19<05:51,  3.46it/s, loss=0.8151, skipped=0, updates=290]2026-11-05 11:33:43,911 INFO train step 2320/3535 loss=0.8151 updates=290 pairs=2320 skipped=0
+train:  66%|██████▌   | 2339/3535 [11:25<05:49,  3.42it/s, loss=0.8144, skipped=0, updates=292]2026-11-05 11:33:49,833 INFO train step 2340/3535 loss=0.8144 updates=292 pairs=2340 skipped=0
+train:  67%|██████▋   | 2359/3535 [11:31<05:41,  3.45it/s, loss=0.8136, skipped=0, updates=295]2026-11-05 11:33:55,749 INFO train step 2360/3535 loss=0.8136 updates=295 pairs=2360 skipped=0
+train:  67%|██████▋   | 2379/3535 [11:37<05:32,  3.47it/s, loss=0.8142, skipped=0, updates=297]2026-11-05 11:34:01,651 INFO train step 2380/3535 loss=0.8142 updates=297 pairs=2380 skipped=0
+train:  68%|██████▊   | 2399/3535 [11:43<05:29,  3.45it/s, loss=0.8140, skipped=0, updates=300]2026-11-05 11:34:07,632 INFO train step 2400/3535 loss=0.8140 updates=300 pairs=2400 skipped=0
+train:  68%|██████▊   | 2419/3535 [11:49<05:21,  3.47it/s, loss=0.8145, skipped=0, updates=302]2026-11-05 11:34:13,514 INFO train step 2420/3535 loss=0.8145 updates=302 pairs=2420 skipped=0
+train:  69%|██████▉   | 2439/3535 [11:55<05:53,  3.10it/s, loss=0.8139, skipped=0, updates=305]2026-11-05 11:34:19,469 INFO train step 2440/3535 loss=0.8139 updates=305 pairs=2440 skipped=0
+train:  70%|██████▉   | 2459/3535 [12:01<05:48,  3.08it/s, loss=0.8131, skipped=0, updates=307]2026-11-05 11:34:25,343 INFO train step 2460/3535 loss=0.8131 updates=307 pairs=2460 skipped=0
+train:  70%|███████   | 2479/3535 [12:07<05:23,  3.26it/s, loss=0.8136, skipped=0, updates=310]2026-11-05 11:34:31,249 INFO train step 2480/3535 loss=0.8136 updates=310 pairs=2480 skipped=0
+train:  71%|███████   | 2499/3535 [12:13<05:25,  3.18it/s, loss=0.8121, skipped=0, updates=312]2026-11-05 11:34:37,211 INFO train step 2500/3535 loss=0.8121 updates=312 pairs=2500 skipped=0
+train:  71%|███████▏  | 2519/3535 [12:18<05:02,  3.36it/s, loss=0.8113, skipped=0, updates=315]2026-11-05 11:34:43,133 INFO train step 2520/3535 loss=0.8113 updates=315 pairs=2520 skipped=0
+train:  72%|███████▏  | 2539/3535 [12:24<04:45,  3.49it/s, loss=0.8125, skipped=0, updates=317]2026-11-05 11:34:48,887 INFO train step 2540/3535 loss=0.8125 updates=317 pairs=2540 skipped=0
+train:  72%|███████▏  | 2559/3535 [12:30<04:41,  3.47it/s, loss=0.8121, skipped=0, updates=320]2026-11-05 11:34:54,685 INFO train step 2560/3535 loss=0.8121 updates=320 pairs=2560 skipped=0
+train:  73%|███████▎  | 2579/3535 [12:36<04:30,  3.54it/s, loss=0.8129, skipped=0, updates=322]2026-11-05 11:35:00,524 INFO train step 2580/3535 loss=0.8129 updates=322 pairs=2580 skipped=0
+train:  74%|███████▎  | 2599/3535 [12:42<04:22,  3.57it/s, loss=0.8134, skipped=0, updates=325]2026-11-05 11:35:06,308 INFO train step 2600/3535 loss=0.8134 updates=325 pairs=2600 skipped=0
+train:  74%|███████▍  | 2619/3535 [12:47<04:19,  3.52it/s, loss=0.8152, skipped=0, updates=327]2026-11-05 11:35:12,160 INFO train step 2620/3535 loss=0.8152 updates=327 pairs=2620 skipped=0
+train:  75%|███████▍  | 2639/3535 [12:53<04:11,  3.56it/s, loss=0.8145, skipped=0, updates=330]2026-11-05 11:35:17,953 INFO train step 2640/3535 loss=0.8145 updates=330 pairs=2640 skipped=0
+train:  75%|███████▌  | 2659/3535 [12:59<04:12,  3.48it/s, loss=0.8128, skipped=0, updates=332]2026-11-05 11:35:23,800 INFO train step 2660/3535 loss=0.8128 updates=332 pairs=2660 skipped=0
+train:  76%|███████▌  | 2679/3535 [13:05<03:57,  3.60it/s, loss=0.8139, skipped=0, updates=335]2026-11-05 11:35:29,607 INFO train step 2680/3535 loss=0.8139 updates=335 pairs=2680 skipped=0
+train:  76%|███████▋  | 2699/3535 [13:11<03:53,  3.58it/s, loss=0.8138, skipped=0, updates=337]2026-11-05 11:35:35,258 INFO train step 2700/3535 loss=0.8138 updates=337 pairs=2700 skipped=0
+train:  77%|███████▋  | 2719/3535 [13:16<04:17,  3.16it/s, loss=0.8131, skipped=0, updates=340]2026-11-05 11:35:41,062 INFO train step 2720/3535 loss=0.8131 updates=340 pairs=2720 skipped=0
+train:  77%|███████▋  | 2739/3535 [13:22<04:21,  3.05it/s, loss=0.8126, skipped=0, updates=342]2026-11-05 11:35:46,910 INFO train step 2740/3535 loss=0.8126 updates=342 pairs=2740 skipped=0
+train:  78%|███████▊  | 2759/3535 [13:28<03:47,  3.41it/s, loss=0.8126, skipped=0, updates=345]2026-11-05 11:35:52,578 INFO train step 2760/3535 loss=0.8126 updates=345 pairs=2760 skipped=0
+train:  79%|███████▊  | 2779/3535 [13:34<03:33,  3.53it/s, loss=0.8108, skipped=0, updates=347]2026-11-05 11:35:58,207 INFO train step 2780/3535 loss=0.8108 updates=347 pairs=2780 skipped=0
+train:  79%|███████▉  | 2799/3535 [13:39<03:39,  3.36it/s, loss=0.8108, skipped=0, updates=350]2026-11-05 11:36:03,999 INFO train step 2800/3535 loss=0.8108 updates=350 pairs=2800 skipped=0
+train:  80%|███████▉  | 2819/3535 [13:45<03:29,  3.41it/s, loss=0.8115, skipped=0, updates=352]2026-11-05 11:36:09,887 INFO train step 2820/3535 loss=0.8115 updates=352 pairs=2820 skipped=0
+train:  80%|████████  | 2839/3535 [13:51<03:33,  3.25it/s, loss=0.8104, skipped=0, updates=355]2026-11-05 11:36:15,874 INFO train step 2840/3535 loss=0.8104 updates=355 pairs=2840 skipped=0
+train:  81%|████████  | 2859/3535 [13:57<03:10,  3.55it/s, loss=0.8101, skipped=0, updates=357]2026-11-05 11:36:21,718 INFO train step 2860/3535 loss=0.8101 updates=357 pairs=2860 skipped=0
+train:  81%|████████▏ | 2879/3535 [14:03<03:01,  3.62it/s, loss=0.8096, skipped=0, updates=360]2026-11-05 11:36:27,366 INFO train step 2880/3535 loss=0.8096 updates=360 pairs=2880 skipped=0
+train:  82%|████████▏ | 2899/3535 [14:08<02:54,  3.64it/s, loss=0.8096, skipped=0, updates=362]2026-11-05 11:36:32,973 INFO train step 2900/3535 loss=0.8096 updates=362 pairs=2900 skipped=0
+train:  83%|████████▎ | 2919/3535 [14:14<02:49,  3.63it/s, loss=0.8104, skipped=0, updates=365]2026-11-05 11:36:38,606 INFO train step 2920/3535 loss=0.8104 updates=365 pairs=2920 skipped=0
+train:  83%|████████▎ | 2939/3535 [14:20<02:45,  3.61it/s, loss=0.8092, skipped=0, updates=367]2026-11-05 11:36:44,270 INFO train step 2940/3535 loss=0.8092 updates=367 pairs=2940 skipped=0
+train:  84%|████████▎ | 2959/3535 [14:25<02:41,  3.58it/s, loss=0.8093, skipped=0, updates=370]2026-11-05 11:36:50,020 INFO train step 2960/3535 loss=0.8093 updates=370 pairs=2960 skipped=0
+train:  84%|████████▍ | 2979/3535 [14:31<02:34,  3.59it/s, loss=0.8118, skipped=0, updates=372]2026-11-05 11:36:55,654 INFO train step 2980/3535 loss=0.8118 updates=372 pairs=2980 skipped=0
+train:  85%|████████▍ | 2999/3535 [14:37<02:52,  3.10it/s, loss=0.8108, skipped=0, updates=375]2026-11-05 11:37:01,575 INFO train step 3000/3535 loss=0.8108 updates=375 pairs=3000 skipped=0
+train:  85%|████████▌ | 3019/3535 [14:43<02:46,  3.10it/s, loss=0.8103, skipped=0, updates=377]2026-11-05 11:37:07,471 INFO train step 3020/3535 loss=0.8103 updates=377 pairs=3020 skipped=0
+train:  86%|████████▌ | 3039/3535 [14:49<02:29,  3.31it/s, loss=0.8091, skipped=0, updates=380]2026-11-05 11:37:13,342 INFO train step 3040/3535 loss=0.8091 updates=380 pairs=3040 skipped=0
+train:  87%|████████▋ | 3059/3535 [14:55<02:21,  3.36it/s, loss=0.8096, skipped=0, updates=382]2026-11-05 11:37:19,247 INFO train step 3060/3535 loss=0.8096 updates=382 pairs=3060 skipped=0
+train:  87%|████████▋ | 3079/3535 [15:01<02:15,  3.36it/s, loss=0.8088, skipped=0, updates=385]2026-11-05 11:37:25,256 INFO train step 3080/3535 loss=0.8088 updates=385 pairs=3080 skipped=0
+train:  88%|████████▊ | 3099/3535 [15:06<02:07,  3.42it/s, loss=0.8079, skipped=0, updates=387]2026-11-05 11:37:31,166 INFO train step 3100/3535 loss=0.8079 updates=387 pairs=3100 skipped=0
+train:  88%|████████▊ | 3119/3535 [15:12<01:59,  3.49it/s, loss=0.8079, skipped=0, updates=390]2026-11-05 11:37:37,071 INFO train step 3120/3535 loss=0.8079 updates=390 pairs=3120 skipped=0
+train:  89%|████████▉ | 3139/3535 [15:18<01:54,  3.47it/s, loss=0.8082, skipped=0, updates=392]2026-11-05 11:37:42,836 INFO train step 3140/3535 loss=0.8082 updates=392 pairs=3140 skipped=0
+train:  89%|████████▉ | 3159/3535 [15:24<01:48,  3.47it/s, loss=0.8075, skipped=0, updates=395]2026-11-05 11:37:48,674 INFO train step 3160/3535 loss=0.8075 updates=395 pairs=3160 skipped=0
+train:  90%|████████▉ | 3179/3535 [15:30<01:43,  3.43it/s, loss=0.8067, skipped=0, updates=397]2026-11-05 11:37:54,547 INFO train step 3180/3535 loss=0.8067 updates=397 pairs=3180 skipped=0
+train:  90%|█████████ | 3199/3535 [15:36<01:38,  3.40it/s, loss=0.8062, skipped=0, updates=400]2026-11-05 11:38:00,408 INFO train step 3200/3535 loss=0.8062 updates=400 pairs=3200 skipped=0
+train:  91%|█████████ | 3219/3535 [15:42<01:30,  3.51it/s, loss=0.8061, skipped=0, updates=402]2026-11-05 11:38:06,271 INFO train step 3220/3535 loss=0.8061 updates=402 pairs=3220 skipped=0
+train:  92%|█████████▏| 3239/3535 [15:47<01:24,  3.48it/s, loss=0.8063, skipped=0, updates=405]2026-11-05 11:38:12,158 INFO train step 3240/3535 loss=0.8063 updates=405 pairs=3240 skipped=0
+train:  92%|█████████▏| 3259/3535 [15:53<01:19,  3.45it/s, loss=0.8056, skipped=0, updates=407]2026-11-05 11:38:18,038 INFO train step 3260/3535 loss=0.8056 updates=407 pairs=3260 skipped=0
+train:  93%|█████████▎| 3279/3535 [15:59<01:22,  3.12it/s, loss=0.8068, skipped=0, updates=410]2026-11-05 11:38:24,062 INFO train step 3280/3535 loss=0.8068 updates=410 pairs=3280 skipped=0
+train:  93%|█████████▎| 3299/3535 [16:05<01:17,  3.06it/s, loss=0.8073, skipped=0, updates=412]2026-11-05 11:38:30,034 INFO train step 3300/3535 loss=0.8073 updates=412 pairs=3300 skipped=0
+train:  94%|█████████▍| 3319/3535 [16:11<01:05,  3.31it/s, loss=0.8074, skipped=0, updates=415]2026-11-05 11:38:35,896 INFO train step 3320/3535 loss=0.8074 updates=415 pairs=3320 skipped=0
+train:  94%|█████████▍| 3339/3535 [16:17<00:57,  3.42it/s, loss=0.8069, skipped=0, updates=417]2026-11-05 11:38:41,678 INFO train step 3340/3535 loss=0.8069 updates=417 pairs=3340 skipped=0
+train:  95%|█████████▌| 3359/3535 [16:23<00:51,  3.43it/s, loss=0.8065, skipped=0, updates=420]2026-11-05 11:38:47,505 INFO train step 3360/3535 loss=0.8065 updates=420 pairs=3360 skipped=0
+train:  96%|█████████▌| 3379/3535 [16:29<00:45,  3.44it/s, loss=0.8070, skipped=0, updates=422]2026-11-05 11:38:53,395 INFO train step 3380/3535 loss=0.8070 updates=422 pairs=3380 skipped=0
+train:  96%|█████████▌| 3399/3535 [16:35<00:41,  3.26it/s, loss=0.8058, skipped=0, updates=425]2026-11-05 11:38:59,341 INFO train step 3400/3535 loss=0.8058 updates=425 pairs=3400 skipped=0
+train:  97%|█████████▋| 3419/3535 [16:41<00:33,  3.44it/s, loss=0.8061, skipped=0, updates=427]2026-11-05 11:39:05,178 INFO train step 3420/3535 loss=0.8061 updates=427 pairs=3420 skipped=0
+train:  97%|█████████▋| 3439/3535 [16:46<00:27,  3.44it/s, loss=0.8051, skipped=0, updates=430]2026-11-05 11:39:11,085 INFO train step 3440/3535 loss=0.8051 updates=430 pairs=3440 skipped=0
+train:  98%|█████████▊| 3459/3535 [16:52<00:21,  3.47it/s, loss=0.8049, skipped=0, updates=432]2026-11-05 11:39:16,966 INFO train step 3460/3535 loss=0.8049 updates=432 pairs=3460 skipped=0
+train:  98%|█████████▊| 3479/3535 [16:58<00:16,  3.48it/s, loss=0.8049, skipped=0, updates=435]2026-11-05 11:39:22,849 INFO train step 3480/3535 loss=0.8049 updates=435 pairs=3480 skipped=0
+train:  99%|█████████▉| 3499/3535 [17:04<00:10,  3.44it/s, loss=0.8042, skipped=0, updates=437]2026-11-05 11:39:28,705 INFO train step 3500/3535 loss=0.8042 updates=437 pairs=3500 skipped=0
+train: 100%|█████████▉| 3519/3535 [17:10<00:04,  3.49it/s, loss=0.8031, skipped=0, updates=440]2026-11-05 11:39:34,677 INFO train step 3520/3535 loss=0.8031 updates=440 pairs=3520 skipped=0
+train: 100%|█████████▉| 3534/3535 [17:14<00:00,  3.58it/s, loss=0.8040, skipped=0, updates=441]2026-11-05 11:39:39,008 INFO train step 3535/3535 loss=0.8040 updates=441 pairs=3535 skipped=0
+2026-11-05 11:40:24,107 INFO Epoch 2 train={"loss": 0.8039759861950827, "pairs": 3535, "updates": 442, "skipped_batches": 0} validation={"loss": 0.7842199057680831, "pairs": 438}
+2026-11-05 11:40:24,616 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:40:24,643 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%22f81ead14ab072d65a07817f83a3ee0e5a1890d10%22 "HTTP/1.1 200 OK"
+2026-11-05 11:40:24,795 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/revision/main "HTTP/1.1 200 OK"
+2026-11-05 11:40:24,959 INFO Saved best Stage 4 checkpoint to /workspace/knee-mri-rrg/checkpoints/stage4/best
+train:   1%|          | 19/3535 [00:05<16:10,  3.62it/s, loss=0.7065, skipped=0, updates=2]2026-11-05 11:40:30,943 INFO train step 20/3535 loss=0.7065 updates=2 pairs=20 skipped=0
+train:   1%|          | 39/3535 [00:11<16:32,  3.52it/s, loss=0.7126, skipped=0, updates=5]2026-11-05 11:40:36,702 INFO train step 40/3535 loss=0.7126 updates=5 pairs=40 skipped=0
+train:   2%|▏         | 59/3535 [00:17<16:28,  3.51it/s, loss=0.6734, skipped=0, updates=7]2026-11-05 11:40:42,650 INFO train step 60/3535 loss=0.6734 updates=7 pairs=60 skipped=0
+train:   2%|▏         | 79/3535 [00:23<16:32,  3.48it/s, loss=0.6737, skipped=0, updates=10]2026-11-05 11:40:48,659 INFO train step 80/3535 loss=0.6737 updates=10 pairs=80 skipped=0
+train:   3%|▎         | 99/3535 [00:29<18:03,  3.17it/s, loss=0.6751, skipped=0, updates=12]2026-11-05 11:40:54,372 INFO train step 100/3535 loss=0.6751 updates=12 pairs=100 skipped=0
+train:   3%|▎         | 119/3535 [00:35<17:45,  3.21it/s, loss=0.7258, skipped=0, updates=15]2026-11-05 11:41:00,208 INFO train step 120/3535 loss=0.7258 updates=15 pairs=120 skipped=0
+train:   4%|▍         | 139/3535 [00:41<17:06,  3.31it/s, loss=0.7256, skipped=0, updates=17]2026-11-05 11:41:06,112 INFO train step 140/3535 loss=0.7256 updates=17 pairs=140 skipped=0
+train:   4%|▍         | 159/3535 [00:47<17:15,  3.26it/s, loss=0.7258, skipped=0, updates=20]2026-11-05 11:41:12,145 INFO train step 160/3535 loss=0.7258 updates=20 pairs=160 skipped=0
+train:   5%|▌         | 179/3535 [00:53<16:29,  3.39it/s, loss=0.7148, skipped=0, updates=22]2026-11-05 11:41:17,999 INFO train step 180/3535 loss=0.7148 updates=22 pairs=180 skipped=0
+train:   6%|▌         | 199/3535 [00:58<15:49,  3.51it/s, loss=0.7037, skipped=0, updates=25]2026-11-05 11:41:23,830 INFO train step 200/3535 loss=0.7037 updates=25 pairs=200 skipped=0
+train:   6%|▌         | 219/3535 [01:04<16:01,  3.45it/s, loss=0.6911, skipped=0, updates=27]2026-11-05 11:41:29,756 INFO train step 220/3535 loss=0.6911 updates=27 pairs=220 skipped=0
+train:   7%|▋         | 239/3535 [01:10<15:49,  3.47it/s, loss=0.6792, skipped=0, updates=30]2026-11-05 11:41:35,676 INFO train step 240/3535 loss=0.6792 updates=30 pairs=240 skipped=0
+train:   7%|▋         | 259/3535 [01:16<15:34,  3.50it/s, loss=0.6944, skipped=0, updates=32]2026-11-05 11:41:41,506 INFO train step 260/3535 loss=0.6944 updates=32 pairs=260 skipped=0
+train:   8%|▊         | 279/3535 [01:22<15:20,  3.54it/s, loss=0.6876, skipped=0, updates=35]2026-11-05 11:41:47,425 INFO train step 280/3535 loss=0.6876 updates=35 pairs=280 skipped=0
+train:   8%|▊         | 299/3535 [01:28<15:21,  3.51it/s, loss=0.6820, skipped=0, updates=37]2026-11-05 11:41:53,241 INFO train step 300/3535 loss=0.6820 updates=37 pairs=300 skipped=0
+train:   9%|▉         | 319/3535 [01:34<15:10,  3.53it/s, loss=0.6864, skipped=0, updates=40]2026-11-05 11:41:59,080 INFO train step 320/3535 loss=0.6864 updates=40 pairs=320 skipped=0
+train:  10%|▉         | 339/3535 [01:39<15:13,  3.50it/s, loss=0.6949, skipped=0, updates=42]2026-11-05 11:42:04,900 INFO train step 340/3535 loss=0.6949 updates=42 pairs=340 skipped=0
+train:  10%|█         | 359/3535 [01:45<14:44,  3.59it/s, loss=0.6908, skipped=0, updates=45]2026-11-05 11:42:10,750 INFO train step 360/3535 loss=0.6908 updates=45 pairs=360 skipped=0
+train:  11%|█         | 379/3535 [01:51<17:33,  3.00it/s, loss=0.6966, skipped=0, updates=47]2026-11-05 11:42:16,703 INFO train step 380/3535 loss=0.6966 updates=47 pairs=380 skipped=0
+train:  11%|█▏        | 399/3535 [01:57<15:56,  3.28it/s, loss=0.6953, skipped=0, updates=50]2026-11-05 11:42:22,494 INFO train step 400/3535 loss=0.6953 updates=50 pairs=400 skipped=0
+train:  12%|█▏        | 419/3535 [02:03<15:32,  3.34it/s, loss=0.6997, skipped=0, updates=52]2026-11-05 11:42:28,330 INFO train step 420/3535 loss=0.6997 updates=52 pairs=420 skipped=0
+train:  12%|█▏        | 439/3535 [02:09<14:47,  3.49it/s, loss=0.7027, skipped=0, updates=55]2026-11-05 11:42:34,161 INFO train step 440/3535 loss=0.7027 updates=55 pairs=440 skipped=0
+train:  13%|█▎        | 459/3535 [02:15<15:04,  3.40it/s, loss=0.6937, skipped=0, updates=57]2026-11-05 11:42:40,024 INFO train step 460/3535 loss=0.6937 updates=57 pairs=460 skipped=0
+train:  14%|█▎        | 479/3535 [02:20<14:42,  3.46it/s, loss=0.6915, skipped=0, updates=60]2026-11-05 11:42:45,941 INFO train step 480/3535 loss=0.6915 updates=60 pairs=480 skipped=0
+train:  14%|█▍        | 499/3535 [02:26<14:44,  3.43it/s, loss=0.6904, skipped=0, updates=62]2026-11-05 11:42:51,893 INFO train step 500/3535 loss=0.6904 updates=62 pairs=500 skipped=0
+train:  15%|█▍        | 519/3535 [02:32<14:18,  3.51it/s, loss=0.6852, skipped=0, updates=65]2026-11-05 11:42:57,778 INFO train step 520/3535 loss=0.6852 updates=65 pairs=520 skipped=0
+train:  15%|█▌        | 539/3535 [02:38<14:31,  3.44it/s, loss=0.6856, skipped=0, updates=67]2026-11-05 11:43:03,652 INFO train step 540/3535 loss=0.6856 updates=67 pairs=540 skipped=0
+train:  16%|█▌        | 559/3535 [02:44<14:17,  3.47it/s, loss=0.6898, skipped=0, updates=70]2026-11-05 11:43:09,511 INFO train step 560/3535 loss=0.6898 updates=70 pairs=560 skipped=0
+train:  16%|█▋        | 579/3535 [02:50<14:05,  3.49it/s, loss=0.6859, skipped=0, updates=72]2026-11-05 11:43:15,354 INFO train step 580/3535 loss=0.6859 updates=72 pairs=580 skipped=0
+train:  17%|█▋        | 599/3535 [02:56<13:53,  3.52it/s, loss=0.6813, skipped=0, updates=75]2026-11-05 11:43:21,206 INFO train step 600/3535 loss=0.6813 updates=75 pairs=600 skipped=0
+train:  18%|█▊        | 619/3535 [03:02<13:53,  3.50it/s, loss=0.6800, skipped=0, updates=77]2026-11-05 11:43:27,127 INFO train step 620/3535 loss=0.6800 updates=77 pairs=620 skipped=0
+train:  18%|█▊        | 639/3535 [03:08<13:43,  3.52it/s, loss=0.6791, skipped=0, updates=80]2026-11-05 11:43:33,088 INFO train step 640/3535 loss=0.6791 updates=80 pairs=640 skipped=0
+train:  19%|█▊        | 659/3535 [03:13<15:23,  3.11it/s, loss=0.6782, skipped=0, updates=82]2026-11-05 11:43:38,918 INFO train step 660/3535 loss=0.6782 updates=82 pairs=660 skipped=0
+train:  19%|█▉        | 679/3535 [03:19<14:56,  3.18it/s, loss=0.6735, skipped=0, updates=85]2026-11-05 11:43:44,811 INFO train step 680/3535 loss=0.6735 updates=85 pairs=680 skipped=0
+train:  20%|█▉        | 699/3535 [03:25<14:07,  3.35it/s, loss=0.6741, skipped=0, updates=87]2026-11-05 11:43:50,713 INFO train step 700/3535 loss=0.6741 updates=87 pairs=700 skipped=0
+train:  20%|██        | 719/3535 [03:31<13:59,  3.36it/s, loss=0.6739, skipped=0, updates=90]2026-11-05 11:43:56,665 INFO train step 720/3535 loss=0.6739 updates=90 pairs=720 skipped=0
+train:  21%|██        | 739/3535 [03:37<13:31,  3.44it/s, loss=0.6764, skipped=0, updates=92]2026-11-05 11:44:02,428 INFO train step 740/3535 loss=0.6764 updates=92 pairs=740 skipped=0
+train:  21%|██▏       | 759/3535 [03:43<13:14,  3.49it/s, loss=0.6754, skipped=0, updates=95]2026-11-05 11:44:08,277 INFO train step 760/3535 loss=0.6754 updates=95 pairs=760 skipped=0
+train:  22%|██▏       | 779/3535 [03:49<13:19,  3.45it/s, loss=0.6748, skipped=0, updates=97]2026-11-05 11:44:14,165 INFO train step 780/3535 loss=0.6748 updates=97 pairs=780 skipped=0
+train:  23%|██▎       | 799/3535 [03:55<12:59,  3.51it/s, loss=0.6735, skipped=0, updates=100]2026-11-05 11:44:20,017 INFO train step 800/3535 loss=0.6735 updates=100 pairs=800 skipped=0
+train:  23%|██▎       | 819/3535 [04:00<12:59,  3.48it/s, loss=0.6760, skipped=0, updates=102]2026-11-05 11:44:25,866 INFO train step 820/3535 loss=0.6760 updates=102 pairs=820 skipped=0
+train:  24%|██▎       | 839/3535 [04:06<12:43,  3.53it/s, loss=0.6774, skipped=0, updates=105]2026-11-05 11:44:31,798 INFO train step 840/3535 loss=0.6774 updates=105 pairs=840 skipped=0
+train:  24%|██▍       | 859/3535 [04:12<12:51,  3.47it/s, loss=0.6783, skipped=0, updates=107]2026-11-05 11:44:37,665 INFO train step 860/3535 loss=0.6783 updates=107 pairs=860 skipped=0
+train:  25%|██▍       | 879/3535 [04:18<12:42,  3.48it/s, loss=0.6751, skipped=0, updates=110]2026-11-05 11:44:43,557 INFO train step 880/3535 loss=0.6751 updates=110 pairs=880 skipped=0
+train:  25%|██▌       | 899/3535 [04:24<12:36,  3.48it/s, loss=0.6763, skipped=0, updates=112]2026-11-05 11:44:49,424 INFO train step 900/3535 loss=0.6763 updates=112 pairs=900 skipped=0
+train:  26%|██▌       | 919/3535 [04:30<12:38,  3.45it/s, loss=0.6756, skipped=0, updates=115]2026-11-05 11:44:55,454 INFO train step 920/3535 loss=0.6756 updates=115 pairs=920 skipped=0
+train:  27%|██▋       | 939/3535 [04:36<14:27,  2.99it/s, loss=0.6759, skipped=0, updates=117]2026-11-05 11:45:01,400 INFO train step 940/3535 loss=0.6759 updates=117 pairs=940 skipped=0
+train:  27%|██▋       | 959/3535 [04:42<13:19,  3.22it/s, loss=0.6782, skipped=0, updates=120]2026-11-05 11:45:07,315 INFO train step 960/3535 loss=0.6782 updates=120 pairs=960 skipped=0
+train:  28%|██▊       | 979/3535 [04:48<12:45,  3.34it/s, loss=0.6782, skipped=0, updates=122]2026-11-05 11:45:13,191 INFO train step 980/3535 loss=0.6782 updates=122 pairs=980 skipped=0
+train:  28%|██▊       | 999/3535 [04:54<12:11,  3.47it/s, loss=0.6775, skipped=0, updates=125]2026-11-05 11:45:19,057 INFO train step 1000/3535 loss=0.6775 updates=125 pairs=1000 skipped=0
+train:  29%|██▉       | 1019/3535 [04:59<11:53,  3.53it/s, loss=0.6777, skipped=0, updates=127]2026-11-05 11:45:24,756 INFO train step 1020/3535 loss=0.6777 updates=127 pairs=1020 skipped=0
+train:  29%|██▉       | 1039/3535 [05:05<11:40,  3.56it/s, loss=0.6790, skipped=0, updates=130]2026-11-05 11:45:30,471 INFO train step 1040/3535 loss=0.6790 updates=130 pairs=1040 skipped=0
+train:  30%|██▉       | 1059/3535 [05:11<11:56,  3.45it/s, loss=0.6818, skipped=0, updates=132]2026-11-05 11:45:36,366 INFO train step 1060/3535 loss=0.6818 updates=132 pairs=1060 skipped=0
+train:  31%|███       | 1079/3535 [05:17<11:57,  3.42it/s, loss=0.6818, skipped=0, updates=135]2026-11-05 11:45:42,276 INFO train step 1080/3535 loss=0.6818 updates=135 pairs=1080 skipped=0
+train:  31%|███       | 1099/3535 [05:23<11:20,  3.58it/s, loss=0.6789, skipped=0, updates=137]2026-11-05 11:45:47,985 INFO train step 1100/3535 loss=0.6789 updates=137 pairs=1100 skipped=0
+train:  32%|███▏      | 1119/3535 [05:28<11:23,  3.53it/s, loss=0.6808, skipped=0, updates=140]2026-11-05 11:45:53,816 INFO train step 1120/3535 loss=0.6808 updates=140 pairs=1120 skipped=0
+train:  32%|███▏      | 1139/3535 [05:34<11:21,  3.52it/s, loss=0.6787, skipped=0, updates=142]2026-11-05 11:45:59,635 INFO train step 1140/3535 loss=0.6787 updates=142 pairs=1140 skipped=0
+train:  33%|███▎      | 1159/3535 [05:40<11:18,  3.50it/s, loss=0.6759, skipped=0, updates=145]2026-11-05 11:46:05,470 INFO train step 1160/3535 loss=0.6759 updates=145 pairs=1160 skipped=0
+train:  33%|███▎      | 1179/3535 [05:46<11:20,  3.46it/s, loss=0.6735, skipped=0, updates=147]2026-11-05 11:46:11,392 INFO train step 1180/3535 loss=0.6735 updates=147 pairs=1180 skipped=0
+train:  34%|███▍      | 1199/3535 [05:52<11:04,  3.51it/s, loss=0.6718, skipped=0, updates=150]2026-11-05 11:46:17,367 INFO train step 1200/3535 loss=0.6718 updates=150 pairs=1200 skipped=0
+train:  34%|███▍      | 1219/3535 [05:58<12:25,  3.11it/s, loss=0.6691, skipped=0, updates=152]2026-11-05 11:46:23,208 INFO train step 1220/3535 loss=0.6691 updates=152 pairs=1220 skipped=0
+train:  35%|███▌      | 1239/3535 [06:04<11:56,  3.21it/s, loss=0.6711, skipped=0, updates=155]2026-11-05 11:46:29,051 INFO train step 1240/3535 loss=0.6711 updates=155 pairs=1240 skipped=0
+train:  36%|███▌      | 1259/3535 [06:09<11:21,  3.34it/s, loss=0.6698, skipped=0, updates=157]2026-11-05 11:46:34,899 INFO train step 1260/3535 loss=0.6698 updates=157 pairs=1260 skipped=0
+train:  36%|███▌      | 1279/3535 [06:15<11:14,  3.34it/s, loss=0.6706, skipped=0, updates=160]2026-11-05 11:46:40,915 INFO train step 1280/3535 loss=0.6706 updates=160 pairs=1280 skipped=0
+train:  37%|███▋      | 1299/3535 [06:21<10:54,  3.42it/s, loss=0.6718, skipped=0, updates=162]2026-11-05 11:46:46,760 INFO train step 1300/3535 loss=0.6718 updates=162 pairs=1300 skipped=0
+train:  37%|███▋      | 1319/3535 [06:27<10:44,  3.44it/s, loss=0.6716, skipped=0, updates=165]2026-11-05 11:46:52,607 INFO train step 1320/3535 loss=0.6716 updates=165 pairs=1320 skipped=0
+train:  38%|███▊      | 1339/3535 [06:33<10:32,  3.47it/s, loss=0.6709, skipped=0, updates=167]2026-11-05 11:46:58,426 INFO train step 1340/3535 loss=0.6709 updates=167 pairs=1340 skipped=0
+train:  38%|███▊      | 1359/3535 [06:39<10:29,  3.46it/s, loss=0.6708, skipped=0, updates=170]2026-11-05 11:47:04,294 INFO train step 1360/3535 loss=0.6708 updates=170 pairs=1360 skipped=0
+train:  39%|███▉      | 1379/3535 [06:45<10:18,  3.49it/s, loss=0.6730, skipped=0, updates=172]2026-11-05 11:47:10,143 INFO train step 1380/3535 loss=0.6730 updates=172 pairs=1380 skipped=0
+train:  40%|███▉      | 1399/3535 [06:51<09:52,  3.60it/s, loss=0.6722, skipped=0, updates=175]2026-11-05 11:47:16,006 INFO train step 1400/3535 loss=0.6722 updates=175 pairs=1400 skipped=0
+train:  40%|████      | 1419/3535 [06:56<09:48,  3.60it/s, loss=0.6707, skipped=0, updates=177]2026-11-05 11:47:21,681 INFO train step 1420/3535 loss=0.6707 updates=177 pairs=1420 skipped=0
+train:  41%|████      | 1439/3535 [07:02<09:38,  3.63it/s, loss=0.6697, skipped=0, updates=180]2026-11-05 11:47:27,381 INFO train step 1440/3535 loss=0.6697 updates=180 pairs=1440 skipped=0
+train:  41%|████▏     | 1459/3535 [07:08<09:44,  3.55it/s, loss=0.6690, skipped=0, updates=182]2026-11-05 11:47:33,084 INFO train step 1460/3535 loss=0.6690 updates=182 pairs=1460 skipped=0
+train:  42%|████▏     | 1479/3535 [07:13<09:29,  3.61it/s, loss=0.6676, skipped=0, updates=185]2026-11-05 11:47:38,865 INFO train step 1480/3535 loss=0.6676 updates=185 pairs=1480 skipped=0
+train:  42%|████▏     | 1499/3535 [07:19<11:39,  2.91it/s, loss=0.6657, skipped=0, updates=187]2026-11-05 11:47:44,716 INFO train step 1500/3535 loss=0.6657 updates=187 pairs=1500 skipped=0
+train:  43%|████▎     | 1519/3535 [07:25<10:11,  3.29it/s, loss=0.6642, skipped=0, updates=190]2026-11-05 11:47:50,558 INFO train step 1520/3535 loss=0.6642 updates=190 pairs=1520 skipped=0
+train:  44%|████▎     | 1539/3535 [07:31<09:52,  3.37it/s, loss=0.6631, skipped=0, updates=192]2026-11-05 11:47:56,303 INFO train step 1540/3535 loss=0.6631 updates=192 pairs=1540 skipped=0
+train:  44%|████▍     | 1559/3535 [07:37<09:44,  3.38it/s, loss=0.6617, skipped=0, updates=195]2026-11-05 11:48:02,141 INFO train step 1560/3535 loss=0.6617 updates=195 pairs=1560 skipped=0
+train:  45%|████▍     | 1579/3535 [07:43<09:31,  3.42it/s, loss=0.6623, skipped=0, updates=197]2026-11-05 11:48:07,969 INFO train step 1580/3535 loss=0.6623 updates=197 pairs=1580 skipped=0
+train:  45%|████▌     | 1599/3535 [07:48<09:23,  3.44it/s, loss=0.6622, skipped=0, updates=200]2026-11-05 11:48:13,882 INFO train step 1600/3535 loss=0.6622 updates=200 pairs=1600 skipped=0
+train:  46%|████▌     | 1619/3535 [07:54<09:08,  3.49it/s, loss=0.6628, skipped=0, updates=202]2026-11-05 11:48:19,827 INFO train step 1620/3535 loss=0.6628 updates=202 pairs=1620 skipped=0
+train:  46%|████▋     | 1639/3535 [08:00<08:46,  3.60it/s, loss=0.6626, skipped=0, updates=205]2026-11-05 11:48:25,515 INFO train step 1640/3535 loss=0.6626 updates=205 pairs=1640 skipped=0
+train:  47%|████▋     | 1659/3535 [08:06<08:59,  3.48it/s, loss=0.6626, skipped=0, updates=207]2026-11-05 11:48:31,256 INFO train step 1660/3535 loss=0.6626 updates=207 pairs=1660 skipped=0
+train:  47%|████▋     | 1679/3535 [08:12<08:33,  3.61it/s, loss=0.6628, skipped=0, updates=210]2026-11-05 11:48:36,990 INFO train step 1680/3535 loss=0.6628 updates=210 pairs=1680 skipped=0
+train:  48%|████▊     | 1699/3535 [08:17<08:34,  3.57it/s, loss=0.6614, skipped=0, updates=212]2026-11-05 11:48:42,769 INFO train step 1700/3535 loss=0.6614 updates=212 pairs=1700 skipped=0
+train:  49%|████▊     | 1719/3535 [08:23<08:37,  3.51it/s, loss=0.6609, skipped=0, updates=215]2026-11-05 11:48:48,624 INFO train step 1720/3535 loss=0.6609 updates=215 pairs=1720 skipped=0
+train:  49%|████▉     | 1739/3535 [08:29<08:37,  3.47it/s, loss=0.6641, skipped=0, updates=217]2026-11-05 11:48:54,558 INFO train step 1740/3535 loss=0.6641 updates=217 pairs=1740 skipped=0
+train:  50%|████▉     | 1759/3535 [08:35<08:30,  3.48it/s, loss=0.6643, skipped=0, updates=220]2026-11-05 11:49:00,536 INFO train step 1760/3535 loss=0.6643 updates=220 pairs=1760 skipped=0
+train:  50%|█████     | 1779/3535 [08:41<09:24,  3.11it/s, loss=0.6645, skipped=0, updates=222]2026-11-05 11:49:06,376 INFO train step 1780/3535 loss=0.6645 updates=222 pairs=1780 skipped=0
+train:  51%|█████     | 1799/3535 [08:47<08:57,  3.23it/s, loss=0.6644, skipped=0, updates=225]2026-11-05 11:49:12,230 INFO train step 1800/3535 loss=0.6644 updates=225 pairs=1800 skipped=0
+train:  51%|█████▏    | 1819/3535 [08:53<08:35,  3.33it/s, loss=0.6665, skipped=0, updates=227]2026-11-05 11:49:18,081 INFO train step 1820/3535 loss=0.6665 updates=227 pairs=1820 skipped=0
+train:  52%|█████▏    | 1839/3535 [08:59<08:31,  3.32it/s, loss=0.6661, skipped=0, updates=230]2026-11-05 11:49:24,025 INFO train step 1840/3535 loss=0.6661 updates=230 pairs=1840 skipped=0
+train:  53%|█████▎    | 1859/3535 [09:04<08:30,  3.28it/s, loss=0.6649, skipped=0, updates=232]2026-11-05 11:49:29,920 INFO train step 1860/3535 loss=0.6649 updates=232 pairs=1860 skipped=0
+train:  53%|█████▎    | 1879/3535 [09:10<08:00,  3.45it/s, loss=0.6653, skipped=0, updates=235]2026-11-05 11:49:35,817 INFO train step 1880/3535 loss=0.6653 updates=235 pairs=1880 skipped=0
+train:  54%|█████▎    | 1899/3535 [09:16<07:51,  3.47it/s, loss=0.6635, skipped=0, updates=237]2026-11-05 11:49:41,668 INFO train step 1900/3535 loss=0.6635 updates=237 pairs=1900 skipped=0
+train:  54%|█████▍    | 1919/3535 [09:22<07:43,  3.48it/s, loss=0.6622, skipped=0, updates=240]2026-11-05 11:49:47,549 INFO train step 1920/3535 loss=0.6622 updates=240 pairs=1920 skipped=0
+train:  55%|█████▍    | 1939/3535 [09:28<07:35,  3.50it/s, loss=0.6636, skipped=0, updates=242]2026-11-05 11:49:53,408 INFO train step 1940/3535 loss=0.6636 updates=242 pairs=1940 skipped=0
+train:  55%|█████▌    | 1959/3535 [09:34<07:28,  3.51it/s, loss=0.6631, skipped=0, updates=245]2026-11-05 11:49:59,371 INFO train step 1960/3535 loss=0.6631 updates=245 pairs=1960 skipped=0
+train:  56%|█████▌    | 1979/3535 [09:40<07:25,  3.49it/s, loss=0.6620, skipped=0, updates=247]2026-11-05 11:50:05,191 INFO train step 1980/3535 loss=0.6620 updates=247 pairs=1980 skipped=0
+train:  57%|█████▋    | 1999/3535 [09:46<07:17,  3.51it/s, loss=0.6624, skipped=0, updates=250]2026-11-05 11:50:11,114 INFO train step 2000/3535 loss=0.6624 updates=250 pairs=2000 skipped=0
+train:  57%|█████▋    | 2019/3535 [09:51<07:13,  3.49it/s, loss=0.6641, skipped=0, updates=252]2026-11-05 11:50:16,949 INFO train step 2020/3535 loss=0.6641 updates=252 pairs=2020 skipped=0
+train:  58%|█████▊    | 2039/3535 [09:57<07:05,  3.52it/s, loss=0.6647, skipped=0, updates=255]2026-11-05 11:50:22,919 INFO train step 2040/3535 loss=0.6647 updates=255 pairs=2040 skipped=0
+train:  58%|█████▊    | 2059/3535 [10:03<08:20,  2.95it/s, loss=0.6649, skipped=0, updates=257]2026-11-05 11:50:28,715 INFO train step 2060/3535 loss=0.6649 updates=257 pairs=2060 skipped=0
+train:  59%|█████▉    | 2079/3535 [10:09<07:17,  3.33it/s, loss=0.6653, skipped=0, updates=260]2026-11-05 11:50:34,378 INFO train step 2080/3535 loss=0.6653 updates=260 pairs=2080 skipped=0
+train:  59%|█████▉    | 2099/3535 [10:15<07:11,  3.33it/s, loss=0.6656, skipped=0, updates=262]2026-11-05 11:50:40,153 INFO train step 2100/3535 loss=0.6656 updates=262 pairs=2100 skipped=0
+train:  60%|█████▉    | 2119/3535 [10:21<06:55,  3.41it/s, loss=0.6671, skipped=0, updates=265]2026-11-05 11:50:45,977 INFO train step 2120/3535 loss=0.6671 updates=265 pairs=2120 skipped=0
+train:  61%|██████    | 2139/3535 [10:26<06:47,  3.42it/s, loss=0.6663, skipped=0, updates=267]2026-11-05 11:50:51,833 INFO train step 2140/3535 loss=0.6663 updates=267 pairs=2140 skipped=0
+train:  61%|██████    | 2159/3535 [10:32<06:36,  3.47it/s, loss=0.6668, skipped=0, updates=270]2026-11-05 11:50:57,713 INFO train step 2160/3535 loss=0.6668 updates=270 pairs=2160 skipped=0
+train:  62%|██████▏   | 2179/3535 [10:38<06:29,  3.48it/s, loss=0.6678, skipped=0, updates=272]2026-11-05 11:51:03,648 INFO train step 2180/3535 loss=0.6678 updates=272 pairs=2180 skipped=0
+train:  62%|██████▏   | 2199/3535 [10:44<06:23,  3.48it/s, loss=0.6676, skipped=0, updates=275]2026-11-05 11:51:09,513 INFO train step 2200/3535 loss=0.6676 updates=275 pairs=2200 skipped=0
+train:  63%|██████▎   | 2219/3535 [10:50<06:13,  3.52it/s, loss=0.6663, skipped=0, updates=277]2026-11-05 11:51:15,310 INFO train step 2220/3535 loss=0.6663 updates=277 pairs=2220 skipped=0
+train:  63%|██████▎   | 2239/3535 [10:56<06:11,  3.48it/s, loss=0.6653, skipped=0, updates=280]2026-11-05 11:51:21,148 INFO train step 2240/3535 loss=0.6653 updates=280 pairs=2240 skipped=0
+train:  64%|██████▍   | 2259/3535 [11:02<06:09,  3.45it/s, loss=0.6665, skipped=0, updates=282]2026-11-05 11:51:27,024 INFO train step 2260/3535 loss=0.6665 updates=282 pairs=2260 skipped=0
+train:  64%|██████▍   | 2279/3535 [11:07<05:58,  3.51it/s, loss=0.6660, skipped=0, updates=285]2026-11-05 11:51:32,903 INFO train step 2280/3535 loss=0.6660 updates=285 pairs=2280 skipped=0
+train:  65%|██████▌   | 2299/3535 [11:13<05:51,  3.52it/s, loss=0.6652, skipped=0, updates=287]2026-11-05 11:51:38,804 INFO train step 2300/3535 loss=0.6652 updates=287 pairs=2300 skipped=0
+train:  66%|██████▌   | 2319/3535 [11:19<05:46,  3.51it/s, loss=0.6661, skipped=0, updates=290]2026-11-05 11:51:44,800 INFO train step 2320/3535 loss=0.6661 updates=290 pairs=2320 skipped=0
+train:  66%|██████▌   | 2339/3535 [11:25<06:22,  3.12it/s, loss=0.6660, skipped=0, updates=292]2026-11-05 11:51:50,620 INFO train step 2340/3535 loss=0.6660 updates=292 pairs=2340 skipped=0
+train:  67%|██████▋   | 2359/3535 [11:31<05:56,  3.30it/s, loss=0.6663, skipped=0, updates=295]2026-11-05 11:51:56,268 INFO train step 2360/3535 loss=0.6663 updates=295 pairs=2360 skipped=0
+train:  67%|██████▋   | 2379/3535 [11:36<05:42,  3.38it/s, loss=0.6664, skipped=0, updates=297]2026-11-05 11:52:01,950 INFO train step 2380/3535 loss=0.6664 updates=297 pairs=2380 skipped=0
+train:  68%|██████▊   | 2399/3535 [11:42<05:43,  3.31it/s, loss=0.6675, skipped=0, updates=300]2026-11-05 11:52:07,894 INFO train step 2400/3535 loss=0.6675 updates=300 pairs=2400 skipped=0
+train:  68%|██████▊   | 2419/3535 [11:48<05:24,  3.44it/s, loss=0.6670, skipped=0, updates=302]2026-11-05 11:52:13,693 INFO train step 2420/3535 loss=0.6670 updates=302 pairs=2420 skipped=0
+train:  69%|██████▉   | 2439/3535 [11:54<05:07,  3.56it/s, loss=0.6659, skipped=0, updates=305]2026-11-05 11:52:19,469 INFO train step 2440/3535 loss=0.6659 updates=305 pairs=2440 skipped=0
+train:  70%|██████▉   | 2459/3535 [12:00<05:12,  3.45it/s, loss=0.6657, skipped=0, updates=307]2026-11-05 11:52:25,246 INFO train step 2460/3535 loss=0.6657 updates=307 pairs=2460 skipped=0
+train:  70%|███████   | 2479/3535 [12:06<05:04,  3.47it/s, loss=0.6655, skipped=0, updates=310]2026-11-05 11:52:31,133 INFO train step 2480/3535 loss=0.6655 updates=310 pairs=2480 skipped=0
+train:  71%|███████   | 2499/3535 [12:12<04:59,  3.46it/s, loss=0.6645, skipped=0, updates=312]2026-11-05 11:52:37,011 INFO train step 2500/3535 loss=0.6645 updates=312 pairs=2500 skipped=0
+train:  71%|███████▏  | 2519/3535 [12:18<04:51,  3.49it/s, loss=0.6643, skipped=0, updates=315]2026-11-05 11:52:42,977 INFO train step 2520/3535 loss=0.6643 updates=315 pairs=2520 skipped=0
+train:  72%|███████▏  | 2539/3535 [12:23<04:46,  3.48it/s, loss=0.6641, skipped=0, updates=317]2026-11-05 11:52:48,863 INFO train step 2540/3535 loss=0.6641 updates=317 pairs=2540 skipped=0
+train:  72%|███████▏  | 2559/3535 [12:29<04:38,  3.50it/s, loss=0.6643, skipped=0, updates=320]2026-11-05 11:52:54,750 INFO train step 2560/3535 loss=0.6643 updates=320 pairs=2560 skipped=0
+train:  73%|███████▎  | 2579/3535 [12:35<04:32,  3.51it/s, loss=0.6650, skipped=0, updates=322]2026-11-05 11:53:00,589 INFO train step 2580/3535 loss=0.6650 updates=322 pairs=2580 skipped=0
+train:  74%|███████▎  | 2599/3535 [12:41<04:28,  3.48it/s, loss=0.6644, skipped=0, updates=325]2026-11-05 11:53:06,635 INFO train step 2600/3535 loss=0.6644 updates=325 pairs=2600 skipped=0
+train:  74%|███████▍  | 2619/3535 [12:47<05:12,  2.93it/s, loss=0.6636, skipped=0, updates=327]2026-11-05 11:53:12,545 INFO train step 2620/3535 loss=0.6636 updates=327 pairs=2620 skipped=0
+train:  75%|███████▍  | 2639/3535 [12:53<04:31,  3.30it/s, loss=0.6645, skipped=0, updates=330]2026-11-05 11:53:18,306 INFO train step 2640/3535 loss=0.6645 updates=330 pairs=2640 skipped=0
+train:  75%|███████▌  | 2659/3535 [12:58<04:11,  3.49it/s, loss=0.6646, skipped=0, updates=332]2026-11-05 11:53:23,956 INFO train step 2660/3535 loss=0.6646 updates=332 pairs=2660 skipped=0
+train:  76%|███████▌  | 2679/3535 [13:04<04:02,  3.53it/s, loss=0.6641, skipped=0, updates=335]2026-11-05 11:53:29,648 INFO train step 2680/3535 loss=0.6641 updates=335 pairs=2680 skipped=0
+train:  76%|███████▋  | 2699/3535 [13:10<03:59,  3.49it/s, loss=0.6638, skipped=0, updates=337]2026-11-05 11:53:35,279 INFO train step 2700/3535 loss=0.6638 updates=337 pairs=2700 skipped=0
+train:  77%|███████▋  | 2719/3535 [13:16<03:58,  3.43it/s, loss=0.6643, skipped=0, updates=340]2026-11-05 11:53:41,114 INFO train step 2720/3535 loss=0.6643 updates=340 pairs=2720 skipped=0
+train:  77%|███████▋  | 2739/3535 [13:22<03:54,  3.40it/s, loss=0.6632, skipped=0, updates=342]2026-11-05 11:53:47,046 INFO train step 2740/3535 loss=0.6632 updates=342 pairs=2740 skipped=0
+train:  78%|███████▊  | 2759/3535 [13:27<03:39,  3.53it/s, loss=0.6629, skipped=0, updates=345]2026-11-05 11:53:52,858 INFO train step 2760/3535 loss=0.6629 updates=345 pairs=2760 skipped=0
+train:  79%|███████▊  | 2779/3535 [13:33<03:38,  3.46it/s, loss=0.6629, skipped=0, updates=347]2026-11-05 11:53:58,728 INFO train step 2780/3535 loss=0.6629 updates=347 pairs=2780 skipped=0
+train:  79%|███████▉  | 2799/3535 [13:39<03:31,  3.48it/s, loss=0.6622, skipped=0, updates=350]2026-11-05 11:54:04,602 INFO train step 2800/3535 loss=0.6622 updates=350 pairs=2800 skipped=0
+train:  80%|███████▉  | 2819/3535 [13:45<03:27,  3.46it/s, loss=0.6615, skipped=0, updates=352]2026-11-05 11:54:10,485 INFO train step 2820/3535 loss=0.6615 updates=352 pairs=2820 skipped=0
+train:  80%|████████  | 2839/3535 [13:51<03:20,  3.48it/s, loss=0.6615, skipped=0, updates=355]2026-11-05 11:54:16,377 INFO train step 2840/3535 loss=0.6615 updates=355 pairs=2840 skipped=0
+train:  81%|████████  | 2859/3535 [13:57<03:15,  3.46it/s, loss=0.6615, skipped=0, updates=357]2026-11-05 11:54:22,325 INFO train step 2860/3535 loss=0.6615 updates=357 pairs=2860 skipped=0
+train:  81%|████████▏ | 2879/3535 [14:03<03:08,  3.49it/s, loss=0.6615, skipped=0, updates=360]2026-11-05 11:54:28,333 INFO train step 2880/3535 loss=0.6615 updates=360 pairs=2880 skipped=0
+train:  82%|████████▏ | 2899/3535 [14:09<03:24,  3.11it/s, loss=0.6627, skipped=0, updates=362]2026-11-05 11:54:34,184 INFO train step 2900/3535 loss=0.6627 updates=362 pairs=2900 skipped=0
+train:  83%|████████▎ | 2919/3535 [14:15<03:10,  3.23it/s, loss=0.6625, skipped=0, updates=365]2026-11-05 11:54:40,034 INFO train step 2920/3535 loss=0.6625 updates=365 pairs=2920 skipped=0
+train:  83%|████████▎ | 2939/3535 [14:20<02:56,  3.38it/s, loss=0.6624, skipped=0, updates=367]2026-11-05 11:54:45,823 INFO train step 2940/3535 loss=0.6624 updates=367 pairs=2940 skipped=0
+train:  84%|████████▎ | 2959/3535 [14:26<02:53,  3.32it/s, loss=0.6619, skipped=0, updates=370]2026-11-05 11:54:51,811 INFO train step 2960/3535 loss=0.6619 updates=370 pairs=2960 skipped=0
+train:  84%|████████▍ | 2979/3535 [14:32<02:38,  3.50it/s, loss=0.6617, skipped=0, updates=372]2026-11-05 11:54:57,610 INFO train step 2980/3535 loss=0.6617 updates=372 pairs=2980 skipped=0
+train:  85%|████████▍ | 2999/3535 [14:38<02:34,  3.46it/s, loss=0.6620, skipped=0, updates=375]2026-11-05 11:55:03,350 INFO train step 3000/3535 loss=0.6620 updates=375 pairs=3000 skipped=0
+train:  85%|████████▌ | 3019/3535 [14:44<02:26,  3.52it/s, loss=0.6622, skipped=0, updates=377]2026-11-05 11:55:09,059 INFO train step 3020/3535 loss=0.6622 updates=377 pairs=3020 skipped=0
+train:  86%|████████▌ | 3039/3535 [14:49<02:21,  3.50it/s, loss=0.6625, skipped=0, updates=380]2026-11-05 11:55:14,833 INFO train step 3040/3535 loss=0.6625 updates=380 pairs=3040 skipped=0
+train:  87%|████████▋ | 3059/3535 [14:55<02:15,  3.52it/s, loss=0.6620, skipped=0, updates=382]2026-11-05 11:55:20,629 INFO train step 3060/3535 loss=0.6620 updates=382 pairs=3060 skipped=0
+train:  87%|████████▋ | 3079/3535 [15:01<02:13,  3.42it/s, loss=0.6616, skipped=0, updates=385]2026-11-05 11:55:26,611 INFO train step 3080/3535 loss=0.6616 updates=385 pairs=3080 skipped=0
+train:  88%|████████▊ | 3099/3535 [15:07<02:03,  3.52it/s, loss=0.6611, skipped=0, updates=387]2026-11-05 11:55:32,463 INFO train step 3100/3535 loss=0.6611 updates=387 pairs=3100 skipped=0
+train:  88%|████████▊ | 3119/3535 [15:13<01:59,  3.48it/s, loss=0.6614, skipped=0, updates=390]2026-11-05 11:55:38,341 INFO train step 3120/3535 loss=0.6614 updates=390 pairs=3120 skipped=0
+train:  89%|████████▉ | 3139/3535 [15:19<01:56,  3.40it/s, loss=0.6623, skipped=0, updates=392]2026-11-05 11:55:44,292 INFO train step 3140/3535 loss=0.6623 updates=392 pairs=3140 skipped=0
+train:  89%|████████▉ | 3159/3535 [15:25<01:47,  3.49it/s, loss=0.6621, skipped=0, updates=395]2026-11-05 11:55:50,309 INFO train step 3160/3535 loss=0.6621 updates=395 pairs=3160 skipped=0
+train:  90%|████████▉ | 3179/3535 [15:31<01:59,  2.98it/s, loss=0.6629, skipped=0, updates=397]2026-11-05 11:55:56,221 INFO train step 3180/3535 loss=0.6629 updates=397 pairs=3180 skipped=0
+train:  90%|█████████ | 3199/3535 [15:37<01:46,  3.16it/s, loss=0.6637, skipped=0, updates=400]2026-11-05 11:56:02,025 INFO train step 3200/3535 loss=0.6637 updates=400 pairs=3200 skipped=0
+train:  91%|█████████ | 3219/3535 [15:42<01:35,  3.31it/s, loss=0.6645, skipped=0, updates=402]2026-11-05 11:56:07,954 INFO train step 3220/3535 loss=0.6645 updates=402 pairs=3220 skipped=0
+train:  92%|█████████▏| 3239/3535 [15:48<01:27,  3.37it/s, loss=0.6640, skipped=0, updates=405]2026-11-05 11:56:13,901 INFO train step 3240/3535 loss=0.6640 updates=405 pairs=3240 skipped=0
+train:  92%|█████████▏| 3259/3535 [15:54<01:18,  3.52it/s, loss=0.6637, skipped=0, updates=407]2026-11-05 11:56:19,640 INFO train step 3260/3535 loss=0.6637 updates=407 pairs=3260 skipped=0
+train:  93%|█████████▎| 3279/3535 [16:00<01:11,  3.56it/s, loss=0.6636, skipped=0, updates=410]2026-11-05 11:56:25,360 INFO train step 3280/3535 loss=0.6636 updates=410 pairs=3280 skipped=0
+train:  93%|█████████▎| 3299/3535 [16:06<01:06,  3.55it/s, loss=0.6643, skipped=0, updates=412]2026-11-05 11:56:31,134 INFO train step 3300/3535 loss=0.6643 updates=412 pairs=3300 skipped=0
+train:  94%|█████████▍| 3319/3535 [16:12<01:02,  3.46it/s, loss=0.6649, skipped=0, updates=415]2026-11-05 11:56:36,987 INFO train step 3320/3535 loss=0.6649 updates=415 pairs=3320 skipped=0
+train:  94%|█████████▍| 3339/3535 [16:17<00:56,  3.47it/s, loss=0.6640, skipped=0, updates=417]2026-11-05 11:56:42,862 INFO train step 3340/3535 loss=0.6640 updates=417 pairs=3340 skipped=0
+train:  95%|█████████▌| 3359/3535 [16:23<00:51,  3.39it/s, loss=0.6641, skipped=0, updates=420]2026-11-05 11:56:48,771 INFO train step 3360/3535 loss=0.6641 updates=420 pairs=3360 skipped=0
+train:  96%|█████████▌| 3379/3535 [16:29<00:44,  3.50it/s, loss=0.6635, skipped=0, updates=422]2026-11-05 11:56:54,604 INFO train step 3380/3535 loss=0.6635 updates=422 pairs=3380 skipped=0
+train:  96%|█████████▌| 3399/3535 [16:35<00:39,  3.48it/s, loss=0.6633, skipped=0, updates=425]2026-11-05 11:57:00,474 INFO train step 3400/3535 loss=0.6633 updates=425 pairs=3400 skipped=0
+train:  97%|█████████▋| 3419/3535 [16:41<00:33,  3.48it/s, loss=0.6630, skipped=0, updates=427]2026-11-05 11:57:06,452 INFO train step 3420/3535 loss=0.6630 updates=427 pairs=3420 skipped=0
+train:  97%|█████████▋| 3439/3535 [16:47<00:27,  3.48it/s, loss=0.6637, skipped=0, updates=430]2026-11-05 11:57:12,491 INFO train step 3440/3535 loss=0.6637 updates=430 pairs=3440 skipped=0
+train:  98%|█████████▊| 3459/3535 [16:53<00:24,  3.09it/s, loss=0.6633, skipped=0, updates=432]2026-11-05 11:57:18,357 INFO train step 3460/3535 loss=0.6633 updates=432 pairs=3460 skipped=0
+train:  98%|█████████▊| 3479/3535 [16:59<00:17,  3.21it/s, loss=0.6626, skipped=0, updates=435]2026-11-05 11:57:24,247 INFO train step 3480/3535 loss=0.6626 updates=435 pairs=3480 skipped=0
+train:  99%|█████████▉| 3499/3535 [17:05<00:10,  3.35it/s, loss=0.6626, skipped=0, updates=437]2026-11-05 11:57:30,125 INFO train step 3500/3535 loss=0.6626 updates=437 pairs=3500 skipped=0
+train: 100%|█████████▉| 3519/3535 [17:11<00:04,  3.35it/s, loss=0.6628, skipped=0, updates=440]2026-11-05 11:57:36,039 INFO train step 3520/3535 loss=0.6628 updates=440 pairs=3520 skipped=0
+train: 100%|█████████▉| 3534/3535 [17:15<00:00,  3.17it/s, loss=0.6627, skipped=0, updates=441]2026-11-05 11:57:40,434 INFO train step 3535/3535 loss=0.6627 updates=441 pairs=3535 skipped=0
+2026-11-05 11:58:25,814 INFO Epoch 3 train={"loss": 0.6627271702044144, "pairs": 3535, "updates": 442, "skipped_batches": 0} validation={"loss": 0.7358221585955896, "pairs": 438}
+2026-11-05 11:58:26,224 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 11:58:26,252 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%22f81ead14ab072d65a07817f83a3ee0e5a1890d10%22 "HTTP/1.1 200 OK"
+2026-11-05 11:58:26,399 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/revision/main "HTTP/1.1 200 OK"
+2026-11-05 11:58:26,545 INFO Saved best Stage 4 checkpoint to /workspace/knee-mri-rrg/checkpoints/stage4/best
+train:   1%|          | 19/3535 [00:06<16:53,  3.47it/s, loss=0.5204, skipped=0, updates=2]2026-11-05 11:58:32,764 INFO train step 20/3535 loss=0.5204 updates=2 pairs=20 skipped=0
+train:   1%|          | 39/3535 [00:11<17:28,  3.33it/s, loss=0.5451, skipped=0, updates=5]2026-11-05 11:58:38,533 INFO train step 40/3535 loss=0.5451 updates=5 pairs=40 skipped=0
+train:   2%|▏         | 59/3535 [00:17<16:55,  3.42it/s, loss=0.5889, skipped=0, updates=7]2026-11-05 11:58:44,490 INFO train step 60/3535 loss=0.5889 updates=7 pairs=60 skipped=0
+train:   2%|▏         | 79/3535 [00:23<16:57,  3.40it/s, loss=0.5924, skipped=0, updates=10]2026-11-05 11:58:50,412 INFO train step 80/3535 loss=0.5924 updates=10 pairs=80 skipped=0
+train:   3%|▎         | 99/3535 [00:29<16:38,  3.44it/s, loss=0.5679, skipped=0, updates=12]2026-11-05 11:58:56,243 INFO train step 100/3535 loss=0.5679 updates=12 pairs=100 skipped=0
+train:   3%|▎         | 119/3535 [00:35<16:22,  3.48it/s, loss=0.5662, skipped=0, updates=15]2026-11-05 11:59:02,092 INFO train step 120/3535 loss=0.5662 updates=15 pairs=120 skipped=0
+train:   4%|▍         | 139/3535 [00:41<16:25,  3.45it/s, loss=0.5699, skipped=0, updates=17]2026-11-05 11:59:07,951 INFO train step 140/3535 loss=0.5699 updates=17 pairs=140 skipped=0
+train:   4%|▍         | 159/3535 [00:47<16:51,  3.34it/s, loss=0.5863, skipped=0, updates=20]2026-11-05 11:59:13,946 INFO train step 160/3535 loss=0.5863 updates=20 pairs=160 skipped=0
+train:   5%|▌         | 179/3535 [00:53<15:57,  3.50it/s, loss=0.5690, skipped=0, updates=22]2026-11-05 11:59:19,777 INFO train step 180/3535 loss=0.5690 updates=22 pairs=180 skipped=0
+train:   6%|▌         | 199/3535 [00:59<15:52,  3.50it/s, loss=0.5651, skipped=0, updates=25]2026-11-05 11:59:25,619 INFO train step 200/3535 loss=0.5651 updates=25 pairs=200 skipped=0
+train:   6%|▌         | 219/3535 [01:04<15:46,  3.50it/s, loss=0.5660, skipped=0, updates=27]2026-11-05 11:59:31,425 INFO train step 220/3535 loss=0.5660 updates=27 pairs=220 skipped=0
+train:   7%|▋         | 239/3535 [01:10<15:11,  3.62it/s, loss=0.5702, skipped=0, updates=30]2026-11-05 11:59:37,190 INFO train step 240/3535 loss=0.5702 updates=30 pairs=240 skipped=0
+train:   7%|▋         | 259/3535 [01:16<15:29,  3.53it/s, loss=0.5580, skipped=0, updates=32]2026-11-05 11:59:43,031 INFO train step 260/3535 loss=0.5580 updates=32 pairs=260 skipped=0
+train:   8%|▊         | 279/3535 [01:22<16:47,  3.23it/s, loss=0.5633, skipped=0, updates=35]2026-11-05 11:59:48,946 INFO train step 280/3535 loss=0.5633 updates=35 pairs=280 skipped=0
+train:   8%|▊         | 299/3535 [01:28<16:45,  3.22it/s, loss=0.5622, skipped=0, updates=37]2026-11-05 11:59:54,783 INFO train step 300/3535 loss=0.5622 updates=37 pairs=300 skipped=0
+train:   9%|▉         | 319/3535 [01:34<15:43,  3.41it/s, loss=0.5708, skipped=0, updates=40]2026-11-05 12:00:00,610 INFO train step 320/3535 loss=0.5708 updates=40 pairs=320 skipped=0
+train:  10%|▉         | 339/3535 [01:39<15:40,  3.40it/s, loss=0.5732, skipped=0, updates=42]2026-11-05 12:00:06,505 INFO train step 340/3535 loss=0.5732 updates=42 pairs=340 skipped=0
+train:  10%|█         | 359/3535 [01:45<15:20,  3.45it/s, loss=0.5663, skipped=0, updates=45]2026-11-05 12:00:12,324 INFO train step 360/3535 loss=0.5663 updates=45 pairs=360 skipped=0
+train:  11%|█         | 379/3535 [01:51<14:35,  3.60it/s, loss=0.5627, skipped=0, updates=47]2026-11-05 12:00:18,072 INFO train step 380/3535 loss=0.5627 updates=47 pairs=380 skipped=0
+train:  11%|█▏        | 399/3535 [01:57<14:41,  3.56it/s, loss=0.5603, skipped=0, updates=50]2026-11-05 12:00:23,811 INFO train step 400/3535 loss=0.5603 updates=50 pairs=400 skipped=0
+train:  12%|█▏        | 419/3535 [02:03<14:56,  3.48it/s, loss=0.5618, skipped=0, updates=52]2026-11-05 12:00:29,626 INFO train step 420/3535 loss=0.5618 updates=52 pairs=420 skipped=0
+train:  12%|█▏        | 439/3535 [02:08<14:40,  3.52it/s, loss=0.5610, skipped=0, updates=55]2026-11-05 12:00:35,460 INFO train step 440/3535 loss=0.5610 updates=55 pairs=440 skipped=0
+train:  13%|█▎        | 459/3535 [02:14<14:06,  3.63it/s, loss=0.5626, skipped=0, updates=57]2026-11-05 12:00:41,164 INFO train step 460/3535 loss=0.5626 updates=57 pairs=460 skipped=0
+train:  14%|█▎        | 479/3535 [02:20<13:45,  3.70it/s, loss=0.5649, skipped=0, updates=60]2026-11-05 12:00:46,694 INFO train step 480/3535 loss=0.5649 updates=60 pairs=480 skipped=0
+train:  14%|█▍        | 499/3535 [02:25<14:25,  3.51it/s, loss=0.5629, skipped=0, updates=62]2026-11-05 12:00:52,336 INFO train step 500/3535 loss=0.5629 updates=62 pairs=500 skipped=0
+train:  15%|█▍        | 519/3535 [02:31<13:45,  3.65it/s, loss=0.5589, skipped=0, updates=65]2026-11-05 12:00:57,910 INFO train step 520/3535 loss=0.5589 updates=65 pairs=520 skipped=0
+train:  15%|█▌        | 539/3535 [02:37<13:52,  3.60it/s, loss=0.5620, skipped=0, updates=67]2026-11-05 12:01:03,637 INFO train step 540/3535 loss=0.5620 updates=67 pairs=540 skipped=0
+train:  16%|█▌        | 559/3535 [02:42<14:45,  3.36it/s, loss=0.5662, skipped=0, updates=70]2026-11-05 12:01:09,287 INFO train step 560/3535 loss=0.5662 updates=70 pairs=560 skipped=0
+train:  16%|█▋        | 579/3535 [02:48<14:49,  3.32it/s, loss=0.5658, skipped=0, updates=72]2026-11-05 12:01:14,917 INFO train step 580/3535 loss=0.5658 updates=72 pairs=580 skipped=0
+train:  17%|█▋        | 599/3535 [02:53<14:01,  3.49it/s, loss=0.5638, skipped=0, updates=75]2026-11-05 12:01:20,535 INFO train step 600/3535 loss=0.5638 updates=75 pairs=600 skipped=0
+train:  18%|█▊        | 619/3535 [02:59<13:54,  3.49it/s, loss=0.5641, skipped=0, updates=77]2026-11-05 12:01:26,253 INFO train step 620/3535 loss=0.5641 updates=77 pairs=620 skipped=0
+train:  18%|█▊        | 639/3535 [03:05<13:56,  3.46it/s, loss=0.5636, skipped=0, updates=80]2026-11-05 12:01:32,013 INFO train step 640/3535 loss=0.5636 updates=80 pairs=640 skipped=0
+train:  19%|█▊        | 659/3535 [03:11<13:53,  3.45it/s, loss=0.5607, skipped=0, updates=82]2026-11-05 12:01:37,891 INFO train step 660/3535 loss=0.5607 updates=82 pairs=660 skipped=0
+train:  19%|█▉        | 679/3535 [03:17<13:31,  3.52it/s, loss=0.5641, skipped=0, updates=85]2026-11-05 12:01:43,718 INFO train step 680/3535 loss=0.5641 updates=85 pairs=680 skipped=0
+train:  20%|█▉        | 699/3535 [03:22<13:34,  3.48it/s, loss=0.5630, skipped=0, updates=87]2026-11-05 12:01:49,517 INFO train step 700/3535 loss=0.5630 updates=87 pairs=700 skipped=0
+train:  20%|██        | 719/3535 [03:28<13:26,  3.49it/s, loss=0.5637, skipped=0, updates=90]2026-11-05 12:01:55,330 INFO train step 720/3535 loss=0.5637 updates=90 pairs=720 skipped=0
+train:  21%|██        | 739/3535 [03:34<13:17,  3.51it/s, loss=0.5617, skipped=0, updates=92]2026-11-05 12:02:01,223 INFO train step 740/3535 loss=0.5617 updates=92 pairs=740 skipped=0
+train:  21%|██▏       | 759/3535 [03:40<13:02,  3.55it/s, loss=0.5616, skipped=0, updates=95]2026-11-05 12:02:07,048 INFO train step 760/3535 loss=0.5616 updates=95 pairs=760 skipped=0
+train:  22%|██▏       | 779/3535 [03:46<13:00,  3.53it/s, loss=0.5624, skipped=0, updates=97]2026-11-05 12:02:12,845 INFO train step 780/3535 loss=0.5624 updates=97 pairs=780 skipped=0
+train:  23%|██▎       | 799/3535 [03:52<12:58,  3.51it/s, loss=0.5611, skipped=0, updates=100]2026-11-05 12:02:18,646 INFO train step 800/3535 loss=0.5611 updates=100 pairs=800 skipped=0
+train:  23%|██▎       | 819/3535 [03:58<12:59,  3.48it/s, loss=0.5606, skipped=0, updates=102]2026-11-05 12:02:24,629 INFO train step 820/3535 loss=0.5606 updates=102 pairs=820 skipped=0
+train:  24%|██▎       | 839/3535 [04:04<14:44,  3.05it/s, loss=0.5601, skipped=0, updates=105]2026-11-05 12:02:30,651 INFO train step 840/3535 loss=0.5601 updates=105 pairs=840 skipped=0
+train:  24%|██▍       | 859/3535 [04:09<13:40,  3.26it/s, loss=0.5586, skipped=0, updates=107]2026-11-05 12:02:36,522 INFO train step 860/3535 loss=0.5586 updates=107 pairs=860 skipped=0
+train:  25%|██▍       | 879/3535 [04:15<13:17,  3.33it/s, loss=0.5580, skipped=0, updates=110]2026-11-05 12:02:42,454 INFO train step 880/3535 loss=0.5580 updates=110 pairs=880 skipped=0
+train:  25%|██▌       | 899/3535 [04:21<12:29,  3.52it/s, loss=0.5597, skipped=0, updates=112]2026-11-05 12:02:48,196 INFO train step 900/3535 loss=0.5597 updates=112 pairs=900 skipped=0
+train:  26%|██▌       | 919/3535 [04:27<12:26,  3.51it/s, loss=0.5635, skipped=0, updates=115]2026-11-05 12:02:53,900 INFO train step 920/3535 loss=0.5635 updates=115 pairs=920 skipped=0
+train:  27%|██▋       | 939/3535 [04:33<12:33,  3.44it/s, loss=0.5659, skipped=0, updates=117]2026-11-05 12:02:59,705 INFO train step 940/3535 loss=0.5659 updates=117 pairs=940 skipped=0
+train:  27%|██▋       | 959/3535 [04:39<12:07,  3.54it/s, loss=0.5665, skipped=0, updates=120]2026-11-05 12:03:05,604 INFO train step 960/3535 loss=0.5665 updates=120 pairs=960 skipped=0
+train:  28%|██▊       | 979/3535 [04:44<12:00,  3.55it/s, loss=0.5669, skipped=0, updates=122]2026-11-05 12:03:11,320 INFO train step 980/3535 loss=0.5669 updates=122 pairs=980 skipped=0
+train:  28%|██▊       | 999/3535 [04:50<11:50,  3.57it/s, loss=0.5674, skipped=0, updates=125]2026-11-05 12:03:17,003 INFO train step 1000/3535 loss=0.5674 updates=125 pairs=1000 skipped=0
+train:  29%|██▉       | 1019/3535 [04:56<11:45,  3.57it/s, loss=0.5656, skipped=0, updates=127]2026-11-05 12:03:22,716 INFO train step 1020/3535 loss=0.5656 updates=127 pairs=1020 skipped=0
+train:  29%|██▉       | 1039/3535 [05:02<12:15,  3.40it/s, loss=0.5666, skipped=0, updates=130]2026-11-05 12:03:28,671 INFO train step 1040/3535 loss=0.5666 updates=130 pairs=1040 skipped=0
+train:  30%|██▉       | 1059/3535 [05:07<11:32,  3.57it/s, loss=0.5686, skipped=0, updates=132]2026-11-05 12:03:34,481 INFO train step 1060/3535 loss=0.5686 updates=132 pairs=1060 skipped=0
+train:  31%|███       | 1079/3535 [05:13<11:42,  3.50it/s, loss=0.5701, skipped=0, updates=135]2026-11-05 12:03:40,455 INFO train step 1080/3535 loss=0.5701 updates=135 pairs=1080 skipped=0
+train:  31%|███       | 1099/3535 [05:19<11:52,  3.42it/s, loss=0.5693, skipped=0, updates=137]2026-11-05 12:03:46,464 INFO train step 1100/3535 loss=0.5693 updates=137 pairs=1100 skipped=0
+train:  32%|███▏      | 1119/3535 [05:25<12:30,  3.22it/s, loss=0.5693, skipped=0, updates=140]2026-11-05 12:03:52,361 INFO train step 1120/3535 loss=0.5693 updates=140 pairs=1120 skipped=0
+train:  32%|███▏      | 1139/3535 [05:31<12:23,  3.22it/s, loss=0.5676, skipped=0, updates=142]2026-11-05 12:03:58,220 INFO train step 1140/3535 loss=0.5676 updates=142 pairs=1140 skipped=0
+train:  33%|███▎      | 1159/3535 [05:37<11:32,  3.43it/s, loss=0.5657, skipped=0, updates=145]2026-11-05 12:04:03,982 INFO train step 1160/3535 loss=0.5657 updates=145 pairs=1160 skipped=0
+train:  33%|███▎      | 1179/3535 [05:43<11:29,  3.42it/s, loss=0.5666, skipped=0, updates=147]2026-11-05 12:04:09,760 INFO train step 1180/3535 loss=0.5666 updates=147 pairs=1180 skipped=0
+train:  34%|███▍      | 1199/3535 [05:48<11:10,  3.49it/s, loss=0.5654, skipped=0, updates=150]2026-11-05 12:04:15,551 INFO train step 1200/3535 loss=0.5654 updates=150 pairs=1200 skipped=0
+train:  34%|███▍      | 1219/3535 [05:54<10:52,  3.55it/s, loss=0.5661, skipped=0, updates=152]2026-11-05 12:04:21,295 INFO train step 1220/3535 loss=0.5661 updates=152 pairs=1220 skipped=0
+train:  35%|███▌      | 1239/3535 [06:00<10:43,  3.57it/s, loss=0.5683, skipped=0, updates=155]2026-11-05 12:04:27,048 INFO train step 1240/3535 loss=0.5683 updates=155 pairs=1240 skipped=0
+train:  36%|███▌      | 1259/3535 [06:06<10:39,  3.56it/s, loss=0.5684, skipped=0, updates=157]2026-11-05 12:04:32,730 INFO train step 1260/3535 loss=0.5684 updates=157 pairs=1260 skipped=0
+train:  36%|███▌      | 1279/3535 [06:11<10:17,  3.65it/s, loss=0.5687, skipped=0, updates=160]2026-11-05 12:04:38,408 INFO train step 1280/3535 loss=0.5687 updates=160 pairs=1280 skipped=0
+train:  37%|███▋      | 1299/3535 [06:17<10:10,  3.66it/s, loss=0.5692, skipped=0, updates=162]2026-11-05 12:04:44,186 INFO train step 1300/3535 loss=0.5692 updates=162 pairs=1300 skipped=0
+train:  37%|███▋      | 1319/3535 [06:23<10:38,  3.47it/s, loss=0.5686, skipped=0, updates=165]2026-11-05 12:04:49,981 INFO train step 1320/3535 loss=0.5686 updates=165 pairs=1320 skipped=0
+train:  38%|███▊      | 1339/3535 [06:29<10:33,  3.47it/s, loss=0.5681, skipped=0, updates=167]2026-11-05 12:04:55,868 INFO train step 1340/3535 loss=0.5681 updates=167 pairs=1340 skipped=0
+train:  38%|███▊      | 1359/3535 [06:35<10:26,  3.47it/s, loss=0.5692, skipped=0, updates=170]2026-11-05 12:05:01,766 INFO train step 1360/3535 loss=0.5692 updates=170 pairs=1360 skipped=0
+train:  39%|███▉      | 1379/3535 [06:41<10:21,  3.47it/s, loss=0.5705, skipped=0, updates=172]2026-11-05 12:05:07,752 INFO train step 1380/3535 loss=0.5705 updates=172 pairs=1380 skipped=0
+train:  40%|███▉      | 1399/3535 [06:47<12:08,  2.93it/s, loss=0.5701, skipped=0, updates=175]2026-11-05 12:05:13,774 INFO train step 1400/3535 loss=0.5701 updates=175 pairs=1400 skipped=0
+train:  40%|████      | 1419/3535 [06:53<11:03,  3.19it/s, loss=0.5707, skipped=0, updates=177]2026-11-05 12:05:19,622 INFO train step 1420/3535 loss=0.5707 updates=177 pairs=1420 skipped=0
+train:  41%|████      | 1439/3535 [06:58<10:26,  3.35it/s, loss=0.5735, skipped=0, updates=180]2026-11-05 12:05:25,456 INFO train step 1440/3535 loss=0.5735 updates=180 pairs=1440 skipped=0
+train:  41%|████▏     | 1459/3535 [07:04<10:06,  3.42it/s, loss=0.5738, skipped=0, updates=182]2026-11-05 12:05:31,318 INFO train step 1460/3535 loss=0.5738 updates=182 pairs=1460 skipped=0
+train:  42%|████▏     | 1479/3535 [07:10<09:51,  3.48it/s, loss=0.5739, skipped=0, updates=185]2026-11-05 12:05:37,107 INFO train step 1480/3535 loss=0.5739 updates=185 pairs=1480 skipped=0
+train:  42%|████▏     | 1499/3535 [07:16<09:44,  3.48it/s, loss=0.5737, skipped=0, updates=187]2026-11-05 12:05:42,909 INFO train step 1500/3535 loss=0.5737 updates=187 pairs=1500 skipped=0
+train:  43%|████▎     | 1519/3535 [07:22<09:51,  3.41it/s, loss=0.5744, skipped=0, updates=190]2026-11-05 12:05:48,959 INFO train step 1520/3535 loss=0.5744 updates=190 pairs=1520 skipped=0
+train:  44%|████▎     | 1539/3535 [07:28<09:42,  3.43it/s, loss=0.5751, skipped=0, updates=192]2026-11-05 12:05:54,884 INFO train step 1540/3535 loss=0.5751 updates=192 pairs=1540 skipped=0
+train:  44%|████▍     | 1559/3535 [07:34<09:24,  3.50it/s, loss=0.5746, skipped=0, updates=195]2026-11-05 12:06:00,771 INFO train step 1560/3535 loss=0.5746 updates=195 pairs=1560 skipped=0
+train:  45%|████▍     | 1579/3535 [07:40<09:22,  3.47it/s, loss=0.5746, skipped=0, updates=197]2026-11-05 12:06:06,619 INFO train step 1580/3535 loss=0.5746 updates=197 pairs=1580 skipped=0
+train:  45%|████▌     | 1599/3535 [07:45<09:14,  3.49it/s, loss=0.5743, skipped=0, updates=200]2026-11-05 12:06:12,510 INFO train step 1600/3535 loss=0.5743 updates=200 pairs=1600 skipped=0
+train:  46%|████▌     | 1619/3535 [07:51<09:05,  3.51it/s, loss=0.5733, skipped=0, updates=202]2026-11-05 12:06:18,365 INFO train step 1620/3535 loss=0.5733 updates=202 pairs=1620 skipped=0
+train:  46%|████▋     | 1639/3535 [07:57<08:57,  3.53it/s, loss=0.5718, skipped=0, updates=205]2026-11-05 12:06:24,202 INFO train step 1640/3535 loss=0.5718 updates=205 pairs=1640 skipped=0
+train:  47%|████▋     | 1659/3535 [08:03<08:47,  3.56it/s, loss=0.5726, skipped=0, updates=207]2026-11-05 12:06:30,053 INFO train step 1660/3535 loss=0.5726 updates=207 pairs=1660 skipped=0
+train:  47%|████▋     | 1679/3535 [08:09<09:30,  3.26it/s, loss=0.5710, skipped=0, updates=210]2026-11-05 12:06:35,818 INFO train step 1680/3535 loss=0.5710 updates=210 pairs=1680 skipped=0
+train:  48%|████▊     | 1699/3535 [08:15<09:32,  3.21it/s, loss=0.5704, skipped=0, updates=212]2026-11-05 12:06:41,687 INFO train step 1700/3535 loss=0.5704 updates=212 pairs=1700 skipped=0
+train:  49%|████▊     | 1719/3535 [08:21<08:59,  3.37it/s, loss=0.5688, skipped=0, updates=215]2026-11-05 12:06:47,564 INFO train step 1720/3535 loss=0.5688 updates=215 pairs=1720 skipped=0
+train:  49%|████▉     | 1739/3535 [08:26<08:56,  3.35it/s, loss=0.5692, skipped=0, updates=217]2026-11-05 12:06:53,513 INFO train step 1740/3535 loss=0.5692 updates=217 pairs=1740 skipped=0
+train:  50%|████▉     | 1759/3535 [08:32<08:40,  3.41it/s, loss=0.5676, skipped=0, updates=220]2026-11-05 12:06:59,386 INFO train step 1760/3535 loss=0.5676 updates=220 pairs=1760 skipped=0
+train:  50%|█████     | 1779/3535 [08:38<08:23,  3.49it/s, loss=0.5671, skipped=0, updates=222]2026-11-05 12:07:05,235 INFO train step 1780/3535 loss=0.5671 updates=222 pairs=1780 skipped=0
+train:  51%|█████     | 1799/3535 [08:44<08:06,  3.57it/s, loss=0.5670, skipped=0, updates=225]2026-11-05 12:07:10,951 INFO train step 1800/3535 loss=0.5670 updates=225 pairs=1800 skipped=0
+train:  51%|█████▏    | 1819/3535 [08:50<08:09,  3.50it/s, loss=0.5657, skipped=0, updates=227]2026-11-05 12:07:16,649 INFO train step 1820/3535 loss=0.5657 updates=227 pairs=1820 skipped=0
+train:  52%|█████▏    | 1839/3535 [08:55<08:04,  3.50it/s, loss=0.5646, skipped=0, updates=230]2026-11-05 12:07:22,482 INFO train step 1840/3535 loss=0.5646 updates=230 pairs=1840 skipped=0
+train:  53%|█████▎    | 1859/3535 [09:01<07:45,  3.60it/s, loss=0.5657, skipped=0, updates=232]2026-11-05 12:07:28,277 INFO train step 1860/3535 loss=0.5657 updates=232 pairs=1860 skipped=0
+train:  53%|█████▎    | 1879/3535 [09:07<07:38,  3.61it/s, loss=0.5662, skipped=0, updates=235]2026-11-05 12:07:33,953 INFO train step 1880/3535 loss=0.5662 updates=235 pairs=1880 skipped=0
+train:  54%|█████▎    | 1899/3535 [09:13<07:28,  3.65it/s, loss=0.5679, skipped=0, updates=237]2026-11-05 12:07:39,611 INFO train step 1900/3535 loss=0.5679 updates=237 pairs=1900 skipped=0
+train:  54%|█████▍    | 1919/3535 [09:18<07:49,  3.44it/s, loss=0.5696, skipped=0, updates=240]2026-11-05 12:07:45,492 INFO train step 1920/3535 loss=0.5696 updates=240 pairs=1920 skipped=0
+train:  55%|█████▍    | 1939/3535 [09:24<07:42,  3.45it/s, loss=0.5690, skipped=0, updates=242]2026-11-05 12:07:51,524 INFO train step 1940/3535 loss=0.5690 updates=242 pairs=1940 skipped=0
+train:  55%|█████▌    | 1959/3535 [09:31<08:42,  3.02it/s, loss=0.5681, skipped=0, updates=245]2026-11-05 12:07:57,555 INFO train step 1960/3535 loss=0.5681 updates=245 pairs=1960 skipped=0
+train:  56%|█████▌    | 1979/3535 [09:36<08:03,  3.22it/s, loss=0.5677, skipped=0, updates=247]2026-11-05 12:08:03,290 INFO train step 1980/3535 loss=0.5677 updates=247 pairs=1980 skipped=0
+train:  57%|█████▋    | 1999/3535 [09:42<07:39,  3.34it/s, loss=0.5674, skipped=0, updates=250]2026-11-05 12:08:09,075 INFO train step 2000/3535 loss=0.5674 updates=250 pairs=2000 skipped=0
+train:  57%|█████▋    | 2019/3535 [09:48<07:25,  3.41it/s, loss=0.5680, skipped=0, updates=252]2026-11-05 12:08:15,000 INFO train step 2020/3535 loss=0.5680 updates=252 pairs=2020 skipped=0
+train:  58%|█████▊    | 2039/3535 [09:54<07:16,  3.43it/s, loss=0.5685, skipped=0, updates=255]2026-11-05 12:08:20,855 INFO train step 2040/3535 loss=0.5685 updates=255 pairs=2040 skipped=0
+train:  58%|█████▊    | 2059/3535 [10:00<07:06,  3.46it/s, loss=0.5688, skipped=0, updates=257]2026-11-05 12:08:26,715 INFO train step 2060/3535 loss=0.5688 updates=257 pairs=2060 skipped=0
+train:  59%|█████▉    | 2079/3535 [10:06<06:57,  3.48it/s, loss=0.5691, skipped=0, updates=260]2026-11-05 12:08:32,637 INFO train step 2080/3535 loss=0.5691 updates=260 pairs=2080 skipped=0
+train:  59%|█████▉    | 2099/3535 [10:11<06:51,  3.49it/s, loss=0.5696, skipped=0, updates=262]2026-11-05 12:08:38,450 INFO train step 2100/3535 loss=0.5696 updates=262 pairs=2100 skipped=0
+train:  60%|█████▉    | 2119/3535 [10:17<06:36,  3.57it/s, loss=0.5710, skipped=0, updates=265]2026-11-05 12:08:44,205 INFO train step 2120/3535 loss=0.5710 updates=265 pairs=2120 skipped=0
+train:  61%|██████    | 2139/3535 [10:23<06:38,  3.50it/s, loss=0.5699, skipped=0, updates=267]2026-11-05 12:08:49,981 INFO train step 2140/3535 loss=0.5699 updates=267 pairs=2140 skipped=0
+train:  61%|██████    | 2159/3535 [10:29<06:34,  3.49it/s, loss=0.5699, skipped=0, updates=270]2026-11-05 12:08:55,859 INFO train step 2160/3535 loss=0.5699 updates=270 pairs=2160 skipped=0
+train:  62%|██████▏   | 2179/3535 [10:35<06:32,  3.46it/s, loss=0.5686, skipped=0, updates=272]2026-11-05 12:09:01,751 INFO train step 2180/3535 loss=0.5686 updates=272 pairs=2180 skipped=0
+train:  62%|██████▏   | 2199/3535 [10:41<06:24,  3.48it/s, loss=0.5692, skipped=0, updates=275]2026-11-05 12:09:07,730 INFO train step 2200/3535 loss=0.5692 updates=275 pairs=2200 skipped=0
+train:  63%|██████▎   | 2219/3535 [10:47<06:15,  3.51it/s, loss=0.5687, skipped=0, updates=277]2026-11-05 12:09:13,672 INFO train step 2220/3535 loss=0.5687 updates=277 pairs=2220 skipped=0
+train:  63%|██████▎   | 2239/3535 [10:52<06:41,  3.23it/s, loss=0.5685, skipped=0, updates=280]2026-11-05 12:09:19,533 INFO train step 2240/3535 loss=0.5685 updates=280 pairs=2240 skipped=0
+train:  64%|██████▍   | 2259/3535 [10:58<06:26,  3.31it/s, loss=0.5691, skipped=0, updates=282]2026-11-05 12:09:25,294 INFO train step 2260/3535 loss=0.5691 updates=282 pairs=2260 skipped=0
+train:  64%|██████▍   | 2279/3535 [11:04<06:07,  3.42it/s, loss=0.5679, skipped=0, updates=285]2026-11-05 12:09:31,036 INFO train step 2280/3535 loss=0.5679 updates=285 pairs=2280 skipped=0
+train:  65%|██████▌   | 2299/3535 [11:10<06:06,  3.37it/s, loss=0.5671, skipped=0, updates=287]2026-11-05 12:09:36,847 INFO train step 2300/3535 loss=0.5671 updates=287 pairs=2300 skipped=0
+train:  66%|██████▌   | 2319/3535 [11:16<05:45,  3.52it/s, loss=0.5676, skipped=0, updates=290]2026-11-05 12:09:42,581 INFO train step 2320/3535 loss=0.5676 updates=290 pairs=2320 skipped=0
+train:  66%|██████▌   | 2339/3535 [11:21<05:36,  3.55it/s, loss=0.5675, skipped=0, updates=292]2026-11-05 12:09:48,292 INFO train step 2340/3535 loss=0.5675 updates=292 pairs=2340 skipped=0
+train:  67%|██████▋   | 2359/3535 [11:27<05:35,  3.50it/s, loss=0.5680, skipped=0, updates=295]2026-11-05 12:09:54,086 INFO train step 2360/3535 loss=0.5680 updates=295 pairs=2360 skipped=0
+train:  67%|██████▋   | 2379/3535 [11:33<05:34,  3.46it/s, loss=0.5680, skipped=0, updates=297]2026-11-05 12:09:59,967 INFO train step 2380/3535 loss=0.5680 updates=297 pairs=2380 skipped=0
+train:  68%|██████▊   | 2399/3535 [11:39<05:24,  3.50it/s, loss=0.5682, skipped=0, updates=300]2026-11-05 12:10:05,844 INFO train step 2400/3535 loss=0.5682 updates=300 pairs=2400 skipped=0
+train:  68%|██████▊   | 2419/3535 [11:45<05:20,  3.48it/s, loss=0.5683, skipped=0, updates=302]2026-11-05 12:10:11,803 INFO train step 2420/3535 loss=0.5683 updates=302 pairs=2420 skipped=0
+train:  69%|██████▉   | 2439/3535 [11:51<05:09,  3.54it/s, loss=0.5691, skipped=0, updates=305]2026-11-05 12:10:17,630 INFO train step 2440/3535 loss=0.5691 updates=305 pairs=2440 skipped=0
+train:  70%|██████▉   | 2459/3535 [11:56<05:02,  3.56it/s, loss=0.5696, skipped=0, updates=307]2026-11-05 12:10:23,320 INFO train step 2460/3535 loss=0.5696 updates=307 pairs=2460 skipped=0
+train:  70%|███████   | 2479/3535 [12:02<04:57,  3.54it/s, loss=0.5704, skipped=0, updates=310]2026-11-05 12:10:29,047 INFO train step 2480/3535 loss=0.5704 updates=310 pairs=2480 skipped=0
+train:  71%|███████   | 2499/3535 [12:08<04:49,  3.58it/s, loss=0.5706, skipped=0, updates=312]2026-11-05 12:10:34,882 INFO train step 2500/3535 loss=0.5706 updates=312 pairs=2500 skipped=0
+train:  71%|███████▏  | 2519/3535 [12:14<05:14,  3.23it/s, loss=0.5705, skipped=0, updates=315]2026-11-05 12:10:40,694 INFO train step 2520/3535 loss=0.5705 updates=315 pairs=2520 skipped=0
+train:  72%|███████▏  | 2539/3535 [12:19<05:01,  3.31it/s, loss=0.5712, skipped=0, updates=317]2026-11-05 12:10:46,513 INFO train step 2540/3535 loss=0.5712 updates=317 pairs=2540 skipped=0
+train:  72%|███████▏  | 2559/3535 [12:25<04:42,  3.45it/s, loss=0.5711, skipped=0, updates=320]2026-11-05 12:10:52,217 INFO train step 2560/3535 loss=0.5711 updates=320 pairs=2560 skipped=0
+train:  73%|███████▎  | 2579/3535 [12:31<04:31,  3.52it/s, loss=0.5725, skipped=0, updates=322]2026-11-05 12:10:57,886 INFO train step 2580/3535 loss=0.5725 updates=322 pairs=2580 skipped=0
+train:  74%|███████▎  | 2599/3535 [12:37<04:23,  3.55it/s, loss=0.5727, skipped=0, updates=325]2026-11-05 12:11:03,571 INFO train step 2600/3535 loss=0.5727 updates=325 pairs=2600 skipped=0
+train:  74%|███████▍  | 2619/3535 [12:42<04:16,  3.58it/s, loss=0.5711, skipped=0, updates=327]2026-11-05 12:11:09,178 INFO train step 2620/3535 loss=0.5711 updates=327 pairs=2620 skipped=0
+train:  75%|███████▍  | 2639/3535 [12:48<04:22,  3.41it/s, loss=0.5708, skipped=0, updates=330]2026-11-05 12:11:14,952 INFO train step 2640/3535 loss=0.5708 updates=330 pairs=2640 skipped=0
+train:  75%|███████▌  | 2659/3535 [12:54<04:07,  3.55it/s, loss=0.5695, skipped=0, updates=332]2026-11-05 12:11:20,715 INFO train step 2660/3535 loss=0.5695 updates=332 pairs=2660 skipped=0
+train:  76%|███████▌  | 2679/3535 [12:59<04:02,  3.53it/s, loss=0.5681, skipped=0, updates=335]2026-11-05 12:11:26,462 INFO train step 2680/3535 loss=0.5681 updates=335 pairs=2680 skipped=0
+train:  76%|███████▋  | 2699/3535 [13:05<03:58,  3.51it/s, loss=0.5696, skipped=0, updates=337]2026-11-05 12:11:32,257 INFO train step 2700/3535 loss=0.5696 updates=337 pairs=2700 skipped=0
+train:  77%|███████▋  | 2719/3535 [13:11<03:49,  3.55it/s, loss=0.5702, skipped=0, updates=340]2026-11-05 12:11:38,043 INFO train step 2720/3535 loss=0.5702 updates=340 pairs=2720 skipped=0
+train:  77%|███████▋  | 2739/3535 [13:17<03:45,  3.53it/s, loss=0.5687, skipped=0, updates=342]2026-11-05 12:11:43,818 INFO train step 2740/3535 loss=0.5687 updates=342 pairs=2740 skipped=0
+train:  78%|███████▊  | 2759/3535 [13:23<03:41,  3.50it/s, loss=0.5690, skipped=0, updates=345]2026-11-05 12:11:49,706 INFO train step 2760/3535 loss=0.5690 updates=345 pairs=2760 skipped=0
+train:  79%|███████▊  | 2779/3535 [13:29<03:35,  3.51it/s, loss=0.5680, skipped=0, updates=347]2026-11-05 12:11:55,648 INFO train step 2780/3535 loss=0.5680 updates=347 pairs=2780 skipped=0
+train:  79%|███████▉  | 2799/3535 [13:34<03:48,  3.22it/s, loss=0.5662, skipped=0, updates=350]2026-11-05 12:12:01,513 INFO train step 2800/3535 loss=0.5662 updates=350 pairs=2800 skipped=0
+train:  80%|███████▉  | 2819/3535 [13:40<03:45,  3.17it/s, loss=0.5662, skipped=0, updates=352]2026-11-05 12:12:07,358 INFO train step 2820/3535 loss=0.5662 updates=352 pairs=2820 skipped=0
+train:  80%|████████  | 2839/3535 [13:46<03:30,  3.30it/s, loss=0.5657, skipped=0, updates=355]2026-11-05 12:12:13,239 INFO train step 2840/3535 loss=0.5657 updates=355 pairs=2840 skipped=0
+train:  81%|████████  | 2859/3535 [13:52<03:16,  3.44it/s, loss=0.5658, skipped=0, updates=357]2026-11-05 12:12:19,112 INFO train step 2860/3535 loss=0.5658 updates=357 pairs=2860 skipped=0
+train:  81%|████████▏ | 2879/3535 [13:58<03:10,  3.44it/s, loss=0.5655, skipped=0, updates=360]2026-11-05 12:12:25,024 INFO train step 2880/3535 loss=0.5655 updates=360 pairs=2880 skipped=0
+train:  82%|████████▏ | 2899/3535 [14:04<03:04,  3.45it/s, loss=0.5651, skipped=0, updates=362]2026-11-05 12:12:30,872 INFO train step 2900/3535 loss=0.5651 updates=362 pairs=2900 skipped=0
+train:  83%|████████▎ | 2919/3535 [14:10<02:55,  3.51it/s, loss=0.5641, skipped=0, updates=365]2026-11-05 12:12:36,702 INFO train step 2920/3535 loss=0.5641 updates=365 pairs=2920 skipped=0
+train:  83%|████████▎ | 2939/3535 [14:15<02:51,  3.48it/s, loss=0.5640, skipped=0, updates=367]2026-11-05 12:12:42,494 INFO train step 2940/3535 loss=0.5640 updates=367 pairs=2940 skipped=0
+train:  84%|████████▎ | 2959/3535 [14:21<02:42,  3.54it/s, loss=0.5640, skipped=0, updates=370]2026-11-05 12:12:48,284 INFO train step 2960/3535 loss=0.5640 updates=370 pairs=2960 skipped=0
+train:  84%|████████▍ | 2979/3535 [14:27<02:40,  3.47it/s, loss=0.5640, skipped=0, updates=372]2026-11-05 12:12:54,202 INFO train step 2980/3535 loss=0.5640 updates=372 pairs=2980 skipped=0
+train:  85%|████████▍ | 2999/3535 [14:33<02:31,  3.53it/s, loss=0.5631, skipped=0, updates=375]2026-11-05 12:12:59,961 INFO train step 3000/3535 loss=0.5631 updates=375 pairs=3000 skipped=0
+train:  85%|████████▌ | 3019/3535 [14:39<02:27,  3.49it/s, loss=0.5638, skipped=0, updates=377]2026-11-05 12:13:05,767 INFO train step 3020/3535 loss=0.5638 updates=377 pairs=3020 skipped=0
+train:  86%|████████▌ | 3039/3535 [14:45<02:22,  3.49it/s, loss=0.5638, skipped=0, updates=380]2026-11-05 12:13:11,606 INFO train step 3040/3535 loss=0.5638 updates=380 pairs=3040 skipped=0
+train:  87%|████████▋ | 3059/3535 [14:51<02:15,  3.51it/s, loss=0.5628, skipped=0, updates=382]2026-11-05 12:13:17,560 INFO train step 3060/3535 loss=0.5628 updates=382 pairs=3060 skipped=0
+train:  87%|████████▋ | 3079/3535 [14:56<02:19,  3.26it/s, loss=0.5627, skipped=0, updates=385]2026-11-05 12:13:23,395 INFO train step 3080/3535 loss=0.5627 updates=385 pairs=3080 skipped=0
+train:  88%|████████▊ | 3099/3535 [15:02<02:14,  3.23it/s, loss=0.5624, skipped=0, updates=387]2026-11-05 12:13:29,290 INFO train step 3100/3535 loss=0.5624 updates=387 pairs=3100 skipped=0
+train:  88%|████████▊ | 3119/3535 [15:08<02:02,  3.40it/s, loss=0.5612, skipped=0, updates=390]2026-11-05 12:13:35,123 INFO train step 3120/3535 loss=0.5612 updates=390 pairs=3120 skipped=0
+train:  89%|████████▉ | 3139/3535 [15:14<01:55,  3.43it/s, loss=0.5614, skipped=0, updates=392]2026-11-05 12:13:40,917 INFO train step 3140/3535 loss=0.5614 updates=392 pairs=3140 skipped=0
+train:  89%|████████▉ | 3159/3535 [15:20<01:48,  3.47it/s, loss=0.5612, skipped=0, updates=395]2026-11-05 12:13:46,726 INFO train step 3160/3535 loss=0.5612 updates=395 pairs=3160 skipped=0
+train:  90%|████████▉ | 3179/3535 [15:26<01:41,  3.49it/s, loss=0.5608, skipped=0, updates=397]2026-11-05 12:13:52,560 INFO train step 3180/3535 loss=0.5608 updates=397 pairs=3180 skipped=0
+train:  90%|█████████ | 3199/3535 [15:31<01:41,  3.33it/s, loss=0.5608, skipped=0, updates=400]2026-11-05 12:13:58,479 INFO train step 3200/3535 loss=0.5608 updates=400 pairs=3200 skipped=0
+train:  91%|█████████ | 3219/3535 [15:37<01:32,  3.42it/s, loss=0.5612, skipped=0, updates=402]2026-11-05 12:14:04,364 INFO train step 3220/3535 loss=0.5612 updates=402 pairs=3220 skipped=0
+train:  92%|█████████▏| 3239/3535 [15:43<01:24,  3.52it/s, loss=0.5612, skipped=0, updates=405]2026-11-05 12:14:10,186 INFO train step 3240/3535 loss=0.5612 updates=405 pairs=3240 skipped=0
+train:  92%|█████████▏| 3259/3535 [15:49<01:20,  3.43it/s, loss=0.5617, skipped=0, updates=407]2026-11-05 12:14:16,034 INFO train step 3260/3535 loss=0.5617 updates=407 pairs=3260 skipped=0
+train:  93%|█████████▎| 3279/3535 [15:55<01:14,  3.42it/s, loss=0.5620, skipped=0, updates=410]2026-11-05 12:14:21,900 INFO train step 3280/3535 loss=0.5620 updates=410 pairs=3280 skipped=0
+train:  93%|█████████▎| 3299/3535 [16:01<01:07,  3.50it/s, loss=0.5625, skipped=0, updates=412]2026-11-05 12:14:27,764 INFO train step 3300/3535 loss=0.5625 updates=412 pairs=3300 skipped=0
+train:  94%|█████████▍| 3319/3535 [16:07<01:01,  3.50it/s, loss=0.5626, skipped=0, updates=415]2026-11-05 12:14:33,666 INFO train step 3320/3535 loss=0.5626 updates=415 pairs=3320 skipped=0
+train:  94%|█████████▍| 3339/3535 [16:13<00:56,  3.44it/s, loss=0.5628, skipped=0, updates=417]2026-11-05 12:14:39,623 INFO train step 3340/3535 loss=0.5628 updates=417 pairs=3340 skipped=0
+train:  95%|█████████▌| 3359/3535 [16:18<00:54,  3.24it/s, loss=0.5625, skipped=0, updates=420]2026-11-05 12:14:45,456 INFO train step 3360/3535 loss=0.5625 updates=420 pairs=3360 skipped=0
+train:  96%|█████████▌| 3379/3535 [16:24<00:48,  3.25it/s, loss=0.5615, skipped=0, updates=422]2026-11-05 12:14:51,249 INFO train step 3380/3535 loss=0.5615 updates=422 pairs=3380 skipped=0
+train:  96%|█████████▌| 3399/3535 [16:30<00:40,  3.37it/s, loss=0.5621, skipped=0, updates=425]2026-11-05 12:14:57,075 INFO train step 3400/3535 loss=0.5621 updates=425 pairs=3400 skipped=0
+train:  97%|█████████▋| 3419/3535 [16:36<00:33,  3.47it/s, loss=0.5626, skipped=0, updates=427]2026-11-05 12:15:02,908 INFO train step 3420/3535 loss=0.5626 updates=427 pairs=3420 skipped=0
+train:  97%|█████████▋| 3439/3535 [16:42<00:26,  3.56it/s, loss=0.5619, skipped=0, updates=430]2026-11-05 12:15:08,728 INFO train step 3440/3535 loss=0.5619 updates=430 pairs=3440 skipped=0
+train:  98%|█████████▊| 3459/3535 [16:47<00:21,  3.57it/s, loss=0.5629, skipped=0, updates=432]2026-11-05 12:15:14,391 INFO train step 3460/3535 loss=0.5629 updates=432 pairs=3460 skipped=0
+train:  98%|█████████▊| 3479/3535 [16:53<00:15,  3.57it/s, loss=0.5637, skipped=0, updates=435]2026-11-05 12:15:20,083 INFO train step 3480/3535 loss=0.5637 updates=435 pairs=3480 skipped=0
+train:  99%|█████████▉| 3499/3535 [16:59<00:10,  3.45it/s, loss=0.5644, skipped=0, updates=437]2026-11-05 12:15:25,924 INFO train step 3500/3535 loss=0.5644 updates=437 pairs=3500 skipped=0
+train: 100%|█████████▉| 3519/3535 [17:05<00:04,  3.49it/s, loss=0.5653, skipped=0, updates=440]2026-11-05 12:15:31,770 INFO train step 3520/3535 loss=0.5653 updates=440 pairs=3520 skipped=0
+train: 100%|█████████▉| 3534/3535 [17:09<00:00,  3.32it/s, loss=0.5652, skipped=0, updates=441]2026-11-05 12:15:36,239 INFO train step 3535/3535 loss=0.5652 updates=441 pairs=3535 skipped=0
+2026-11-05 12:16:21,269 INFO Epoch 4 train={"loss": 0.5652436194759616, "pairs": 3535, "updates": 442, "skipped_batches": 0} validation={"loss": 0.7261023328992534, "pairs": 438}
+2026-11-05 12:16:21,666 INFO HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-11-05 12:16:21,692 INFO HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-1.5B-Instruct/989aa7980e4cf806f80c7fef2b1adb7bc71aa306/config.json?%2FQwen%2FQwen2.5-1.5B-Instruct%2Fresolve%2Fmain%2Fconfig.json=&etag=%22f81ead14ab072d65a07817f83a3ee0e5a1890d10%22 "HTTP/1.1 200 OK"
+2026-11-05 12:16:21,841 INFO HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-1.5B-Instruct/revision/main "HTTP/1.1 200 OK"
+2026-11-05 12:16:22,003 INFO Saved best Stage 4 checkpoint to /workspace/knee-mri-rrg/checkpoints/stage4/best
+train:   1%|          | 19/3535 [00:05<16:14,  3.61it/s, loss=0.4953, skipped=0, updates=2]2026-11-05 12:16:27,959 INFO train step 20/3535 loss=0.4953 updates=2 pairs=20 skipped=0
+train:   1%|          | 39/3535 [00:11<16:37,  3.50it/s, loss=0.4920, skipped=0, updates=5]2026-11-05 12:16:33,785 INFO train step 40/3535 loss=0.4920 updates=5 pairs=40 skipped=0
+train:   2%|▏         | 59/3535 [00:17<16:46,  3.46it/s, loss=0.5324, skipped=0, updates=7]2026-11-05 12:16:39,625 INFO train step 60/3535 loss=0.5324 updates=7 pairs=60 skipped=0
+train:   2%|▏         | 79/3535 [00:23<16:44,  3.44it/s, loss=0.5169, skipped=0, updates=10]2026-11-05 12:16:45,660 INFO train step 80/3535 loss=0.5169 updates=10 pairs=80 skipped=0
+train:   3%|▎         | 99/3535 [00:29<16:42,  3.43it/s, loss=0.5136, skipped=0, updates=12]2026-11-05 12:16:51,574 INFO train step 100/3535 loss=0.5136 updates=12 pairs=100 skipped=0
+train:   3%|▎         | 119/3535 [00:35<16:20,  3.48it/s, loss=0.5278, skipped=0, updates=15]2026-11-05 12:16:57,483 INFO train step 120/3535 loss=0.5278 updates=15 pairs=120 skipped=0
+train:   4%|▍         | 139/3535 [00:41<16:29,  3.43it/s, loss=0.5052, skipped=0, updates=17]2026-11-05 12:17:03,396 INFO train step 140/3535 loss=0.5052 updates=17 pairs=140 skipped=0
+train:   4%|▍         | 159/3535 [00:47<15:58,  3.52it/s, loss=0.5104, skipped=0, updates=20]2026-11-05 12:17:09,255 INFO train step 160/3535 loss=0.5104 updates=20 pairs=160 skipped=0
+train:   5%|▌         | 179/3535 [00:53<16:11,  3.45it/s, loss=0.5082, skipped=0, updates=22]2026-11-05 12:17:15,270 INFO train step 180/3535 loss=0.5082 updates=22 pairs=180 skipped=0
+train:   6%|▌         | 199/3535 [00:59<15:57,  3.48it/s, loss=0.5081, skipped=0, updates=25]2026-11-05 12:17:21,184 INFO train step 200/3535 loss=0.5081 updates=25 pairs=200 skipped=0
+train:   6%|▌         | 219/3535 [01:05<17:01,  3.25it/s, loss=0.5109, skipped=0, updates=27]2026-11-05 12:17:27,079 INFO train step 220/3535 loss=0.5109 updates=27 pairs=220 skipped=0
+train:   7%|▋         | 239/3535 [01:10<16:23,  3.35it/s, loss=0.5152, skipped=0, updates=30]2026-11-05 12:17:32,973 INFO train step 240/3535 loss=0.5152 updates=30 pairs=240 skipped=0
+train:   7%|▋         | 259/3535 [01:16<16:25,  3.33it/s, loss=0.5094, skipped=0, updates=32]2026-11-05 12:17:38,874 INFO train step 260/3535 loss=0.5094 updates=32 pairs=260 skipped=0
+train:   8%|▊         | 279/3535 [01:22<15:46,  3.44it/s, loss=0.5028, skipped=0, updates=35]2026-11-05 12:17:44,769 INFO train step 280/3535 loss=0.5028 updates=35 pairs=280 skipped=0
+train:   8%|▊         | 299/3535 [01:28<15:28,  3.49it/s, loss=0.5067, skipped=0, updates=37]2026-11-05 12:17:50,640 INFO train step 300/3535 loss=0.5067 updates=37 pairs=300 skipped=0
+train:   9%|▉         | 319/3535 [01:34<15:23,  3.48it/s, loss=0.5121, skipped=0, updates=40]2026-11-05 12:17:56,513 INFO train step 320/3535 loss=0.5121 updates=40 pairs=320 skipped=0
+train:  10%|▉         | 339/3535 [01:40<15:37,  3.41it/s, loss=0.5157, skipped=0, updates=42]2026-11-05 12:18:02,435 INFO train step 340/3535 loss=0.5157 updates=42 pairs=340 skipped=0
+train:  10%|█         | 359/3535 [01:46<15:13,  3.48it/s, loss=0.5243, skipped=0, updates=45]2026-11-05 12:18:08,332 INFO train step 360/3535 loss=0.5243 updates=45 pairs=360 skipped=0
+train:  11%|█         | 379/3535 [01:52<14:53,  3.53it/s, loss=0.5257, skipped=0, updates=47]2026-11-05 12:18:14,182 INFO train step 380/3535 loss=0.5257 updates=47 pairs=380 skipped=0
+train:  11%|█▏        | 399/3535 [01:57<14:36,  3.58it/s, loss=0.5168, skipped=0, updates=50]2026-11-05 12:18:19,909 INFO train step 400/3535 loss=0.5168 updates=50 pairs=400 skipped=0
+train:  12%|█▏        | 419/3535 [02:03<14:39,  3.54it/s, loss=0.5166, skipped=0, updates=52]2026-11-05 12:18:25,723 INFO train step 420/3535 loss=0.5166 updates=52 pairs=420 skipped=0
+train:  12%|█▏        | 439/3535 [02:09<14:47,  3.49it/s, loss=0.5162, skipped=0, updates=55]2026-11-05 12:18:31,636 INFO train step 440/3535 loss=0.5162 updates=55 pairs=440 skipped=0
+train:  13%|█▎        | 459/3535 [02:15<14:13,  3.60it/s, loss=0.5130, skipped=0, updates=57]2026-11-05 12:18:37,454 INFO train step 460/3535 loss=0.5130 updates=57 pairs=460 skipped=0
+train:  14%|█▎        | 479/3535 [02:21<14:09,  3.60it/s, loss=0.5104, skipped=0, updates=60]2026-11-05 12:18:43,170 INFO train step 480/3535 loss=0.5104 updates=60 pairs=480 skipped=0
+train:  14%|█▍        | 499/3535 [02:26<15:25,  3.28it/s, loss=0.5122, skipped=0, updates=62]2026-11-05 12:18:48,967 INFO train step 500/3535 loss=0.5122 updates=62 pairs=500 skipped=0
+train:  15%|█▍        | 519/3535 [02:32<15:21,  3.27it/s, loss=0.5066, skipped=0, updates=65]2026-11-05 12:18:54,930 INFO train step 520/3535 loss=0.5066 updates=65 pairs=520 skipped=0
+train:  15%|█▌        | 539/3535 [02:38<14:39,  3.41it/s, loss=0.5125, skipped=0, updates=67]2026-11-05 12:19:00,710 INFO train step 540/3535 loss=0.5125 updates=67 pairs=540 skipped=0
+train:  16%|█▌        | 559/3535 [02:44<13:57,  3.55it/s, loss=0.5154, skipped=0, updates=70]2026-11-05 12:19:06,410 INFO train step 560/3535 loss=0.5154 updates=70 pairs=560 skipped=0
+train:  16%|█▋        | 579/3535 [02:50<13:50,  3.56it/s, loss=0.5178, skipped=0, updates=72]2026-11-05 12:19:12,104 INFO train step 580/3535 loss=0.5178 updates=72 pairs=580 skipped=0
+train:  17%|█▋        | 599/3535 [02:55<13:33,  3.61it/s, loss=0.5179, skipped=0, updates=75]2026-11-05 12:19:17,731 INFO train step 600/3535 loss=0.5179 updates=75 pairs=600 skipped=0
+train:  18%|█▊        | 619/3535 [03:01<13:31,  3.59it/s, loss=0.5182, skipped=0, updates=77]2026-11-05 12:19:23,400 INFO train step 620/3535 loss=0.5182 updates=77 pairs=620 skipped=0
+train:  18%|█▊        | 639/3535 [03:07<13:21,  3.62it/s, loss=0.5149, skipped=0, updates=80]2026-11-05 12:19:29,174 INFO train step 640/3535 loss=0.5149 updates=80 pairs=640 skipped=0
+train:  19%|█▊        | 659/3535 [03:12<13:35,  3.53it/s, loss=0.5169, skipped=0, updates=82]2026-11-05 12:19:34,935 INFO train step 660/3535 loss=0.5169 updates=82 pairs=660 skipped=0
+train:  19%|█▉        | 679/3535 [03:18<13:10,  3.61it/s, loss=0.5182, skipped=0, updates=85]2026-11-05 12:19:40,626 INFO train step 680/3535 loss=0.5182 updates=85 pairs=680 skipped=0
+train:  20%|█▉        | 699/3535 [03:24<13:11,  3.58it/s, loss=0.5159, skipped=0, updates=87]2026-11-05 12:19:46,314 INFO train step 700/3535 loss=0.5159 updates=87 pairs=700 skipped=0
+train:  20%|██        | 719/3535 [03:30<13:02,  3.60it/s, loss=0.5132, skipped=0, updates=90]2026-11-05 12:19:52,027 INFO train step 720/3535 loss=0.5132 updates=90 pairs=720 skipped=0
+train:  21%|██        | 739/3535 [03:35<13:24,  3.48it/s, loss=0.5100, skipped=0, updates=92]2026-11-05 12:19:57,931 INFO train step 740/3535 loss=0.5100 updates=92 pairs=740 skipped=0
+train:  21%|██▏       | 759/3535 [03:41<13:27,  3.44it/s, loss=0.5113, skipped=0, updates=95]2026-11-05 12:20:03,956 INFO train step 760/3535 loss=0.5113 updates=95 pairs=760 skipped=0
+train:  22%|██▏       | 779/3535 [03:47<14:12,  3.23it/s, loss=0.5113, skipped=0, updates=97]2026-11-05 12:20:09,850 INFO train step 780/3535 loss=0.5113 updates=97 pairs=780 skipped=0
+train:  23%|██▎       | 799/3535 [03:53<13:35,  3.36it/s, loss=0.5108, skipped=0, updates=100]2026-11-05 12:20:15,719 INFO train step 800/3535 loss=0.5108 updates=100 pairs=800 skipped=0
+train:  23%|██▎       | 819/3535 [03:59<13:05,  3.46it/s, loss=0.5107, skipped=0, updates=102]2026-11-05 12:20:21,531 INFO train step 820/3535 loss=0.5107 updates=102 pairs=820 skipped=0
+train:  24%|██▎       | 839/3535 [04:05<13:02,  3.45it/s, loss=0.5122, skipped=0, updates=105]2026-11-05 12:20:27,375 INFO train step 840/3535 loss=0.5122 updates=105 pairs=840 skipped=0
+train:  24%|██▍       | 859/3535 [04:11<13:13,  3.37it/s, loss=0.5145, skipped=0, updates=107]2026-11-05 12:20:33,318 INFO train step 860/3535 loss=0.5145 updates=107 pairs=860 skipped=0
+train:  25%|██▍       | 879/3535 [04:17<12:45,  3.47it/s, loss=0.5151, skipped=0, updates=110]2026-11-05 12:20:39,194 INFO train step 880/3535 loss=0.5151 updates=110 pairs=880 skipped=0
+train:  25%|██▌       | 899/3535 [04:23<12:36,  3.49it/s, loss=0.5159, skipped=0, updates=112]2026-11-05 12:20:45,043 INFO train step 900/3535 loss=0.5159 updates=112 pairs=900 skipped=0
+train:  26%|██▌       | 919/3535 [04:28<12:32,  3.47it/s, loss=0.5144, skipped=0, updates=115]2026-11-05 12:20:50,882 INFO train step 920/3535 loss=0.5144 updates=115 pairs=920 skipped=0
+train:  27%|██▋       | 939/3535 [04:34<12:32,  3.45it/s, loss=0.5155, skipped=0, updates=117]2026-11-05 12:20:56,788 INFO train step 940/3535 loss=0.5155 updates=117 pairs=940 skipped=0
+train:  27%|██▋       | 959/3535 [04:40<12:05,  3.55it/s, loss=0.5151, skipped=0, updates=120]2026-11-05 12:21:02,604 INFO train step 960/3535 loss=0.5151 updates=120 pairs=960 skipped=0
+train:  28%|██▊       | 979/3535 [04:46<12:06,  3.52it/s, loss=0.5142, skipped=0, updates=122]2026-11-05 12:21:08,533 INFO train step 980/3535 loss=0.5142 updates=122 pairs=980 skipped=0
+train:  28%|██▊       | 999/3535 [04:52<11:49,  3.57it/s, loss=0.5135, skipped=0, updates=125]2026-11-05 12:21:14,303 INFO train step 1000/3535 loss=0.5135 updates=125 pairs=1000 skipped=0
+train:  29%|██▉       | 1019/3535 [04:58<11:52,  3.53it/s, loss=0.5153, skipped=0, updates=127]2026-11-05 12:21:20,178 INFO train step 1020/3535 loss=0.5153 updates=127 pairs=1020 skipped=0
+train:  29%|██▉       | 1039/3535 [05:04<11:53,  3.50it/s, loss=0.5140, skipped=0, updates=130]2026-11-05 12:21:26,027 INFO train step 1040/3535 loss=0.5140 updates=130 pairs=1040 skipped=0
+train:  30%|██▉       | 1059/3535 [05:09<12:34,  3.28it/s, loss=0.5135, skipped=0, updates=132]2026-11-05 12:21:31,831 INFO train step 1060/3535 loss=0.5135 updates=132 pairs=1060 skipped=0
+train:  31%|███       | 1079/3535 [05:15<13:12,  3.10it/s, loss=0.5127, skipped=0, updates=135]2026-11-05 12:21:37,872 INFO train step 1080/3535 loss=0.5127 updates=135 pairs=1080 skipped=0
+train:  31%|███       | 1099/3535 [05:21<12:22,  3.28it/s, loss=0.5125, skipped=0, updates=137]2026-11-05 12:21:43,815 INFO train step 1100/3535 loss=0.5125 updates=137 pairs=1100 skipped=0
+train:  32%|███▏      | 1119/3535 [05:27<11:47,  3.42it/s, loss=0.5115, skipped=0, updates=140]2026-11-05 12:21:49,740 INFO train step 1120/3535 loss=0.5115 updates=140 pairs=1120 skipped=0
+train:  32%|███▏      | 1139/3535 [05:33<11:42,  3.41it/s, loss=0.5125, skipped=0, updates=142]2026-11-05 12:21:55,665 INFO train step 1140/3535 loss=0.5125 updates=142 pairs=1140 skipped=0
+train:  33%|███▎      | 1159/3535 [05:39<11:30,  3.44it/s, loss=0.5158, skipped=0, updates=145]2026-11-05 12:22:01,559 INFO train step 1160/3535 loss=0.5158 updates=145 pairs=1160 skipped=0
+train:  33%|███▎      | 1179/3535 [05:45<11:18,  3.47it/s, loss=0.5164, skipped=0, updates=147]2026-11-05 12:22:07,452 INFO train step 1180/3535 loss=0.5164 updates=147 pairs=1180 skipped=0
+train:  34%|███▍      | 1199/3535 [05:51<11:16,  3.46it/s, loss=0.5131, skipped=0, updates=150]2026-11-05 12:22:13,489 INFO train step 1200/3535 loss=0.5131 updates=150 pairs=1200 skipped=0
+train:  34%|███▍      | 1219/3535 [05:57<11:01,  3.50it/s, loss=0.5149, skipped=0, updates=152]2026-11-05 12:22:19,344 INFO train step 1220/3535 loss=0.5149 updates=152 pairs=1220 skipped=0
+train:  35%|███▌      | 1239/3535 [06:03<11:06,  3.44it/s, loss=0.5154, skipped=0, updates=155]2026-11-05 12:22:25,235 INFO train step 1240/3535 loss=0.5154 updates=155 pairs=1240 skipped=0
+train:  36%|███▌      | 1259/3535 [06:09<11:10,  3.39it/s, loss=0.5140, skipped=0, updates=157]2026-11-05 12:22:31,172 INFO train step 1260/3535 loss=0.5140 updates=157 pairs=1260 skipped=0
+train:  36%|███▌      | 1279/3535 [06:14<10:35,  3.55it/s, loss=0.5139, skipped=0, updates=160]2026-11-05 12:22:36,956 INFO train step 1280/3535 loss=0.5139 updates=160 pairs=1280 skipped=0
+train:  37%|███▋      | 1299/3535 [06:20<10:28,  3.56it/s, loss=0.5140, skipped=0, updates=162]2026-11-05 12:22:42,811 INFO train step 1300/3535 loss=0.5140 updates=162 pairs=1300 skipped=0
+train:  37%|███▋      | 1319/3535 [06:26<10:37,  3.47it/s, loss=0.5133, skipped=0, updates=165]2026-11-05 12:22:48,671 INFO train step 1320/3535 loss=0.5133 updates=165 pairs=1320 skipped=0
+train:  38%|███▊      | 1339/3535 [06:32<10:54,  3.35it/s, loss=0.5124, skipped=0, updates=167]2026-11-05 12:22:54,527 INFO train step 1340/3535 loss=0.5124 updates=167 pairs=1340 skipped=0
+train:  38%|███▊      | 1359/3535 [06:38<10:56,  3.31it/s, loss=0.5130, skipped=0, updates=170]2026-11-05 12:23:00,386 INFO train step 1360/3535 loss=0.5130 updates=170 pairs=1360 skipped=0
+train:  39%|███▉      | 1379/3535 [06:44<10:39,  3.37it/s, loss=0.5147, skipped=0, updates=172]2026-11-05 12:23:06,224 INFO train step 1380/3535 loss=0.5147 updates=172 pairs=1380 skipped=0
+train:  40%|███▉      | 1399/3535 [06:50<10:16,  3.47it/s, loss=0.5145, skipped=0, updates=175]2026-11-05 12:23:12,063 INFO train step 1400/3535 loss=0.5145 updates=175 pairs=1400 skipped=0
+train:  40%|████      | 1419/3535 [06:55<10:08,  3.48it/s, loss=0.5154, skipped=0, updates=177]2026-11-05 12:23:17,930 INFO train step 1420/3535 loss=0.5154 updates=177 pairs=1420 skipped=0
+train:  41%|████      | 1439/3535 [07:01<09:59,  3.50it/s, loss=0.5148, skipped=0, updates=180]2026-11-05 12:23:23,805 INFO train step 1440/3535 loss=0.5148 updates=180 pairs=1440 skipped=0
+train:  41%|████▏     | 1459/3535 [07:07<10:10,  3.40it/s, loss=0.5138, skipped=0, updates=182]2026-11-05 12:23:29,787 INFO train step 1460/3535 loss=0.5138 updates=182 pairs=1460 skipped=0
+train:  42%|████▏     | 1479/3535 [07:13<09:59,  3.43it/s, loss=0.5155, skipped=0, updates=185]2026-11-05 12:23:35,735 INFO train step 1480/3535 loss=0.5155 updates=185 pairs=1480 skipped=0
+train:  42%|████▏     | 1499/3535 [07:19<09:50,  3.45it/s, loss=0.5173, skipped=0, updates=187]2026-11-05 12:23:41,661 INFO train step 1500/3535 loss=0.5173 updates=187 pairs=1500 skipped=0
+train:  43%|████▎     | 1519/3535 [07:25<09:45,  3.44it/s, loss=0.5180, skipped=0, updates=190]2026-11-05 12:23:47,619 INFO train step 1520/3535 loss=0.5180 updates=190 pairs=1520 skipped=0
+train:  44%|████▎     | 1539/3535 [07:31<09:34,  3.48it/s, loss=0.5181, skipped=0, updates=192]2026-11-05 12:23:53,596 INFO train step 1540/3535 loss=0.5181 updates=192 pairs=1540 skipped=0
+train:  44%|████▍     | 1559/3535 [07:37<09:16,  3.55it/s, loss=0.5184, skipped=0, updates=195]2026-11-05 12:23:59,380 INFO train step 1560/3535 loss=0.5184 updates=195 pairs=1560 skipped=0
+train:  45%|████▍     | 1579/3535 [07:43<09:04,  3.59it/s, loss=0.5184, skipped=0, updates=197]2026-11-05 12:24:05,193 INFO train step 1580/3535 loss=0.5184 updates=197 pairs=1580 skipped=0
+train:  45%|████▌     | 1599/3535 [07:48<08:58,  3.59it/s, loss=0.5188, skipped=0, updates=200]2026-11-05 12:24:10,885 INFO train step 1600/3535 loss=0.5188 updates=200 pairs=1600 skipped=0
+train:  46%|████▌     | 1619/3535 [07:54<09:26,  3.39it/s, loss=0.5193, skipped=0, updates=202]2026-11-05 12:24:16,562 INFO train step 1620/3535 loss=0.5193 updates=202 pairs=1620 skipped=0
+train:  46%|████▋     | 1639/3535 [08:00<09:35,  3.30it/s, loss=0.5188, skipped=0, updates=205]2026-11-05 12:24:22,370 INFO train step 1640/3535 loss=0.5188 updates=205 pairs=1640 skipped=0
+train:  47%|████▋     | 1659/3535 [08:06<09:13,  3.39it/s, loss=0.5180, skipped=0, updates=207]2026-11-05 12:24:28,100 INFO train step 1660/3535 loss=0.5180 updates=207 pairs=1660 skipped=0
+train:  47%|████▋     | 1679/3535 [08:11<08:47,  3.52it/s, loss=0.5172, skipped=0, updates=210]2026-11-05 12:24:33,819 INFO train step 1680/3535 loss=0.5172 updates=210 pairs=1680 skipped=0
+train:  48%|████▊     | 1699/3535 [08:17<08:43,  3.51it/s, loss=0.5172, skipped=0, updates=212]2026-11-05 12:24:39,565 INFO train step 1700/3535 loss=0.5172 updates=212 pairs=1700 skipped=0
+train:  49%|████▊     | 1719/3535 [08:23<08:34,  3.53it/s, loss=0.5167, skipped=0, updates=215]2026-11-05 12:24:45,311 INFO train step 1720/3535 loss=0.5167 updates=215 pairs=1720 skipped=0
+train:  49%|████▉     | 1739/3535 [08:29<08:36,  3.48it/s, loss=0.5164, skipped=0, updates=217]2026-11-05 12:24:51,065 INFO train step 1740/3535 loss=0.5164 updates=217 pairs=1740 skipped=0
+train:  50%|████▉     | 1759/3535 [08:35<08:24,  3.52it/s, loss=0.5148, skipped=0, updates=220]2026-11-05 12:24:57,033 INFO train step 1760/3535 loss=0.5148 updates=220 pairs=1760 skipped=0
+train:  50%|█████     | 1779/3535 [08:40<08:26,  3.47it/s, loss=0.5156, skipped=0, updates=222]2026-11-05 12:25:02,848 INFO train step 1780/3535 loss=0.5156 updates=222 pairs=1780 skipped=0
+train:  51%|█████     | 1799/3535 [08:46<08:31,  3.39it/s, loss=0.5148, skipped=0, updates=225]2026-11-05 12:25:08,798 INFO train step 1800/3535 loss=0.5148 updates=225 pairs=1800 skipped=0
+train:  51%|█████▏    | 1819/3535 [08:52<08:23,  3.41it/s, loss=0.5138, skipped=0, updates=227]2026-11-05 12:25:14,778 INFO train step 1820/3535 loss=0.5138 updates=227 pairs=1820 skipped=0
+train:  52%|█████▏    | 1839/3535 [08:58<08:15,  3.42it/s, loss=0.5146, skipped=0, updates=230]2026-11-05 12:25:20,760 INFO train step 1840/3535 loss=0.5146 updates=230 pairs=1840 skipped=0
+train:  53%|█████▎    | 1859/3535 [09:04<08:23,  3.33it/s, loss=0.5154, skipped=0, updates=232]2026-11-05 12:25:26,954 INFO train step 1860/3535 loss=0.5154 updates=232 pairs=1860 skipped=0
+train:  53%|█████▎    | 1879/3535 [09:10<07:59,  3.46it/s, loss=0.5152, skipped=0, updates=235]2026-11-05 12:25:32,895 INFO train step 1880/3535 loss=0.5152 updates=235 pairs=1880 skipped=0
+train:  54%|█████▎    | 1899/3535 [09:16<08:23,  3.25it/s, loss=0.5149, skipped=0, updates=237]2026-11-05 12:25:38,805 INFO train step 1900/3535 loss=0.5149 updates=237 pairs=1900 skipped=0
+train:  54%|█████▍    | 1919/3535 [09:22<08:15,  3.26it/s, loss=0.5151, skipped=0, updates=240]2026-11-05 12:25:44,814 INFO train step 1920/3535 loss=0.5151 updates=240 pairs=1920 skipped=0
+train:  55%|█████▍    | 1939/3535 [09:28<08:08,  3.26it/s, loss=0.5152, skipped=0, updates=242]2026-11-05 12:25:50,793 INFO train step 1940/3535 loss=0.5152 updates=242 pairs=1940 skipped=0
+train:  55%|█████▌    | 1959/3535 [09:34<08:02,  3.27it/s, loss=0.5142, skipped=0, updates=245]2026-11-05 12:25:56,827 INFO train step 1960/3535 loss=0.5142 updates=245 pairs=1960 skipped=0
+train:  56%|█████▌    | 1979/3535 [09:40<07:43,  3.35it/s, loss=0.5150, skipped=0, updates=247]2026-11-05 12:26:02,849 INFO train step 1980/3535 loss=0.5150 updates=247 pairs=1980 skipped=0
+train:  57%|█████▋    | 1999/3535 [09:46<07:34,  3.38it/s, loss=0.5144, skipped=0, updates=250]2026-11-05 12:26:08,908 INFO train step 2000/3535 loss=0.5144 updates=250 pairs=2000 skipped=0
+train:  57%|█████▋    | 2019/3535 [09:52<07:25,  3.41it/s, loss=0.5147, skipped=0, updates=252]2026-11-05 12:26:14,834 INFO train step 2020/3535 loss=0.5147 updates=252 pairs=2020 skipped=0
+train:  58%|█████▊    | 2039/3535 [09:58<07:18,  3.41it/s, loss=0.5140, skipped=0, updates=255]2026-11-05 12:26:20,806 INFO train step 2040/3535 loss=0.5140 updates=255 pairs=2040 skipped=0
+train:  58%|█████▊    | 2059/3535 [10:04<07:08,  3.45it/s, loss=0.5144, skipped=0, updates=257]2026-11-05 12:26:26,655 INFO train step 2060/3535 loss=0.5144 updates=257 pairs=2060 skipped=0
+train:  59%|█████▉    | 2079/3535 [10:10<07:35,  3.20it/s, loss=0.5137, skipped=0, updates=260]2026-11-05 12:26:32,728 INFO train step 2080/3535 loss=0.5137 updates=260 pairs=2080 skipped=0
+train:  59%|█████▉    | 2099/3535 [10:16<06:55,  3.46it/s, loss=0.5144, skipped=0, updates=262]2026-11-05 12:26:38,670 INFO train step 2100/3535 loss=0.5144 updates=262 pairs=2100 skipped=0
+train:  60%|█████▉    | 2119/3535 [10:22<06:51,  3.44it/s, loss=0.5137, skipped=0, updates=265]2026-11-05 12:26:44,643 INFO train step 2120/3535 loss=0.5137 updates=265 pairs=2120 skipped=0
+train:  61%|██████    | 2139/3535 [10:28<06:45,  3.44it/s, loss=0.5139, skipped=0, updates=267]2026-11-05 12:26:50,691 INFO train step 2140/3535 loss=0.5139 updates=267 pairs=2140 skipped=0
+train:  61%|██████    | 2159/3535 [10:34<06:21,  3.61it/s, loss=0.5133, skipped=0, updates=270]2026-11-05 12:26:56,470 INFO train step 2160/3535 loss=0.5133 updates=270 pairs=2160 skipped=0
+train:  62%|██████▏   | 2179/3535 [10:40<06:41,  3.38it/s, loss=0.5132, skipped=0, updates=272]2026-11-05 12:27:02,139 INFO train step 2180/3535 loss=0.5132 updates=272 pairs=2180 skipped=0
+train:  62%|██████▏   | 2199/3535 [10:45<06:29,  3.43it/s, loss=0.5121, skipped=0, updates=275]2026-11-05 12:27:07,932 INFO train step 2200/3535 loss=0.5121 updates=275 pairs=2200 skipped=0
+train:  63%|██████▎   | 2219/3535 [10:51<06:15,  3.51it/s, loss=0.5124, skipped=0, updates=277]2026-11-05 12:27:13,596 INFO train step 2220/3535 loss=0.5124 updates=277 pairs=2220 skipped=0
+train:  63%|██████▎   | 2239/3535 [10:57<06:07,  3.53it/s, loss=0.5126, skipped=0, updates=280]2026-11-05 12:27:19,312 INFO train step 2240/3535 loss=0.5126 updates=280 pairs=2240 skipped=0
+train:  64%|██████▍   | 2259/3535 [11:03<05:59,  3.54it/s, loss=0.5130, skipped=0, updates=282]2026-11-05 12:27:25,023 INFO train step 2260/3535 loss=0.5130 updates=282 pairs=2260 skipped=0
+train:  64%|██████▍   | 2279/3535 [11:08<05:55,  3.53it/s, loss=0.5120, skipped=0, updates=285]2026-11-05 12:27:30,731 INFO train step 2280/3535 loss=0.5120 updates=285 pairs=2280 skipped=0
+train:  65%|██████▌   | 2299/3535 [11:14<05:45,  3.58it/s, loss=0.5128, skipped=0, updates=287]2026-11-05 12:27:36,373 INFO train step 2300/3535 loss=0.5128 updates=287 pairs=2300 skipped=0
+train:  66%|██████▌   | 2319/3535 [11:20<05:34,  3.63it/s, loss=0.5125, skipped=0, updates=290]2026-11-05 12:27:42,165 INFO train step 2320/3535 loss=0.5125 updates=290 pairs=2320 skipped=0
+train:  66%|██████▌   | 2339/3535 [11:25<05:32,  3.60it/s, loss=0.5127, skipped=0, updates=292]2026-11-05 12:27:47,849 INFO train step 2340/3535 loss=0.5127 updates=292 pairs=2340 skipped=0
+train:  67%|██████▋   | 2359/3535 [11:31<05:27,  3.59it/s, loss=0.5118, skipped=0, updates=295]2026-11-05 12:27:53,557 INFO train step 2360/3535 loss=0.5118 updates=295 pairs=2360 skipped=0
+train:  67%|██████▋   | 2379/3535 [11:37<05:21,  3.60it/s, loss=0.5120, skipped=0, updates=297]2026-11-05 12:27:59,219 INFO train step 2380/3535 loss=0.5120 updates=297 pairs=2380 skipped=0
+train:  68%|██████▊   | 2399/3535 [11:42<05:13,  3.62it/s, loss=0.5127, skipped=0, updates=300]2026-11-05 12:28:04,882 INFO train step 2400/3535 loss=0.5127 updates=300 pairs=2400 skipped=0
+train:  68%|██████▊   | 2419/3535 [11:48<05:15,  3.53it/s, loss=0.5129, skipped=0, updates=302]2026-11-05 12:28:10,733 INFO train step 2420/3535 loss=0.5129 updates=302 pairs=2420 skipped=0
+train:  69%|██████▉   | 2439/3535 [11:54<05:04,  3.60it/s, loss=0.5130, skipped=0, updates=305]2026-11-05 12:28:16,398 INFO train step 2440/3535 loss=0.5130 updates=305 pairs=2440 skipped=0
+train:  70%|██████▉   | 2459/3535 [12:00<05:23,  3.33it/s, loss=0.5120, skipped=0, updates=307]2026-11-05 12:28:22,115 INFO train step 2460/3535 loss=0.5120 updates=307 pairs=2460 skipped=0
+train:  70%|███████   | 2479/3535 [12:06<05:17,  3.32it/s, loss=0.5125, skipped=0, updates=310]2026-11-05 12:28:28,052 INFO train step 2480/3535 loss=0.5125 updates=310 pairs=2480 skipped=0
+train:  71%|███████   | 2499/3535 [12:11<05:11,  3.32it/s, loss=0.5132, skipped=0, updates=312]2026-11-05 12:28:33,977 INFO train step 2500/3535 loss=0.5132 updates=312 pairs=2500 skipped=0
+train:  71%|███████▏  | 2519/3535 [12:17<04:54,  3.44it/s, loss=0.5130, skipped=0, updates=315]2026-11-05 12:28:39,872 INFO train step 2520/3535 loss=0.5130 updates=315 pairs=2520 skipped=0
+train:  72%|███████▏  | 2539/3535 [12:23<04:48,  3.45it/s, loss=0.5130, skipped=0, updates=317]2026-11-05 12:28:45,794 INFO train step 2540/3535 loss=0.5130 updates=317 pairs=2540 skipped=0
+train:  72%|███████▏  | 2559/3535 [12:29<04:41,  3.47it/s, loss=0.5130, skipped=0, updates=320]2026-11-05 12:28:51,651 INFO train step 2560/3535 loss=0.5130 updates=320 pairs=2560 skipped=0
+train:  73%|███████▎  | 2579/3535 [12:35<04:38,  3.44it/s, loss=0.5117, skipped=0, updates=322]2026-11-05 12:28:57,534 INFO train step 2580/3535 loss=0.5117 updates=322 pairs=2580 skipped=0
+train:  74%|███████▎  | 2599/3535 [12:41<04:28,  3.49it/s, loss=0.5114, skipped=0, updates=325]2026-11-05 12:29:03,417 INFO train step 2600/3535 loss=0.5114 updates=325 pairs=2600 skipped=0
+train:  74%|███████▍  | 2619/3535 [12:47<04:23,  3.48it/s, loss=0.5122, skipped=0, updates=327]2026-11-05 12:29:09,272 INFO train step 2620/3535 loss=0.5122 updates=327 pairs=2620 skipped=0
+train:  75%|███████▍  | 2639/3535 [12:53<04:17,  3.49it/s, loss=0.5117, skipped=0, updates=330]2026-11-05 12:29:15,154 INFO train step 2640/3535 loss=0.5117 updates=330 pairs=2640 skipped=0
+train:  75%|███████▌  | 2659/3535 [12:59<04:12,  3.46it/s, loss=0.5110, skipped=0, updates=332]2026-11-05 12:29:21,107 INFO train step 2660/3535 loss=0.5110 updates=332 pairs=2660 skipped=0
+train:  76%|███████▌  | 2679/3535 [13:04<04:03,  3.51it/s, loss=0.5110, skipped=0, updates=335]2026-11-05 12:29:26,954 INFO train step 2680/3535 loss=0.5110 updates=335 pairs=2680 skipped=0
+train:  76%|███████▋  | 2699/3535 [13:10<04:01,  3.47it/s, loss=0.5109, skipped=0, updates=337]2026-11-05 12:29:32,906 INFO train step 2700/3535 loss=0.5109 updates=337 pairs=2700 skipped=0
+train:  77%|███████▋  | 2719/3535 [13:16<03:53,  3.49it/s, loss=0.5094, skipped=0, updates=340]2026-11-05 12:29:38,790 INFO train step 2720/3535 loss=0.5094 updates=340 pairs=2720 skipped=0
+train:  77%|███████▋  | 2739/3535 [13:22<04:01,  3.30it/s, loss=0.5106, skipped=0, updates=342]2026-11-05 12:29:44,619 INFO train step 2740/3535 loss=0.5106 updates=342 pairs=2740 skipped=0
+train:  78%|███████▊  | 2759/3535 [13:28<03:55,  3.29it/s, loss=0.5101, skipped=0, updates=345]2026-11-05 12:29:50,560 INFO train step 2760/3535 loss=0.5101 updates=345 pairs=2760 skipped=0
+train:  79%|███████▊  | 2779/3535 [13:34<03:44,  3.37it/s, loss=0.5103, skipped=0, updates=347]2026-11-05 12:29:56,399 INFO train step 2780/3535 loss=0.5103 updates=347 pairs=2780 skipped=0
+train:  79%|███████▉  | 2799/3535 [13:40<03:33,  3.44it/s, loss=0.5101, skipped=0, updates=350]2026-11-05 12:30:02,197 INFO train step 2800/3535 loss=0.5101 updates=350 pairs=2800 skipped=0
+train:  80%|███████▉  | 2819/3535 [13:46<03:26,  3.47it/s, loss=0.5101, skipped=0, updates=352]2026-11-05 12:30:08,041 INFO train step 2820/3535 loss=0.5101 updates=352 pairs=2820 skipped=0
+train:  80%|████████  | 2839/3535 [13:51<03:20,  3.48it/s, loss=0.5107, skipped=0, updates=355]2026-11-05 12:30:13,886 INFO train step 2840/3535 loss=0.5107 updates=355 pairs=2840 skipped=0
+train:  81%|████████  | 2859/3535 [13:57<03:14,  3.48it/s, loss=0.5104, skipped=0, updates=357]2026-11-05 12:30:19,705 INFO train step 2860/3535 loss=0.5104 updates=357 pairs=2860 skipped=0
+train:  81%|████████▏ | 2879/3535 [14:03<03:00,  3.64it/s, loss=0.5100, skipped=0, updates=360]2026-11-05 12:30:25,493 INFO train step 2880/3535 loss=0.5100 updates=360 pairs=2880 skipped=0
+train:  82%|████████▏ | 2899/3535 [14:09<03:02,  3.49it/s, loss=0.5098, skipped=0, updates=362]2026-11-05 12:30:31,373 INFO train step 2900/3535 loss=0.5098 updates=362 pairs=2900 skipped=0
+train:  83%|████████▎ | 2919/3535 [14:15<02:55,  3.51it/s, loss=0.5101, skipped=0, updates=365]2026-11-05 12:30:37,228 INFO train step 2920/3535 loss=0.5101 updates=365 pairs=2920 skipped=0
+train:  83%|████████▎ | 2939/3535 [14:21<02:51,  3.48it/s, loss=0.5092, skipped=0, updates=367]2026-11-05 12:30:43,096 INFO train step 2940/3535 loss=0.5092 updates=367 pairs=2940 skipped=0
+train:  84%|████████▎ | 2959/3535 [14:26<02:43,  3.51it/s, loss=0.5096, skipped=0, updates=370]2026-11-05 12:30:48,968 INFO train step 2960/3535 loss=0.5096 updates=370 pairs=2960 skipped=0
+train:  84%|████████▍ | 2979/3535 [14:33<02:52,  3.22it/s, loss=0.5090, skipped=0, updates=372]2026-11-05 12:30:55,054 INFO train step 2980/3535 loss=0.5090 updates=372 pairs=2980 skipped=0
+train:  85%|████████▍ | 2999/3535 [14:38<02:33,  3.50it/s, loss=0.5079, skipped=0, updates=375]2026-11-05 12:31:00,933 INFO train step 3000/3535 loss=0.5079 updates=375 pairs=3000 skipped=0
+train:  85%|████████▌ | 3019/3535 [14:44<02:36,  3.29it/s, loss=0.5075, skipped=0, updates=377]2026-11-05 12:31:06,805 INFO train step 3020/3535 loss=0.5075 updates=377 pairs=3020 skipped=0
+train:  86%|████████▌ | 3039/3535 [14:50<02:27,  3.37it/s, loss=0.5082, skipped=0, updates=380]2026-11-05 12:31:12,710 INFO train step 3040/3535 loss=0.5082 updates=380 pairs=3040 skipped=0
+train:  87%|████████▋ | 3059/3535 [14:56<02:23,  3.32it/s, loss=0.5077, skipped=0, updates=382]2026-11-05 12:31:18,591 INFO train step 3060/3535 loss=0.5077 updates=382 pairs=3060 skipped=0
+train:  87%|████████▋ | 3079/3535 [15:02<02:15,  3.37it/s, loss=0.5079, skipped=0, updates=385]2026-11-05 12:31:24,520 INFO train step 3080/3535 loss=0.5079 updates=385 pairs=3080 skipped=0
+train:  88%|████████▊ | 3099/3535 [15:08<02:07,  3.43it/s, loss=0.5069, skipped=0, updates=387]2026-11-05 12:31:30,498 INFO train step 3100/3535 loss=0.5069 updates=387 pairs=3100 skipped=0
+train:  88%|████████▊ | 3119/3535 [15:14<02:02,  3.41it/s, loss=0.5084, skipped=0, updates=390]2026-11-05 12:31:36,393 INFO train step 3120/3535 loss=0.5084 updates=390 pairs=3120 skipped=0
+train:  89%|████████▉ | 3139/3535 [15:20<01:56,  3.39it/s, loss=0.5090, skipped=0, updates=392]2026-11-05 12:31:42,390 INFO train step 3140/3535 loss=0.5090 updates=392 pairs=3140 skipped=0
+train:  89%|████████▉ | 3159/3535 [15:26<01:49,  3.44it/s, loss=0.5096, skipped=0, updates=395]2026-11-05 12:31:48,371 INFO train step 3160/3535 loss=0.5096 updates=395 pairs=3160 skipped=0
+train:  90%|████████▉ | 3179/3535 [15:32<01:44,  3.40it/s, loss=0.5096, skipped=0, updates=397]2026-11-05 12:31:54,397 INFO train step 3180/3535 loss=0.5096 updates=397 pairs=3180 skipped=0
+train:  90%|█████████ | 3199/3535 [15:38<01:45,  3.20it/s, loss=0.5086, skipped=0, updates=400]2026-11-05 12:32:00,503 INFO train step 3200/3535 loss=0.5086 updates=400 pairs=3200 skipped=0
+train:  91%|█████████ | 3219/3535 [15:44<01:29,  3.52it/s, loss=0.5084, skipped=0, updates=402]2026-11-05 12:32:06,330 INFO train step 3220/3535 loss=0.5084 updates=402 pairs=3220 skipped=0
+train:  92%|█████████▏| 3239/3535 [15:50<01:23,  3.56it/s, loss=0.5082, skipped=0, updates=405]2026-11-05 12:32:12,111 INFO train step 3240/3535 loss=0.5082 updates=405 pairs=3240 skipped=0
+train:  92%|█████████▏| 3259/3535 [15:55<01:17,  3.57it/s, loss=0.5079, skipped=0, updates=407]2026-11-05 12:32:17,937 INFO train step 3260/3535 loss=0.5079 updates=407 pairs=3260 skipped=0
+train:  93%|█████████▎| 3279/3535 [16:01<01:11,  3.58it/s, loss=0.5084, skipped=0, updates=410]2026-11-05 12:32:23,708 INFO train step 3280/3535 loss=0.5084 updates=410 pairs=3280 skipped=0
+train:  93%|█████████▎| 3299/3535 [16:07<01:12,  3.24it/s, loss=0.5082, skipped=0, updates=412]2026-11-05 12:32:29,627 INFO train step 3300/3535 loss=0.5082 updates=412 pairs=3300 skipped=0
+train:  94%|█████████▍| 3319/3535 [16:13<01:03,  3.39it/s, loss=0.5084, skipped=0, updates=415]2026-11-05 12:32:35,584 INFO train step 3320/3535 loss=0.5084 updates=415 pairs=3320 skipped=0
+train:  94%|█████████▍| 3339/3535 [16:19<00:57,  3.43it/s, loss=0.5081, skipped=0, updates=417]2026-11-05 12:32:41,296 INFO train step 3340/3535 loss=0.5081 updates=417 pairs=3340 skipped=0
+train:  95%|█████████▌| 3359/3535 [16:24<00:49,  3.53it/s, loss=0.5077, skipped=0, updates=420]2026-11-05 12:32:46,999 INFO train step 3360/3535 loss=0.5077 updates=420 pairs=3360 skipped=0
+train:  96%|█████████▌| 3379/3535 [16:30<00:45,  3.45it/s, loss=0.5076, skipped=0, updates=422]2026-11-05 12:32:52,754 INFO train step 3380/3535 loss=0.5076 updates=422 pairs=3380 skipped=0
+train:  96%|█████████▌| 3399/3535 [16:36<00:40,  3.37it/s, loss=0.5072, skipped=0, updates=425]2026-11-05 12:32:58,757 INFO train step 3400/3535 loss=0.5072 updates=425 pairs=3400 skipped=0
+train:  97%|█████████▋| 3419/3535 [16:42<00:34,  3.39it/s, loss=0.5078, skipped=0, updates=427]2026-11-05 12:33:04,724 INFO train step 3420/3535 loss=0.5078 updates=427 pairs=3420 skipped=0
+train:  97%|█████████▋| 3439/3535 [16:48<00:27,  3.49it/s, loss=0.5074, skipped=0, updates=430]2026-11-05 12:33:10,786 INFO train step 3440/3535 loss=0.5074 updates=430 pairs=3440 skipped=0
+train:  98%|█████████▊| 3459/3535 [16:54<00:21,  3.50it/s, loss=0.5072, skipped=0, updates=432]2026-11-05 12:33:16,636 INFO train step 3460/3535 loss=0.5072 updates=432 pairs=3460 skipped=0
+train:  98%|█████████▊| 3479/3535 [17:00<00:16,  3.39it/s, loss=0.5070, skipped=0, updates=435]2026-11-05 12:33:22,525 INFO train step 3480/3535 loss=0.5070 updates=435 pairs=3480 skipped=0
+train:  99%|█████████▉| 3499/3535 [17:06<00:10,  3.52it/s, loss=0.5071, skipped=0, updates=437]2026-11-05 12:33:28,312 INFO train step 3500/3535 loss=0.5071 updates=437 pairs=3500 skipped=0
+train: 100%|█████████▉| 3519/3535 [17:12<00:04,  3.52it/s, loss=0.5079, skipped=0, updates=440]2026-11-05 12:33:34,095 INFO train step 3520/3535 loss=0.5079 updates=440 pairs=3520 skipped=0
+train: 100%|█████████▉| 3534/3535 [17:16<00:00,  3.42it/s, loss=0.5075, skipped=0, updates=441]2026-11-05 12:33:38,470 INFO train step 3535/3535 loss=0.5075 updates=441 pairs=3535 skipped=0
+2026-11-05 12:34:23,662 INFO Epoch 5 train={"loss": 0.5075011118518022, "pairs": 3535, "updates": 442, "skipped_batches": 0} validation={"loss": 0.7379202297591013, "pairs": 438}
