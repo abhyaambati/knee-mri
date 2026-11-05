@@ -81,7 +81,47 @@ python -u evaluate_phase1_test.py \
 ```
 
 Writes `phase1_test_predictions.csv` / `.xlsx` and `phase1_test_metrics.json`
-(BLEU-1..4, ROUGE-L) under `--output-dir`.
+under `--output-dir`. Every report row has sentence BLEU-1..4 and
+ROUGE-1/2/L F1. The JSON BLEU scores are corpus sacreBLEU. The JSON ROUGE
+scores are the mean of the per-report F1 values. All scores are in [0, 1].
+
+Add per-report GREEN (0–1) with the local `StanfordAIMI/GREEN-RadLlama2-7b` model.
+The dataset summary is `green` and `green_std` in the metrics JSON. Each row
+also stores matched-finding and significant-error counts plus the model analysis.
+
+```bash
+python -u evaluate_phase1_test.py --score-only --green \
+  --predictions /workspace/knee-mri-rrg/results/phase1_test_predictions.csv \
+  --output-dir /workspace/knee-mri-rrg/results
+```
+
+Add per-report BERTScore (precision, recall, and F1, all in [0, 1]) with
+`emilyalsentzer/Bio_ClinicalBERT`. The JSON field `bertscore` is the mean F1.
+
+```bash
+python -u evaluate_phase1_test.py --score-only --bertscore \
+  --predictions /workspace/knee-mri-rrg/results/phase1_test_predictions.csv \
+  --output-dir /workspace/knee-mri-rrg/results
+```
+
+Add per-report CRIMSON with `rajpurkarlab/medgemma-4b-it-crimson`. Unlike the
+other metrics, CRIMSON is in **(-1, 1]**: 1 is perfect, 0 matches a normal
+template, and negative scores mean weighted errors exceed correct findings.
+The published model was trained on chest X-ray reports.
+
+```bash
+python -u evaluate_phase1_test.py --score-only --crimson \
+  --predictions /workspace/knee-mri-rrg/results/phase1_test_predictions.csv \
+  --output-dir /workspace/knee-mri-rrg/results
+```
+
+Rescore BLEU and ROUGE without loading a model:
+
+```bash
+python -u evaluate_phase1_test.py --score-only \
+  --predictions /workspace/knee-mri-rrg/results/phase1_test_predictions.csv \
+  --output-dir /workspace/knee-mri-rrg/results
+```
 
 ## Tests
 
