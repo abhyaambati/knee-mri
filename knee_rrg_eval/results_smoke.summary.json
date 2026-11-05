@@ -1,0 +1,16 @@
+{
+  "n": 4,
+  "factuality_preserved": 3,
+  "style_transfer_success": 2,
+  "both": 2,
+  "means": {
+    "BLEU_4": 0.7046949439323053,
+    "ROUGE_L": 0.7357142857142858,
+    "BERTScore_BioClinical": 0.9573047012090683,
+    "RaTEScore": 0.0,
+    "RadGraph_F1": 0.0,
+    "MSK_Diagnostic_F1": 0.75,
+    "GREEN_Score": 0.0,
+    "Style_Similarity": 0.9684341219063216
+  }
+}

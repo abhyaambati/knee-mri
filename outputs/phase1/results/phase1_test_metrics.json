@@ -11,5 +11,9 @@
   "green_std": 0.28677959313532697,
   "bertscore": 0.7928060288390806,
   "bertscore_precision": 0.8036131136428376,
-  "bertscore_recall": 0.7850250355933669
+  "bertscore_recall": 0.7850250355933669,
+  "crimson": -0.000275816993464048,
+  "crimson_std": 0.3191034835379142,
+  "crimson_n": 153,
+  "n_total": 434
 }
